@@ -1,5 +1,5 @@
 # ISC Open Science Workflow Training
-This repository holds code and presentations for the 2025 ISC Billfish Working Group Meeting. 
+This repository holds code and presentations for the Open Science Training held during the 2025 ISC Shark Working Group Meeting. 
 
 ## Rendering and publishing
 
