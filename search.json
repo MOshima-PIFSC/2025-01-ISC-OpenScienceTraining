@@ -1,112 +1,83 @@
 [
   {
-    "objectID": "r-code/Group_info_template.html",
-    "href": "r-code/Group_info_template.html",
-    "title": "Group",
-    "section": "",
-    "text": "(add list of members and their affiliations)\n\n\n\n(insert figure here)\n\n\n\n(insert a code chunk here)\n\n\n\n(insert task list (with check boxes) of at least 3 things)"
-  },
-  {
-    "objectID": "r-code/Group_info_template.html#members",
-    "href": "r-code/Group_info_template.html#members",
-    "title": "Group",
-    "section": "",
-    "text": "(add list of members and their affiliations)"
-  },
-  {
-    "objectID": "r-code/Group_info_template.html#species-of-interest",
-    "href": "r-code/Group_info_template.html#species-of-interest",
-    "title": "Group",
-    "section": "",
-    "text": "(insert figure here)"
-  },
-  {
-    "objectID": "r-code/Group_info_template.html#most-used-function",
-    "href": "r-code/Group_info_template.html#most-used-function",
-    "title": "Group",
-    "section": "",
-    "text": "(insert a code chunk here)"
-  },
-  {
-    "objectID": "r-code/Group_info_template.html#three-things-we-want-to-learn-from-this-workshop",
-    "href": "r-code/Group_info_template.html#three-things-we-want-to-learn-from-this-workshop",
-    "title": "Group",
-    "section": "",
-    "text": "(insert task list (with check boxes) of at least 3 things)"
-  },
-  {
-    "objectID": "assets/web-about-nd.html",
-    "href": "assets/web-about-nd.html",
-    "title": "Nicholas Ducharme-Barth",
-    "section": "",
-    "text": "Nicholas Ducharme-Barth joined the Pacific Islands Fisheries Science Center in 2021. Previously, Nicholas worked at the Pacific Community (SPC) conducting pelagic stock assessments for the Western and Central Pacific Fisheries Commission (WCPFC). He received his B.S. in Mathematics from the College of William & Mary and his Ph. D. in Fisheries and Aquatic Sciences from the University of Florida.\n\n\n Back to top",
-    "crumbs": [
-      "Contact us",
-      "Nicholas Ducharme-Barth"
-    ]
-  },
-  {
-    "objectID": "assets/references.html",
-    "href": "assets/references.html",
-    "title": "References and Helpful Links",
-    "section": "",
-    "text": "Here we are providing the links the we included in our presentations and some additional ones that may be useful for understanding the topics covered in this training.\nWe have also put together this cheatsheet with some highlights of code you will use over the course of the training."
-  },
-  {
-    "objectID": "assets/references.html#git-and-github",
-    "href": "assets/references.html#git-and-github",
-    "title": "References and Helpful Links",
-    "section": "Git and GitHub",
-    "text": "Git and GitHub\n\nGitHub Documentation - official documentation for everything GitHub related\n\nGitHub Skills - interactive modules to learn how to use GitHub\n\nOfficial GitHub Training Manual - provides guidance for how to use GitHub for code development (English and Japanese versions available)"
-  },
-  {
-    "objectID": "assets/references.html#codespaces",
-    "href": "assets/references.html#codespaces",
-    "title": "References and Helpful Links",
-    "section": "Codespaces",
-    "text": "Codespaces\n\nCodespaces Overview - a high-level overview of what codespaces is\n\nQuickstart for GitHub Codespaces - how to get started quickly with Codespaces\n\nCodespace Templates - pre-made Codespace templates you can use/build off"
-  },
-  {
-    "objectID": "assets/references.html#vs-code",
-    "href": "assets/references.html#vs-code",
-    "title": "References and Helpful Links",
-    "section": "VS Code",
-    "text": "VS Code"
-  },
-  {
-    "objectID": "assets/references.html#reproducible-environments",
-    "href": "assets/references.html#reproducible-environments",
-    "title": "References and Helpful Links",
-    "section": "Reproducible Environments",
-    "text": "Reproducible Environments\n\nrenv - website for the R package\nIntroduction to renv - introduces the basics of a renv workflow\n\nUsing renv in GitHub Actions - how to use renv in automatic workflows like GitHub Actions"
-  },
-  {
-    "objectID": "assets/day-1.html",
-    "href": "assets/day-1.html",
-    "title": "Day 1",
-    "section": "",
-    "text": "Presentation slides for the GitHub for Collaborative Workflows presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Codespaces presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Reproducible Environments presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the presentation on modifying and running stock synthesis models.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Part 2 presentation on modifying and running stock synthesis models.\n    View slides in full screen"
-  },
-  {
-    "objectID": "assets/day-1.html#presentation-files",
-    "href": "assets/day-1.html#presentation-files",
-    "title": "Day 1",
-    "section": "",
-    "text": "Presentation slides for the GitHub for Collaborative Workflows presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Codespaces presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Reproducible Environments presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the presentation on modifying and running stock synthesis models.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Part 2 presentation on modifying and running stock synthesis models.\n    View slides in full screen"
-  },
-  {
-    "objectID": "assets/day-1.html#resources",
-    "href": "assets/day-1.html#resources",
-    "title": "Day 1",
-    "section": "Resources",
-    "text": "Resources\nExample code for modifying a Stock Synthesis input model file and running the modified model through R using the r4ss package can be found in the r-code/ directory on the course GitHub repo.\nBriefly the r-code/01-modify-stock-synthesis.r file takes you through the steps of:\n\n\nreading in the Stock Synthesis input file (e.g., control.ss) using the r4ss package\nmodifying this file, in this case changing the steepness value \\(h\\) and thus modifying the shape of the stock-recruitment relationship (SRR)\nrunning the newly modified model\n\n\nThere is also code at the end of the file that wraps all three of those steps in a for loop in case multiple alternate model configurations want to be explored."
-  },
-  {
     "objectID": "assets/day-1-reproducible_environments.html",
     "href": "assets/day-1-reproducible_environments.html",
     "title": "Reproducible environments",
     "section": "",
     "text": "Back to top"
+  },
+  {
+    "objectID": "assets/day-1-welcome.html#section",
+    "href": "assets/day-1-welcome.html#section",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Welcome to ISC Open Science Workshop\nJanuary 2025",
+    "crumbs": [
+      "Day 1",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "assets/day-1-welcome.html#introductions",
+    "href": "assets/day-1-welcome.html#introductions",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Introductions",
+    "text": "Introductions\n Nicholas  Ducharme-Barth\n Meg Oshima",
+    "crumbs": [
+      "Day 1",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "assets/day-1-welcome.html#workshop-materials",
+    "href": "assets/day-1-welcome.html#workshop-materials",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Workshop Materials",
+    "text": "Workshop Materials\n\nAll presentations can be found on the workshop website.\n\nhttps://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining\n\nCode can be found in the workshop repository.\n\nhttps://github.com/MOshima-PIFSC/2025-01-ISC-OpenScienceTraining/r-code\n\n\n\n\n\n\n\n\nImportant\n\n\nMake sure you have created a GitHub account before we start.",
+    "crumbs": [
+      "Day 1",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "assets/day-1-welcome.html#why-open-science",
+    "href": "assets/day-1-welcome.html#why-open-science",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Why Open Science?",
+    "text": "Why Open Science?\n\n\nStandardized workflows and efficiency\n\n\n\n\n\nImprove and support collaboration\n\n\n\n\n\nEnsure our science is truly reproducible\n\n\n\n\n\nProvide tools for sharing and communicating our work",
+    "crumbs": [
+      "Day 1",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "assets/day-1-welcome.html#topics-we-will-cover",
+    "href": "assets/day-1-welcome.html#topics-we-will-cover",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Topics we will cover",
+    "text": "Topics we will cover\n\n\nGitHub for collaboration\n\n\n\n\nCodespaces, VS Code, and reproducible environments\n\n\n\n\nScript-based model development\n\n\n\n\nCreating Shiny apps\n\n\n\n\nCode review with GitHub\n\n\n\n\nCreating reproducible reports and presentations\n\n\n\n\nCreating websites to share results",
+    "crumbs": [
+      "Day 1",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "assets/day-1-modify-stock-synthesis.html",
+    "href": "assets/day-1-modify-stock-synthesis.html",
+    "title": "Modifying and running stock synthesis models",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "assets/web-about-mo.html",
+    "href": "assets/web-about-mo.html",
+    "title": "Megumi Oshima",
+    "section": "",
+    "text": "Megumi Oshima has been working at the Pacific Islands Fisheries Science Center since 2021. She works mostly on domestic and territorial bottomfish stocks and is interested in Openscience and creating reproducible and transparent workflows. Before joining PIFSC, she was a graduate student at University of Southern Mississippi where she got her PhD in Coastal Sciences.\n\n\n Back to top",
+    "crumbs": [
+      "Contact us",
+      "Megumi Oshima"
+    ]
   },
   {
     "objectID": "assets/day-1-pres-modify-stock-synthesis.html#section",
@@ -172,6 +143,282 @@
     "text": "Group activity!\n\nUsing the toy Stock Synthesis model in the stock-synthesis-models/base-model directory make some modifications to the model, and run the different configurations.\n\n\n\nOptions  - Growth  - Selectivity  - Maturity  - Natural mortality  - Data-weighting\n\n\n\n\nEach group should set-up their own branch on the GitHub repo to house the code, model files, and model results for the feature that they explore."
   },
   {
+    "objectID": "assets/day-1-pres-reproducible_environments.html#section",
+    "href": "assets/day-1-pres-reproducible_environments.html#section",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Reproducible Environments\nMegumi Oshima & Nicholas Ducharme-Barth\nJanuary 2025"
+  },
+  {
+    "objectID": "assets/day-1-pres-reproducible_environments.html#what-is-a-reproducible-environment",
+    "href": "assets/day-1-pres-reproducible_environments.html#what-is-a-reproducible-environment",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "What is a reproducible environment?",
+    "text": "What is a reproducible environment?\n\n\nA computing setup where all the necessary components are explicitly defined\n\nOS, package versions, software, etc.\n\n\nAnyone can replicate that exact coding environment and the results will be the same across different machines"
+  },
+  {
+    "objectID": "assets/day-1-pres-reproducible_environments.html#signs-you-want-to-use-a-reproducible-environment",
+    "href": "assets/day-1-pres-reproducible_environments.html#signs-you-want-to-use-a-reproducible-environment",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Signs you want to use a reproducible environment",
+    "text": "Signs you want to use a reproducible environment\n\n\nCode that used to run no longer runs even though you haven’t changed the code itself\n\nIf you upgrade to a new version of a package or software and things break\n\nYou want to share your code with a colloaborator and ensure they get the same results you get\n\nYou want to run your code in some other environment besides your local computer"
+  },
+  {
+    "objectID": "assets/day-1-pres-reproducible_environments.html#how-can-we-do-this",
+    "href": "assets/day-1-pres-reproducible_environments.html#how-can-we-do-this",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "How can we do this?",
+    "text": "How can we do this?\nrenv is an R package to help create reproducible environments"
+  },
+  {
+    "objectID": "assets/day-1-pres-reproducible_environments.html#renv",
+    "href": "assets/day-1-pres-reproducible_environments.html#renv",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "renv",
+    "text": "renv\n\n\nIsloated - each project has it’s own library\n\nPortable - easy to install on different computers (even OS)\n\nReproducible - ensures you are using the exact package versions"
+  },
+  {
+    "objectID": "assets/day-1-pres-reproducible_environments.html#renv-workflow",
+    "href": "assets/day-1-pres-reproducible_environments.html#renv-workflow",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "renv Workflow",
+    "text": "renv Workflow\n\n\n\n\n\n\n\n\n\n\n\nrenv::init()\n\n\n\n\n\n\n\nrenv::snapshot()\n\n\n\n\n\n\n\nrenv::restore()\n\n\n\n\n\n\n\nrenv::install()\n\n\n\n\n\n\n\nNew project\n\n\n\n\n\n\n\nProject library\n\n\n\n\n\n\n\nLockfile\n\n\n\n\n\n\n\nCRAN/GitHub"
+  },
+  {
+    "objectID": "assets/day-1-pres-reproducible_environments.html#initalize-project",
+    "href": "assets/day-1-pres-reproducible_environments.html#initalize-project",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Initalize project",
+    "text": "Initalize project\n\n\n\nWhen you first start a project, you will want to initialize an renv project\n\n\n\n\n renv::init()\n\n\n\n\n\nCreates 3 items:\n\n\n\n\n renv/library/\n\n\n renv.lock\n\n\n .Rprofile\n\n\nrenv library is a library that is specific for that project and has the specific version of the packages that are being used in the project.\nlockfile holds the metadata for each package that specifies which version to install when run on a new computer.\nrprofile what tells the R session to use the renv files for the project library"
+  },
+  {
+    "objectID": "assets/day-1-pres-reproducible_environments.html#installing-new-packages",
+    "href": "assets/day-1-pres-reproducible_environments.html#installing-new-packages",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Installing new packages",
+    "text": "Installing new packages\n\n\n renv::install() - can specify the location and version you want\n\n\n\n\n As you install new packages you will need to update the lockfile"
+  },
+  {
+    "objectID": "assets/day-1-pres-reproducible_environments.html#using-the-lockfile-for-collaboration",
+    "href": "assets/day-1-pres-reproducible_environments.html#using-the-lockfile-for-collaboration",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Using the lockfile for collaboration",
+    "text": "Using the lockfile for collaboration\n\n\n renv::snapshot() - updates lockfile with metadata about all currently-used packages\n\n\n\n\n renv::restore() - reproduces the environment specified in the lockfile\n\n\n\nThe lockfile is what has all the information about the packages you’re using. It can be shared between people/computers and recreate the same environment you are using."
+  },
+  {
+    "objectID": "assets/day-1-pres-reproducible_environments.html#another-use-for-renv",
+    "href": "assets/day-1-pres-reproducible_environments.html#another-use-for-renv",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Another use for renv",
+    "text": "Another use for renv\n\n\nCan use a lockfile for GitHub Actions (or other continuous integration systems)\n\n\n\n\n\nUse the r-lib setup-renv action in your workflow\n\n\n\n\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Install packages using renv\n      uses: r-lib/actions/setup-renv@v2"
+  },
+  {
+    "objectID": "assets/day-1-pres-reproducible_environments.html#resources",
+    "href": "assets/day-1-pres-reproducible_environments.html#resources",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Resources",
+    "text": "Resources\n\nIntroduction to renv\n\nUsing renv in GitHub Actions"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This repository contains materials for the ISC Open Science Workflows workshops held in Yokohama, Japan in January 2025.\nView slides in full screen",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#workshop-schedule",
+    "href": "index.html#workshop-schedule",
+    "title": "Home",
+    "section": "Workshop Schedule",
+    "text": "Workshop Schedule\nThe schedule for the 3-day workshop is: (note this is flexible and will be updated at the end of each day)\n\nDay 1\n\n\n\nTime\nModule\n\n\n\n\n14:00-14:15\nWelcome and introductions\n\n\n14:15-15:45\nGitHub for Collaborative Workflows\n\n\n15:45-16:15\nCodespaces and VSCode\n\n\n16:15-16:30\nBreak\n\n\n16:30-16:45\nReproducible Environments\n\n\n16:45-17:00\nWrap up\n\n\n\n\n\nDay 2\n\n\n\nTime\nModule\n\n\n\n\n14:00-14:30\nScript-based analysis\n\n\n14:30-15:15\nGroup work\n\n\n15:15-15:30\nBreak\n\n\n15:30-15:45\nPull Requests and Code Review\n\n\n15:45-16:30\nShiny App\n\n\n16:30-17:00\nGroup work, wrap up\n\n\n\n\n\nDay 3\n\n\n\nTime\nModule\n\n\n\n\n14:00-15:00\nQuarto Reports and Presentations\n\n\n15:00-15:15\nBreak\n\n\n15:15-15:45\nQuarto Website\n\n\n15:45-17:00\nGroup work, wrap up",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "r-code/Group_info_template.html",
+    "href": "r-code/Group_info_template.html",
+    "title": "Group",
+    "section": "",
+    "text": "(add list of members and their affiliations)\n\n\n\n(insert figure here)\n\n\n\n(insert a code chunk here)\n\n\n\n(insert task list (with check boxes) of at least 3 things)"
+  },
+  {
+    "objectID": "r-code/Group_info_template.html#members",
+    "href": "r-code/Group_info_template.html#members",
+    "title": "Group",
+    "section": "",
+    "text": "(add list of members and their affiliations)"
+  },
+  {
+    "objectID": "r-code/Group_info_template.html#species-of-interest",
+    "href": "r-code/Group_info_template.html#species-of-interest",
+    "title": "Group",
+    "section": "",
+    "text": "(insert figure here)"
+  },
+  {
+    "objectID": "r-code/Group_info_template.html#most-used-function",
+    "href": "r-code/Group_info_template.html#most-used-function",
+    "title": "Group",
+    "section": "",
+    "text": "(insert a code chunk here)"
+  },
+  {
+    "objectID": "r-code/Group_info_template.html#three-things-we-want-to-learn-from-this-workshop",
+    "href": "r-code/Group_info_template.html#three-things-we-want-to-learn-from-this-workshop",
+    "title": "Group",
+    "section": "",
+    "text": "(insert task list (with check boxes) of at least 3 things)"
+  },
+  {
+    "objectID": "assets/references.html",
+    "href": "assets/references.html",
+    "title": "References and Helpful Links",
+    "section": "",
+    "text": "Here we are providing the links the we included in our presentations and some additional ones that may be useful for understanding the topics covered in this training.\nWe have also put together this cheatsheet with some highlights of code you will use over the course of the training."
+  },
+  {
+    "objectID": "assets/references.html#git-and-github",
+    "href": "assets/references.html#git-and-github",
+    "title": "References and Helpful Links",
+    "section": "Git and GitHub",
+    "text": "Git and GitHub\n\nGitHub Documentation - official documentation for everything GitHub related\n\nGitHub Skills - interactive modules to learn how to use GitHub\n\nOfficial GitHub Training Manual - provides guidance for how to use GitHub for code development (English and Japanese versions available)"
+  },
+  {
+    "objectID": "assets/references.html#codespaces",
+    "href": "assets/references.html#codespaces",
+    "title": "References and Helpful Links",
+    "section": "Codespaces",
+    "text": "Codespaces\n\nCodespaces Overview - a high-level overview of what codespaces is\n\nQuickstart for GitHub Codespaces - how to get started quickly with Codespaces\n\nCodespace Templates - pre-made Codespace templates you can use/build off"
+  },
+  {
+    "objectID": "assets/references.html#vs-code",
+    "href": "assets/references.html#vs-code",
+    "title": "References and Helpful Links",
+    "section": "VS Code",
+    "text": "VS Code"
+  },
+  {
+    "objectID": "assets/references.html#reproducible-environments",
+    "href": "assets/references.html#reproducible-environments",
+    "title": "References and Helpful Links",
+    "section": "Reproducible Environments",
+    "text": "Reproducible Environments\n\nrenv - website for the R package\nIntroduction to renv - introduces the basics of a renv workflow\n\nUsing renv in GitHub Actions - how to use renv in automatic workflows like GitHub Actions"
+  },
+  {
+    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html",
+    "href": "assets/ref-Open_Science_Cheat_Sheet.html",
+    "title": "Open Science Workflow Cheatsheet",
+    "section": "",
+    "text": "Repository: A place to store code, files, and each file’s revision history.\n\nLocal Computer: Your physical computer.\n\nRemote: Computer that is located elsewhere and accessed over a network (e.g. the internet).\n\nRender: Generate documents, presentations and more. Produce HTML, PDF, MS Word, reveal.js, MS Powerpoint, Beamer, websites, blogs, books…",
+    "crumbs": [
+      "References",
+      "Cheatsheet"
+    ]
+  },
+  {
+    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#key-terms",
+    "href": "assets/ref-Open_Science_Cheat_Sheet.html#key-terms",
+    "title": "Open Science Workflow Cheatsheet",
+    "section": "",
+    "text": "Repository: A place to store code, files, and each file’s revision history.\n\nLocal Computer: Your physical computer.\n\nRemote: Computer that is located elsewhere and accessed over a network (e.g. the internet).\n\nRender: Generate documents, presentations and more. Produce HTML, PDF, MS Word, reveal.js, MS Powerpoint, Beamer, websites, blogs, books…",
+    "crumbs": [
+      "References",
+      "Cheatsheet"
+    ]
+  },
+  {
+    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#git-and-github",
+    "href": "assets/ref-Open_Science_Cheat_Sheet.html#git-and-github",
+    "title": "Open Science Workflow Cheatsheet",
+    "section": "Git and GitHub",
+    "text": "Git and GitHub\n\nStarting a repository\n\n\n\n\n\nflowchart TD\n    A(Do you have a directory already started on your local computer?  ) --Yes--&gt; B(git init)\n    A --No  --&gt; C(git clone repository_url)\n\n\n\n\n\n\n\ngit init: Initialize a Git repository on a local computer.\ngit clone repository_url: Copying an entire repository onto a local computer.\n\n\nMaking changes to repository\ngit status: Check what files have changed.\ngit restore filename: Undo changes to a file.\n\n\n\n\n\nflowchart LR\n    A(Local computer) --&gt; B(Stage changes: git add)\n    B --&gt; C(Commit changes: git commit -m)\n    C --&gt; D(Push changes to remote repository: git push)\n    D --&gt; E(Remote repository)\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR \n    A(Remote repository) --&gt; B(Pull changes from remote: git pull)\n    B --&gt; C(Local computer)\n\n\n\n\n\n\n\nFrom your local computer\ngit add: Stage changes for a local commit.\ngit commit -m \"short, descriptive message\": Commit changes to be tracked.\ngit push: Push changes from local computer up to the remote repository.\n\n\nFrom remote repository\ngit pull: Pull changes from the remote repository to your local computer.\ngit pull origin main: Pull changes from the remote repository main branch to the branch you are on.\n\n\n\nBranches\ngit checkout -b branch_name: Create a new branch.\ngit checkout branch_name: Switch to a different branch.\ngit switch: Switch to a different branch.",
+    "crumbs": [
+      "References",
+      "Cheatsheet"
+    ]
+  },
+  {
+    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#vscode",
+    "href": "assets/ref-Open_Science_Cheat_Sheet.html#vscode",
+    "title": "Open Science Workflow Cheatsheet",
+    "section": "VSCode",
+    "text": "VSCode\nAn IDE (integrated development environment) that works well with many languages.\n\nSide Bar Options\n\nFile Explorer\nTo browse the files in a project\n\n\n\nGit GUI (Source Control)\nTo interact with your GitHub repository\n\n\n\nExtensions\nVS Code’s version of the app store\n\n\n\nR\nSimilar to the options available in RStudio for viewing variables in your environment, function documentation, and installing packages.\n\n\n\n\nCommand Palette\nUse the shortcut ctl + shift + P to access.\n\n\n\nTerminal\nCan have multiple terminals of different languages running at a time.",
+    "crumbs": [
+      "References",
+      "Cheatsheet"
+    ]
+  },
+  {
+    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#renv",
+    "href": "assets/ref-Open_Science_Cheat_Sheet.html#renv",
+    "title": "Open Science Workflow Cheatsheet",
+    "section": "renv",
+    "text": "renv\n\nInitialize renv for a project\nrenv::init(): Set up a project library for a new or existing project.\n\n\nInstall new packages\nrenv::install(): Install packages from CRAN, GitHub, etc..\n\n\nLockfile\nrenv::snapshot(): Update the lockfile with packages being used.\nrenv::restore(): Reinstall the packages specified in the lockfile.",
+    "crumbs": [
+      "References",
+      "Cheatsheet"
+    ]
+  },
+  {
+    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#shiny",
+    "href": "assets/ref-Open_Science_Cheat_Sheet.html#shiny",
+    "title": "Open Science Workflow Cheatsheet",
+    "section": "Shiny",
+    "text": "Shiny\nui.R: the interactive user interface code (to show stuff)\nserver.R: the code for computations and plotting (to do stuff)\nshiny::shinyApp(): launches the app",
+    "crumbs": [
+      "References",
+      "Cheatsheet"
+    ]
+  },
+  {
+    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#quarto",
+    "href": "assets/ref-Open_Science_Cheat_Sheet.html#quarto",
+    "title": "Open Science Workflow Cheatsheet",
+    "section": "Quarto",
+    "text": "Quarto\n\nDocument format\nIn the header yaml, specify what format(s) you want to create.\n---\ntitle: \"Open Science Workflow Cheatsheet\"\nformat: html\n---\nformat options include:\n\nhtml\n\npdf\n\nrevealjs\n\ndocx\n\nand more!\n\n\n\nIncluding code\nInclude code blocks in a document\n```{r}\n#| echo: true\n\nx &lt;- 2+2\n```\nCalculated values can be reported in text later: \\(x =\\) 4.\nAnd control the output rendered in the document with execution options.\n\n\n\nOption\nEffects\n\n\n\n\necho\nshow/hide code in output\n\n\neval\ndo/don’t run code\n\n\ninclude\ninclude/exclude code or results\n\n\noutput\ninclude/exclude results\n\n\nwarning\nshow/hide warnings in output\n\n\nerror\nshow/hide error in output and continue with render\n\n\n\n\n\nTo render document\nTo render a quarto file to the proper format, in your terminal (not R), run:\nquarto render path/to/file/name.qmd",
+    "crumbs": [
+      "References",
+      "Cheatsheet"
+    ]
+  },
+  {
+    "objectID": "assets/web-about-nd.html",
+    "href": "assets/web-about-nd.html",
+    "title": "Nicholas Ducharme-Barth",
+    "section": "",
+    "text": "Nicholas Ducharme-Barth joined the Pacific Islands Fisheries Science Center in 2021. Previously, Nicholas worked at the Pacific Community (SPC) conducting pelagic stock assessments for the Western and Central Pacific Fisheries Commission (WCPFC). He received his B.S. in Mathematics from the College of William & Mary and his Ph. D. in Fisheries and Aquatic Sciences from the University of Florida.\n\n\n Back to top",
+    "crumbs": [
+      "Contact us",
+      "Nicholas Ducharme-Barth"
+    ]
+  },
+  {
+    "objectID": "assets/day-1.html",
+    "href": "assets/day-1.html",
+    "title": "Day 1",
+    "section": "",
+    "text": "Presentation slides for the GitHub for Collaborative Workflows presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Codespaces presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Reproducible Environments presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the presentation on modifying and running stock synthesis models.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Part 2 presentation on modifying and running stock synthesis models.\n    View slides in full screen"
+  },
+  {
+    "objectID": "assets/day-1.html#presentation-files",
+    "href": "assets/day-1.html#presentation-files",
+    "title": "Day 1",
+    "section": "",
+    "text": "Presentation slides for the GitHub for Collaborative Workflows presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Codespaces presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Reproducible Environments presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the presentation on modifying and running stock synthesis models.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Part 2 presentation on modifying and running stock synthesis models.\n    View slides in full screen"
+  },
+  {
+    "objectID": "assets/day-1.html#resources",
+    "href": "assets/day-1.html#resources",
+    "title": "Day 1",
+    "section": "Resources",
+    "text": "Resources\nExample code for modifying a Stock Synthesis input model file and running the modified model through R using the r4ss package can be found in the r-code/ directory on the course GitHub repo.\nBriefly the r-code/01-modify-stock-synthesis.r file takes you through the steps of:\n\n\nreading in the Stock Synthesis input file (e.g., control.ss) using the r4ss package\nmodifying this file, in this case changing the steepness value \\(h\\) and thus modifying the shape of the stock-recruitment relationship (SRR)\nrunning the newly modified model\n\n\nThere is also code at the end of the file that wraps all three of those steps in a for loop in case multiple alternate model configurations want to be explored."
+  },
+  {
     "objectID": "assets/day-1-pres-codespaces.html#section",
     "href": "assets/day-1-pres-codespaces.html#section",
     "title": "Open Science Workflow Training for ISC",
@@ -219,13 +466,6 @@
     "title": "Open Science Workflow Training for ISC",
     "section": "Navigating around",
     "text": "Navigating around\n\n\n\n\n\n\n\n\n File explorer\n\n\n\n\n\n\n\n\n\n\n\n Git Integration\n\n\n\n\n\n\n\n\n\n\n Extensions\n\n\n\n\n\n\n\n\n\n\n R environment\n\n\n\n\n\n\nCommand Palette\n\n\n\n\n\n\n\n\n\n\nTerminal"
-  },
-  {
-    "objectID": "assets/day-1-modify-stock-synthesis.html",
-    "href": "assets/day-1-modify-stock-synthesis.html",
-    "title": "Modifying and running stock synthesis models",
-    "section": "",
-    "text": "Back to top"
   },
   {
     "objectID": "assets/day-1-pres-github_basics.html#section",
@@ -331,245 +571,5 @@
     "title": "Open Science Workflow Training for ISC",
     "section": "Activity 2: Branches",
     "text": "Activity 2: Branches\n\nCreate a new branch from the main branch\nAdd your name to the list of participants.\nSave your change, commit, and push to your branch.\nSubmit a Pull Request to merge your changes into main branch."
-  },
-  {
-    "objectID": "assets/day-1-pres-reproducible_environments.html#section",
-    "href": "assets/day-1-pres-reproducible_environments.html#section",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Reproducible Environments\nMegumi Oshima & Nicholas Ducharme-Barth\nJanuary 2025"
-  },
-  {
-    "objectID": "assets/day-1-pres-reproducible_environments.html#what-is-a-reproducible-environment",
-    "href": "assets/day-1-pres-reproducible_environments.html#what-is-a-reproducible-environment",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "What is a reproducible environment?",
-    "text": "What is a reproducible environment?\n\n\nA computing setup where all the necessary components are explicitly defined\n\nOS, package versions, software, etc.\n\n\nAnyone can replicate that exact coding environment and the results will be the same across different machines"
-  },
-  {
-    "objectID": "assets/day-1-pres-reproducible_environments.html#signs-you-want-to-use-a-reproducible-environment",
-    "href": "assets/day-1-pres-reproducible_environments.html#signs-you-want-to-use-a-reproducible-environment",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Signs you want to use a reproducible environment",
-    "text": "Signs you want to use a reproducible environment\n\n\nCode that used to run no longer runs even though you haven’t changed the code itself\n\nIf you upgrade to a new version of a package or software and things break\n\nYou want to share your code with a colloaborator and ensure they get the same results you get\n\nYou want to run your code in some other environment besides your local computer"
-  },
-  {
-    "objectID": "assets/day-1-pres-reproducible_environments.html#how-can-we-do-this",
-    "href": "assets/day-1-pres-reproducible_environments.html#how-can-we-do-this",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "How can we do this?",
-    "text": "How can we do this?\nrenv is an R package to help create reproducible environments"
-  },
-  {
-    "objectID": "assets/day-1-pres-reproducible_environments.html#renv",
-    "href": "assets/day-1-pres-reproducible_environments.html#renv",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "renv",
-    "text": "renv\n\n\nIsloated - each project has it’s own library\n\nPortable - easy to install on different computers (even OS)\n\nReproducible - ensures you are using the exact package versions"
-  },
-  {
-    "objectID": "assets/day-1-pres-reproducible_environments.html#renv-workflow",
-    "href": "assets/day-1-pres-reproducible_environments.html#renv-workflow",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "renv Workflow",
-    "text": "renv Workflow\n\n\n\n\n\n\n\n\n\n\n\nrenv::init()\n\n\n\n\n\n\n\nrenv::snapshot()\n\n\n\n\n\n\n\nrenv::restore()\n\n\n\n\n\n\n\nrenv::install()\n\n\n\n\n\n\n\nNew project\n\n\n\n\n\n\n\nProject library\n\n\n\n\n\n\n\nLockfile\n\n\n\n\n\n\n\nCRAN/GitHub"
-  },
-  {
-    "objectID": "assets/day-1-pres-reproducible_environments.html#initalize-project",
-    "href": "assets/day-1-pres-reproducible_environments.html#initalize-project",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Initalize project",
-    "text": "Initalize project\n\n\n\nWhen you first start a project, you will want to initialize an renv project\n\n\n\n\n renv::init()\n\n\n\n\n\nCreates 3 items:\n\n\n\n\n renv/library/\n\n\n renv.lock\n\n\n .Rprofile\n\n\nrenv library is a library that is specific for that project and has the specific version of the packages that are being used in the project.\nlockfile holds the metadata for each package that specifies which version to install when run on a new computer.\nrprofile what tells the R session to use the renv files for the project library"
-  },
-  {
-    "objectID": "assets/day-1-pres-reproducible_environments.html#installing-new-packages",
-    "href": "assets/day-1-pres-reproducible_environments.html#installing-new-packages",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Installing new packages",
-    "text": "Installing new packages\n\n\n renv::install() - can specify the location and version you want\n\n\n\n\n As you install new packages you will need to update the lockfile"
-  },
-  {
-    "objectID": "assets/day-1-pres-reproducible_environments.html#using-the-lockfile-for-collaboration",
-    "href": "assets/day-1-pres-reproducible_environments.html#using-the-lockfile-for-collaboration",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Using the lockfile for collaboration",
-    "text": "Using the lockfile for collaboration\n\n\n renv::snapshot() - updates lockfile with metadata about all currently-used packages\n\n\n\n\n renv::restore() - reproduces the environment specified in the lockfile\n\n\n\nThe lockfile is what has all the information about the packages you’re using. It can be shared between people/computers and recreate the same environment you are using."
-  },
-  {
-    "objectID": "assets/day-1-pres-reproducible_environments.html#another-use-for-renv",
-    "href": "assets/day-1-pres-reproducible_environments.html#another-use-for-renv",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Another use for renv",
-    "text": "Another use for renv\n\n\nCan use a lockfile for GitHub Actions (or other continuous integration systems)\n\n\n\n\n\nUse the r-lib setup-renv action in your workflow\n\n\n\n\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Install packages using renv\n      uses: r-lib/actions/setup-renv@v2"
-  },
-  {
-    "objectID": "assets/day-1-pres-reproducible_environments.html#resources",
-    "href": "assets/day-1-pres-reproducible_environments.html#resources",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Resources",
-    "text": "Resources\n\nIntroduction to renv\n\nUsing renv in GitHub Actions"
-  },
-  {
-    "objectID": "assets/day-1-welcome.html#section",
-    "href": "assets/day-1-welcome.html#section",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Welcome to ISC Open Science Workshop\nJanuary 2025",
-    "crumbs": [
-      "Day 1",
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "assets/day-1-welcome.html#introductions",
-    "href": "assets/day-1-welcome.html#introductions",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Introductions",
-    "text": "Introductions\n Nicholas  Ducharme-Barth\n Meg Oshima",
-    "crumbs": [
-      "Day 1",
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "assets/day-1-welcome.html#workshop-materials",
-    "href": "assets/day-1-welcome.html#workshop-materials",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Workshop Materials",
-    "text": "Workshop Materials\n\nAll presentations can be found on the workshop website.\n\nhttps://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining\n\nCode can be found in the workshop repository.\n\nhttps://github.com/MOshima-PIFSC/2025-01-ISC-OpenScienceTraining/r-code\n\n\n\n\n\n\n\n\nImportant\n\n\nMake sure you have created a GitHub account before we start.",
-    "crumbs": [
-      "Day 1",
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "assets/day-1-welcome.html#why-open-science",
-    "href": "assets/day-1-welcome.html#why-open-science",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Why Open Science?",
-    "text": "Why Open Science?\n\n\nStandardized workflows and efficiency\n\n\n\n\n\nImprove and support collaboration\n\n\n\n\n\nEnsure our science is truly reproducible\n\n\n\n\n\nProvide tools for sharing and communicating our work",
-    "crumbs": [
-      "Day 1",
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "assets/day-1-welcome.html#topics-we-will-cover",
-    "href": "assets/day-1-welcome.html#topics-we-will-cover",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Topics we will cover",
-    "text": "Topics we will cover\n\n\nGitHub for collaboration\n\n\n\n\nCodespaces, VS Code, and reproducible environments\n\n\n\n\nScript-based model development\n\n\n\n\nCreating Shiny apps\n\n\n\n\nCode review with GitHub\n\n\n\n\nCreating reproducible reports and presentations\n\n\n\n\nCreating websites to share results",
-    "crumbs": [
-      "Day 1",
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html",
-    "href": "assets/ref-Open_Science_Cheat_Sheet.html",
-    "title": "Open Science Workflow Cheatsheet",
-    "section": "",
-    "text": "Repository: A place to store code, files, and each file’s revision history.\n\nLocal Computer: Your physical computer.\n\nRemote: Computer that is located elsewhere and accessed over a network (e.g. the internet).\n\nRender: Generate documents, presentations and more. Produce HTML, PDF, MS Word, reveal.js, MS Powerpoint, Beamer, websites, blogs, books…",
-    "crumbs": [
-      "References",
-      "Cheatsheet"
-    ]
-  },
-  {
-    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#key-terms",
-    "href": "assets/ref-Open_Science_Cheat_Sheet.html#key-terms",
-    "title": "Open Science Workflow Cheatsheet",
-    "section": "",
-    "text": "Repository: A place to store code, files, and each file’s revision history.\n\nLocal Computer: Your physical computer.\n\nRemote: Computer that is located elsewhere and accessed over a network (e.g. the internet).\n\nRender: Generate documents, presentations and more. Produce HTML, PDF, MS Word, reveal.js, MS Powerpoint, Beamer, websites, blogs, books…",
-    "crumbs": [
-      "References",
-      "Cheatsheet"
-    ]
-  },
-  {
-    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#git-and-github",
-    "href": "assets/ref-Open_Science_Cheat_Sheet.html#git-and-github",
-    "title": "Open Science Workflow Cheatsheet",
-    "section": "Git and GitHub",
-    "text": "Git and GitHub\n\nStarting a repository\n\n\n\n\n\nflowchart TD\n    A(Do you have a directory already started on your local computer?  ) --Yes--&gt; B(git init)\n    A --No  --&gt; C(git clone repository_url)\n\n\n\n\n\n\n\ngit init: Initialize a Git repository on a local computer.\ngit clone repository_url: Copying an entire repository onto a local computer.\n\n\nMaking changes to repository\ngit status: Check what files have changed.\ngit restore filename: Undo changes to a file.\n\n\n\n\n\nflowchart LR\n    A(Local computer) --&gt; B(Stage changes: git add)\n    B --&gt; C(Commit changes: git commit -m)\n    C --&gt; D(Push changes to remote repository: git push)\n    D --&gt; E(Remote repository)\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR \n    A(Remote repository) --&gt; B(Pull changes from remote: git pull)\n    B --&gt; C(Local computer)\n\n\n\n\n\n\n\nFrom your local computer\ngit add: Stage changes for a local commit.\ngit commit -m \"short, descriptive message\": Commit changes to be tracked.\ngit push: Push changes from local computer up to the remote repository.\n\n\nFrom remote repository\ngit pull: Pull changes from the remote repository to your local computer.\ngit pull origin main: Pull changes from the remote repository main branch to the branch you are on.\n\n\n\nBranches\ngit checkout -b branch_name: Create a new branch.\ngit checkout branch_name: Switch to a different branch.\ngit switch: Switch to a different branch.",
-    "crumbs": [
-      "References",
-      "Cheatsheet"
-    ]
-  },
-  {
-    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#vscode",
-    "href": "assets/ref-Open_Science_Cheat_Sheet.html#vscode",
-    "title": "Open Science Workflow Cheatsheet",
-    "section": "VSCode",
-    "text": "VSCode\nAn IDE (integrated development environment) that works well with many languages.\n\nSide Bar Options\n\nFile Explorer\nTo browse the files in a project\n\n\n\nGit GUI (Source Control)\nTo interact with your GitHub repository\n\n\n\nExtensions\nVS Code’s version of the app store\n\n\n\nR\nSimilar to the options available in RStudio for viewing variables in your environment, function documentation, and installing packages.\n\n\n\n\nCommand Palette\nUse the shortcut ctl + shift + P to access.\n\n\n\nTerminal\nCan have multiple terminals of different languages running at a time.",
-    "crumbs": [
-      "References",
-      "Cheatsheet"
-    ]
-  },
-  {
-    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#renv",
-    "href": "assets/ref-Open_Science_Cheat_Sheet.html#renv",
-    "title": "Open Science Workflow Cheatsheet",
-    "section": "renv",
-    "text": "renv\n\nInitialize renv for a project\nrenv::init(): Set up a project library for a new or existing project.\n\n\nInstall new packages\nrenv::install(): Install packages from CRAN, GitHub, etc..\n\n\nLockfile\nrenv::snapshot(): Update the lockfile with packages being used.\nrenv::restore(): Reinstall the packages specified in the lockfile.",
-    "crumbs": [
-      "References",
-      "Cheatsheet"
-    ]
-  },
-  {
-    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#shiny",
-    "href": "assets/ref-Open_Science_Cheat_Sheet.html#shiny",
-    "title": "Open Science Workflow Cheatsheet",
-    "section": "Shiny",
-    "text": "Shiny\nui.R: the interactive user interface code (to show stuff)\nserver.R: the code for computations and plotting (to do stuff)\nshiny::shinyApp(): launches the app",
-    "crumbs": [
-      "References",
-      "Cheatsheet"
-    ]
-  },
-  {
-    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#quarto",
-    "href": "assets/ref-Open_Science_Cheat_Sheet.html#quarto",
-    "title": "Open Science Workflow Cheatsheet",
-    "section": "Quarto",
-    "text": "Quarto\n\nDocument format\nIn the header yaml, specify what format(s) you want to create.\n---\ntitle: \"Open Science Workflow Cheatsheet\"\nformat: html\n---\nformat options include:\n\nhtml\n\npdf\n\nrevealjs\n\ndocx\n\nand more!\n\n\n\nIncluding code\nInclude code blocks in a document\n```{r}\n#| echo: true\n\nx &lt;- 2+2\n```\nCalculated values can be reported in text later: \\(x =\\) 4.\nAnd control the output rendered in the document with execution options.\n\n\n\nOption\nEffects\n\n\n\n\necho\nshow/hide code in output\n\n\neval\ndo/don’t run code\n\n\ninclude\ninclude/exclude code or results\n\n\noutput\ninclude/exclude results\n\n\nwarning\nshow/hide warnings in output\n\n\nerror\nshow/hide error in output and continue with render\n\n\n\n\n\nTo render document\nTo render a quarto file to the proper format, in your terminal (not R), run:\nquarto render path/to/file/name.qmd",
-    "crumbs": [
-      "References",
-      "Cheatsheet"
-    ]
-  },
-  {
-    "objectID": "assets/web-about-mo.html",
-    "href": "assets/web-about-mo.html",
-    "title": "Megumi Oshima",
-    "section": "",
-    "text": "Megumi Oshima has been working at the Pacific Islands Fisheries Science Center since 2021. She works mostly on domestic and territorial bottomfish stocks and is interested in Openscience and creating reproducible and transparent workflows. Before joining PIFSC, she was a graduate student at University of Southern Mississippi where she got her PhD in Coastal Sciences.\n\n\n Back to top",
-    "crumbs": [
-      "Contact us",
-      "Megumi Oshima"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "This repository contains materials for the ISC Open Science Workflows workshops held in Yokohama, Japan in January 2025.\nView slides in full screen",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#workshop-schedule",
-    "href": "index.html#workshop-schedule",
-    "title": "Home",
-    "section": "Workshop Schedule",
-    "text": "Workshop Schedule\nThe schedule for the 3-day workshop is: (note this is flexible and will be updated at the end of each day)\n\nDay 1\n\n\n\nTime\nModule\n\n\n\n\n14:00-14:15\nWelcome and introductions\n\n\n14:15-15:45\nGitHub for Collaborative Workflows\n\n\n15:45-16:15\nCodespaces and VSCode\n\n\n16:15-16:30\nBreak\n\n\n16:30-16:45\nReproducible Environments\n\n\n16:45-17:00\nWrap up\n\n\n\n\n\nDay 2\n\n\n\nTime\nModule\n\n\n\n\n14:00-14:30\nScript-based analysis\n\n\n14:30-15:15\nGroup work\n\n\n15:15-15:30\nBreak\n\n\n15:30-15:45\nPull Requests and Code Review\n\n\n15:45-16:30\nShiny App\n\n\n16:30-17:00\nGroup work, wrap up\n\n\n\n\n\nDay 3\n\n\n\nTime\nModule\n\n\n\n\n14:00-15:00\nQuarto Reports and Presentations\n\n\n15:00-15:15\nBreak\n\n\n15:15-15:45\nQuarto Website\n\n\n15:45-17:00\nGroup work, wrap up",
-    "crumbs": [
-      "Home"
-    ]
   }
 ]

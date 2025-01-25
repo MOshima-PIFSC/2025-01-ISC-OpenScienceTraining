@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/r-code/Group_info_template.html</loc>
-    <lastmod>2025-01-16T22:13:19.999Z</lastmod>
-  </url>
-  <url>
-    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/web-about-nd.html</loc>
-    <lastmod>2024-10-24T18:12:12.963Z</lastmod>
-  </url>
-  <url>
-    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/references.html</loc>
-    <lastmod>2025-01-22T01:06:55.757Z</lastmod>
-  </url>
-  <url>
-    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/day-1.html</loc>
-    <lastmod>2025-01-11T22:04:26.022Z</lastmod>
-  </url>
-  <url>
     <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/day-1-reproducible_environments.html</loc>
-    <lastmod>2025-01-11T22:04:26.020Z</lastmod>
-  </url>
-  <url>
-    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/day-1-pres-modify-stock-synthesis.html</loc>
-    <lastmod>2025-01-11T22:04:26.017Z</lastmod>
-  </url>
-  <url>
-    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/day-1-pres-codespaces.html</loc>
-    <lastmod>2025-01-22T00:14:08.190Z</lastmod>
-  </url>
-  <url>
-    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/day-1-modify-stock-synthesis.html</loc>
-    <lastmod>2025-01-11T22:04:26.015Z</lastmod>
-  </url>
-  <url>
-    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/day-1-pres-github_basics.html</loc>
-    <lastmod>2025-01-22T02:33:44.555Z</lastmod>
-  </url>
-  <url>
-    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/day-1-pres-reproducible_environments.html</loc>
-    <lastmod>2025-01-22T01:21:01.211Z</lastmod>
+    <lastmod>2025-01-25T02:46:45.199Z</lastmod>
   </url>
   <url>
     <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/day-1-welcome.html</loc>
-    <lastmod>2025-01-21T21:38:59.764Z</lastmod>
+    <lastmod>2025-01-25T02:46:45.199Z</lastmod>
   </url>
   <url>
-    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/ref-Open_Science_Cheat_Sheet.html</loc>
-    <lastmod>2025-01-21T19:39:27.293Z</lastmod>
+    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/day-1-modify-stock-synthesis.html</loc>
+    <lastmod>2025-01-25T02:46:45.199Z</lastmod>
   </url>
   <url>
     <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/web-about-mo.html</loc>
-    <lastmod>2024-10-24T19:07:22.304Z</lastmod>
+    <lastmod>2025-01-25T02:46:45.226Z</lastmod>
+  </url>
+  <url>
+    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/day-1-pres-modify-stock-synthesis.html</loc>
+    <lastmod>2025-01-25T02:46:45.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/day-1-pres-reproducible_environments.html</loc>
+    <lastmod>2025-01-25T02:46:45.199Z</lastmod>
   </url>
   <url>
     <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/index.html</loc>
-    <lastmod>2025-01-16T22:24:29.175Z</lastmod>
+    <lastmod>2025-01-25T02:46:45.290Z</lastmod>
+  </url>
+  <url>
+    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/r-code/Group_info_template.html</loc>
+    <lastmod>2025-01-25T02:46:45.291Z</lastmod>
+  </url>
+  <url>
+    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/references.html</loc>
+    <lastmod>2025-01-25T02:46:45.200Z</lastmod>
+  </url>
+  <url>
+    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/ref-Open_Science_Cheat_Sheet.html</loc>
+    <lastmod>2025-01-25T02:46:45.200Z</lastmod>
+  </url>
+  <url>
+    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/web-about-nd.html</loc>
+    <lastmod>2025-01-25T02:46:45.226Z</lastmod>
+  </url>
+  <url>
+    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/day-1.html</loc>
+    <lastmod>2025-01-25T02:46:45.200Z</lastmod>
+  </url>
+  <url>
+    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/day-1-pres-codespaces.html</loc>
+    <lastmod>2025-01-25T02:46:45.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/assets/day-1-pres-github_basics.html</loc>
+    <lastmod>2025-01-25T02:46:45.199Z</lastmod>
   </url>
 </urlset>
