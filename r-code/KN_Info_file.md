@@ -14,7 +14,7 @@ join_full(dataframe)
 
 ## Three things we want to learn from this workshop  
 
-- [x] handling the project smoothly
+- [x] changing the models smoothly
 - [x] handling the dataset nicely
 - [x] sharing the project with no stress
 
