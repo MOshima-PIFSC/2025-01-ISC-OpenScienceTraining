@@ -2,7 +2,7 @@
 Mikihiko Kai
 
 ## Species of interest
-![Blues shark]_(https://en.wikipedia.org/wiki/Blue_shark)
+![Blue shark](https://isc.fra.go.jp/img/graph/working_groups/blue.png)
 
 ## Most used function
 ・・・
