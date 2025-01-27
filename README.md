@@ -4,9 +4,10 @@ This repository holds code and presentations for the Open Science Training held 
 Coding is fun!
 
 ### Participants list
-1. Mikihiko Kai
-2. Kirara Nishikawa
-3. Meg Oshima  
+1. Yasuko Semba
+2. Mikihiko Kai
+3. Kirara Nishikawa
+4. Meg Oshima 
 
 ## Rendering and publishing
 
