@@ -447,7 +447,21 @@
     "href": "YS_Info_file.html#species-of-interest",
     "title": "Open Science Workflow Training for ISC",
     "section": "Species of interest",
-    "text": "Species of interest\n\n\n\nIsurus oxyrinchus\n\n\n##Most used functions\nstr(dataset)\n#Three thins we want to learn from this WS 1. numbered\n* bullets\n- [x] to do"
+    "text": "Species of interest\n\n\n\nIsurus oxyrinchus"
+  },
+  {
+    "objectID": "YS_Info_file.html#most-used-functions",
+    "href": "YS_Info_file.html#most-used-functions",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Most used functions",
+    "text": "Most used functions\nstr(dataset)"
+  },
+  {
+    "objectID": "YS_Info_file.html#three-thins-we-want-to-learn-from-this-ws",
+    "href": "YS_Info_file.html#three-thins-we-want-to-learn-from-this-ws",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Three thins we want to learn from this WS",
+    "text": "Three thins we want to learn from this WS\n\nnumbered\n\nbullets\n\n\n\n\nto do"
   },
   {
     "objectID": "assets/day-1-pres-reproducible_environments.html#section",
