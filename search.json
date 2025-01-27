@@ -248,6 +248,41 @@
     "text": "Reproducible Environments\n\nrenv - website for the R package\nIntroduction to renv - introduces the basics of a renv workflow\n\nUsing renv in GitHub Actions - how to use renv in automatic workflows like GitHub Actions"
   },
   {
+    "objectID": "r-code/MO_Info_file.html",
+    "href": "r-code/MO_Info_file.html",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Meg Oshima"
+  },
+  {
+    "objectID": "r-code/MO_Info_file.html#name",
+    "href": "r-code/MO_Info_file.html#name",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Meg Oshima"
+  },
+  {
+    "objectID": "r-code/MO_Info_file.html#species-of-interest",
+    "href": "r-code/MO_Info_file.html#species-of-interest",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Species of interest",
+    "text": "Species of interest"
+  },
+  {
+    "objectID": "r-code/MO_Info_file.html#most-used-function",
+    "href": "r-code/MO_Info_file.html#most-used-function",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Most used function",
+    "text": "Most used function\nhead(dataframe)"
+  },
+  {
+    "objectID": "r-code/MO_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
+    "href": "r-code/MO_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Three things we want to learn from this workshop",
+    "text": "Three things we want to learn from this workshop\n\nnumbered\n\n\nbullets\n\nto do"
+  },
+  {
     "objectID": "r-code/Group_info_template.html",
     "href": "r-code/Group_info_template.html",
     "title": "Group",
@@ -281,6 +316,41 @@
     "title": "Group",
     "section": "",
     "text": "(insert task list (with check boxes) of at least 3 things)"
+  },
+  {
+    "objectID": "r-code/MK_info_file.html",
+    "href": "r-code/MK_info_file.html",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Mikihiko Kai"
+  },
+  {
+    "objectID": "r-code/MK_info_file.html#name",
+    "href": "r-code/MK_info_file.html#name",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Mikihiko Kai"
+  },
+  {
+    "objectID": "r-code/MK_info_file.html#species-of-interest",
+    "href": "r-code/MK_info_file.html#species-of-interest",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Species of interest",
+    "text": "Species of interest\n![Blues shark]_(https://en.wikipedia.org/wiki/Blue_shark)"
+  },
+  {
+    "objectID": "r-code/MK_info_file.html#most-used-function",
+    "href": "r-code/MK_info_file.html#most-used-function",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Most used function",
+    "text": "Most used function\n・・・ view() ・・・"
+  },
+  {
+    "objectID": "r-code/MK_info_file.html#three-things-we-want-to-learn-from-this-workshop",
+    "href": "r-code/MK_info_file.html#three-things-we-want-to-learn-from-this-workshop",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Three things we want to learn from this workshop",
+    "text": "Three things we want to learn from this workshop\n\ngit clone\ngit init\ngit add\ngit push\ngit pull etc."
   },
   {
     "objectID": "index.html",
