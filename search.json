@@ -248,25 +248,24 @@
     "text": "Reproducible Environments\n\nrenv - website for the R package\nIntroduction to renv - introduces the basics of a renv workflow\n\nUsing renv in GitHub Actions - how to use renv in automatic workflows like GitHub Actions"
   },
   {
-    "objectID": "MO_Info_file.html",
-    "href": "MO_Info_file.html",
-    "title": "Open Science Workflow Training for ISC",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
     "section": "",
-    "text": "Yasuko Semba"
+    "text": "This repository contains materials for the ISC Open Science Workflows workshops held in Yokohama, Japan in January 2025.\nView slides in full screen",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
-    "objectID": "MO_Info_file.html#name",
-    "href": "MO_Info_file.html#name",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Yasuko Semba"
-  },
-  {
-    "objectID": "MO_Info_file.html#species",
-    "href": "MO_Info_file.html#species",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Species",
-    "text": "Species\n\n\n\nShortfin mako\n\n\n#Most used function str(dataset)\n##Three things we want to learn from this WS 1. numbered *bullets - [x] to do"
+    "objectID": "index.html#workshop-schedule",
+    "href": "index.html#workshop-schedule",
+    "title": "Home",
+    "section": "Workshop Schedule",
+    "text": "Workshop Schedule\nThe schedule for the 3-day workshop is: (note this is flexible and will be updated at the end of each day)\n\nDay 1\n\n\n\nTime\nModule\n\n\n\n\n14:00-14:15\nWelcome and introductions\n\n\n14:15-15:45\nGitHub for Collaborative Workflows\n\n\n15:45-16:15\nCodespaces and VSCode\n\n\n16:15-16:30\nBreak\n\n\n16:30-16:45\nReproducible Environments\n\n\n16:45-17:00\nWrap up\n\n\n\n\n\nDay 2\n\n\n\nTime\nModule\n\n\n\n\n14:00-14:30\nScript-based analysis\n\n\n14:30-15:15\nGroup work\n\n\n15:15-15:30\nBreak\n\n\n15:30-15:45\nPull Requests and Code Review\n\n\n15:45-16:30\nShiny App\n\n\n16:30-17:00\nGroup work, wrap up\n\n\n\n\n\nDay 3\n\n\n\nTime\nModule\n\n\n\n\n14:00-15:00\nQuarto Reports and Presentations\n\n\n15:00-15:15\nBreak\n\n\n15:15-15:45\nQuarto Website\n\n\n15:45-17:00\nGroup work, wrap up",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "r-code/MO_Info_file.html",
@@ -409,59 +408,60 @@
     "text": "changing the models smoothly\nhandling the dataset nicely\nsharing the project with no stress"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "This repository contains materials for the ISC Open Science Workflows workshops held in Yokohama, Japan in January 2025.\nView slides in full screen",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#workshop-schedule",
-    "href": "index.html#workshop-schedule",
-    "title": "Home",
-    "section": "Workshop Schedule",
-    "text": "Workshop Schedule\nThe schedule for the 3-day workshop is: (note this is flexible and will be updated at the end of each day)\n\nDay 1\n\n\n\nTime\nModule\n\n\n\n\n14:00-14:15\nWelcome and introductions\n\n\n14:15-15:45\nGitHub for Collaborative Workflows\n\n\n15:45-16:15\nCodespaces and VSCode\n\n\n16:15-16:30\nBreak\n\n\n16:30-16:45\nReproducible Environments\n\n\n16:45-17:00\nWrap up\n\n\n\n\n\nDay 2\n\n\n\nTime\nModule\n\n\n\n\n14:00-14:30\nScript-based analysis\n\n\n14:30-15:15\nGroup work\n\n\n15:15-15:30\nBreak\n\n\n15:30-15:45\nPull Requests and Code Review\n\n\n15:45-16:30\nShiny App\n\n\n16:30-17:00\nGroup work, wrap up\n\n\n\n\n\nDay 3\n\n\n\nTime\nModule\n\n\n\n\n14:00-15:00\nQuarto Reports and Presentations\n\n\n15:00-15:15\nBreak\n\n\n15:15-15:45\nQuarto Website\n\n\n15:45-17:00\nGroup work, wrap up",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "YS_Info_file.html",
-    "href": "YS_Info_file.html",
+    "objectID": "r-code/YS_Info_file.html",
+    "href": "r-code/YS_Info_file.html",
     "title": "Open Science Workflow Training for ISC",
     "section": "",
     "text": "Yasuko Semba"
   },
   {
-    "objectID": "YS_Info_file.html#names",
-    "href": "YS_Info_file.html#names",
+    "objectID": "r-code/YS_Info_file.html#names",
+    "href": "r-code/YS_Info_file.html#names",
     "title": "Open Science Workflow Training for ISC",
     "section": "",
     "text": "Yasuko Semba"
   },
   {
-    "objectID": "YS_Info_file.html#species-of-interest",
-    "href": "YS_Info_file.html#species-of-interest",
+    "objectID": "r-code/YS_Info_file.html#species-of-interest",
+    "href": "r-code/YS_Info_file.html#species-of-interest",
     "title": "Open Science Workflow Training for ISC",
     "section": "Species of interest",
     "text": "Species of interest\n\n\n\nIsurus oxyrinchus"
   },
   {
-    "objectID": "YS_Info_file.html#most-used-functions",
-    "href": "YS_Info_file.html#most-used-functions",
+    "objectID": "r-code/YS_Info_file.html#most-used-functions",
+    "href": "r-code/YS_Info_file.html#most-used-functions",
     "title": "Open Science Workflow Training for ISC",
     "section": "Most used functions",
     "text": "Most used functions\nstr(dataset)"
   },
   {
-    "objectID": "YS_Info_file.html#three-thins-we-want-to-learn-from-this-ws",
-    "href": "YS_Info_file.html#three-thins-we-want-to-learn-from-this-ws",
+    "objectID": "r-code/YS_Info_file.html#three-thins-we-want-to-learn-from-this-ws",
+    "href": "r-code/YS_Info_file.html#three-thins-we-want-to-learn-from-this-ws",
     "title": "Open Science Workflow Training for ISC",
     "section": "Three thins we want to learn from this WS",
     "text": "Three thins we want to learn from this WS\n\nnumbered\n\nbullets\n\n\n\n\nto do"
+  },
+  {
+    "objectID": "MO_Info_file.html",
+    "href": "MO_Info_file.html",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Yasuko Semba"
+  },
+  {
+    "objectID": "MO_Info_file.html#name",
+    "href": "MO_Info_file.html#name",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Yasuko Semba"
+  },
+  {
+    "objectID": "MO_Info_file.html#species",
+    "href": "MO_Info_file.html#species",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Species",
+    "text": "Species\n\n\n\nShortfin mako\n\n\n#Most used function str(dataset)\n##Three things we want to learn from this WS 1. numbered *bullets - [x] to do"
   },
   {
     "objectID": "assets/day-1-pres-reproducible_environments.html#section",
