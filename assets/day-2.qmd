@@ -1,0 +1,11 @@
+---
+title: "Day 2"
+---
+
+Presentation slides for script based workflow.
+
+{{< revealjs file="day-1-pres-modify-stock-synthesis.html" height="500px" class="ratio ratio-16x9" >}}  
+
+Presentation slides for building a Shiny app for our Stock Synthesis model runs.
+
+{{< revealjs file="day-2-pres-build-shiny.html" height="500px" class="ratio ratio-16x9" >}}

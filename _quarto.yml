@@ -6,8 +6,8 @@ project:
 website:
   title: "Open Science Workflow Training for ISC"
   reader-mode: true
-  site-url: "https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev" 
-  repo-url: "https://github.com/MOshima-PIFSC/2025-01-ISC-OpenScienceTraining-dev"
+  site-url: "https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining" 
+  repo-url: "https://github.com/MOshima-PIFSC/2025-01-ISC-OpenScienceTraining"
   repo-actions: [source, issue]
   search: true
   back-to-top-navigation: true
@@ -33,10 +33,19 @@ website:
           file: assets/day-1-pres-codespaces.qmd
         - text: "Reproducible R Environments"
           file: assets/day-1-pres-reproducible_environments.qmd
+      - section: "Day 2"
+        href: assets/day-2.html
+        contents:
+        - text: "Script Based Workflows"
+          file: assets/day-1-pres-modify-stock-synthesis.qmd
+        - text: "Building a Shiny App"
+          file: assets/day-1-pres-build-shiny.qmd
       - section: "References"  
         contents: 
         - text: "Cheatsheet"
           file: assets/ref-Open_Science_Cheat_Sheet.qmd
+        - text: "Helpful Links"  
+          file: assets/resources.qmd
       - section: "Contact us"
         contents:
         - text: "Nicholas Ducharme-Barth"

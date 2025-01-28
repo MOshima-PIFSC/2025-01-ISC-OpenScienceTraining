@@ -1,0 +1,136 @@
+---
+format: 
+ revealjs:
+  theme: [default, customizations/presentation-custom.scss]
+  footer: "ISC Open Science Worflows Workshop 2025"
+  logo: static/noaa-fisheries-logo.png
+  css: customizations/logo.css
+  slide-number: true
+  revealjs-plugins:
+  - codewindow
+  mermaid-format: svg
+embed-resources: true
+---
+
+## {.center}
+::: {.titlebox style="text-align:center; font-size: 1.25em;"}
+
+[Building a Shiny app]{.blue-title}
+
+
+[Megumi Oshima & Nicholas Ducharme-Barth]{.blue style="font-size:0.5em;"}  
+
+[January 2025]{.blue style="font-size:0.5em;"}
+:::
+
+## What is Shiny?
+
+</br> 
+
+[Shiny](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/){preview-link="true"} is a package that can be used to build interactive web apps in either R or Python.
+
+![](static/shiny-logo.png){.absolute top=40% left=25% height=20% style="max-height: unset; max-width: unset;"}
+
+
+## Why?
+
+</br>
+
+::: {.incremental} 
+- Interactive dashboards can [help with communicating science]{.blue}, and making it more accessible
+- Useful for analysts to [visualize data]{.blue} or model outputs
+- [Facilitates multi-model comparisons]{.blue} which can assist in model development and building intuition about the model.
+:::
+
+## How to build?
+
+</br>
+
+All [Shiny](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/){preview-link="true"} apps need three components:
+
+::: {.incremental}
+- a user interface ([`ui.R`]{.blue}): this is the *interactive* part
+- a server ([`server.R`]{.blue}): this is the *computation/plotting* engine
+- a call to `shiny::shinyApp()` ([`app.R`]{.blue}): this ties everything together and *launches* the app
+:::
+
+::: {.fragment .fade-in}
+::: {.absolute left=15% top=77.5% style="font-size:1em;"}
+Let's look closer at an [example](https://shinylive.io/r/editor/#code=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){preview-link="true"}.
+:::
+:::
+
+## Running an app
+
+::: {.absolute left=0% top=15% right=65% style="font-size:0.8em;"}
+If the `ui.R` and `server.R` are defined as separate scripts running the app is straightforward.
+
+</br>
+
+Package all code and data in the same directory, this will make publishing the app easier.
+:::
+
+::: {.absolute top="15%" left="40%" right="0%" style="font-size: 0.5em;"}
+```{.r code-line-numbers="|1-2|4-6|9|10"}
+# load packages
+  library(shiny)
+
+# source ui/server
+  source("./ui.R")
+  source("./server.R")
+
+# Run the app
+  app = shinyApp(ui=ui,server=server)
+  runApp(app)
+```
+:::
+
+## Publishing
+
+::: {.fragment .fade-out fragment-index=1}
+::: {.absolute top="15%" left="0%" right="0%" style="font-size: 1em;"}
+
+Once your app is built it can hosted online via [shinyapps.io](https://www.shinyapps.io/){preview-link="true"} (individuals) or [Posit Connect](https://posit.co/products/enterprise/connect/){preview-link="true"} (enterprise users).
+
+</br>
+
+In both cases, publishing can be done in a couple steps using the [`rsconnect`](https://rstudio.github.io/rsconnect/){preview-link="true"} R package.
+:::
+
+![](dynamic/rsconnect-logo.svg){.absolute top=65% left=40% height=25% style="max-height: unset; max-width: unset;"}
+
+:::
+
+
+::: {.absolute top="15%" left="0%" right="0%" style="font-size: 1em;"}
+
+::: {.fragment .fade-in fragment-index=1}
+- Connect your account and add your server of choice ([shinyapps.io](https://docs.posit.co/shinyapps.io/guide/getting_started/#configure-rsconnect){preview-link="true"}/[Posit Connect](https://docs.posit.co/connect/user/publishing-r/#connect-your-account){preview-link="true"})
+:::
+
+::: {.fragment .fade-in fragment-index=2}
+- Deploy your app `rsconnect::deployApp(appDir = '<project-dir>')`!
+:::
+
+:::
+
+## Group activity! {.smaller}
+
+</br>
+
+Play with the [AI assistant for Shiny](https://gallery.shinyapps.io/assistant/){preview-link="true"} and [Shiny live](https://shinylive.io/r/examples/){preview-link="true"} to add some new features to the existing app `02-shiny-example-vb-curve.r`.
+
+::: {.incremental}
+- change the user interface options: add a slider?
+- add a second sex?
+- add a download data button?
+:::
+
+## Resources
+
+</br>
+
+- [Shiny widgets](https://dreamrs.github.io/shinyWidgets/){preview-link="true"}
+- [AI assistant for Shiny](https://gallery.shinyapps.io/assistant/){preview-link="true"}
+- [Shiny live!](https://shinylive.io/r/examples/){preview-link="true"}: An interactive development environment for Shiny apps
+
