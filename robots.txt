@@ -1,1 +1,1 @@
-Sitemap: https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining-dev/sitemap.xml
+Sitemap: https://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining/sitemap.xml
