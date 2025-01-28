@@ -1,7 +1,7 @@
 #C growth parameters are estimated
 #C spawner-recruitment bias adjustment Not tuned For optimality
 #C file created using an r4ss function
-#C file write time: 2025-01-06  10:48:47
+#C file write time: 2025-01-28  06:59:56
 #
 0 # 0 means do not read wtatage.ss; 1 means read and usewtatage.ss and also read and use growth parameters
 1 #_N_Growth_Patterns
@@ -83,11 +83,11 @@
 0 # 0/1 to use steepness in initial equ recruitment calculation
 0 # future feature: 0/1 to make realized sigmaR a function of SR curvature
 #_LO	HI	INIT	PRIOR	PR_SD	PR_type	PHASE	env-var	use_dev	dev_mnyr	dev_mxyr	dev_PH	Block	Blk_Fxn # parm_name
-  3	31	8.72897	10.3	  10	0	  1	0	0	0	0	0	0	0	#_SR_LN(R0)  
-0.2	 1	    0.7	 0.7	0.05	1	 -4	0	0	0	0	0	0	0	#_SR_BH_steep
-  0	 2	    0.6	 0.8	 0.8	0	 -4	0	0	0	0	0	0	0	#_SR_sigmaR  
- -5	 5	      0	   0	   1	0	 -4	0	0	0	0	0	0	0	#_SR_regime  
-  0	 0	      0	   0	   0	0	-99	0	0	0	0	0	0	0	#_SR_autocorr
+  3	31	 10	10.3	  10	0	  1	0	0	0	0	0	0	0	#_SR_LN(R0)  
+0.2	 1	0.7	 0.7	0.05	1	 -4	0	0	0	0	0	0	0	#_SR_BH_steep
+  0	 2	0.6	 0.8	 0.8	0	 -4	0	0	0	0	0	0	0	#_SR_sigmaR  
+ -5	 5	  0	   0	   1	0	 -4	0	0	0	0	0	0	0	#_SR_regime  
+  0	 0	  0	   0	   0	0	-99	0	0	0	0	0	0	0	#_SR_autocorr
 #_no timevary SR parameters
 2 #do_recdev:  0=none; 1=devvector (R=F(SSB)+dev); 2=deviations (R=F(SSB)+dev); 3=deviations (R=R0*dev; dev2=R-f(SSB)); 4=like 3 with sum(dev2) adding penalty
 1971 # first year of main recr_devs; early devs can preceed this era
@@ -129,9 +129,9 @@
 -9999	0	0	0	0	0	#_terminator
 #_Q_parms(if_any);Qunits_are_ln(q)
 #_LO	HI	INIT	PRIOR	PR_SD	PR_type	PHASE	env-var	use_dev	dev_mnyr	dev_mxyr	dev_PH	Block	Blk_Fxn  #  parm_name
- -7	  5	0.526848	   0	1	0	 1	0	0	0	0	0	0	0	#_LnQ_base_SURVEY1(2) 
+ -7	  5	0.516916	   0	1	0	 1	0	0	0	0	0	0	0	#_LnQ_base_SURVEY1(2) 
   0	0.5	       0	0.05	1	0	-4	0	0	0	0	0	0	0	#_Q_extraSD_SURVEY1(2)
--10	  5	-8.66033	   0	1	0	 1	0	0	0	0	0	0	0	#_LnQ_base_SURVEY2(3) 
+-10	  5	-6.62547	   0	1	0	 1	0	0	0	0	0	0	0	#_LnQ_base_SURVEY2(3) 
 #_no timevary Q parameters
 #
 #_size_selex_patterns
@@ -148,10 +148,10 @@
 #
 #_SizeSelex
 #_LO	HI	INIT	PRIOR	PR_SD	PR_type	PHASE	env-var	use_dev	dev_mnyr	dev_mxyr	dev_PH	Block	Blk_Fxn  #  parm_name
-  19	80	53.3243	50	0.01	1	2	0	0	0	0	0	0	0	#_SizeSel_P_1_FISHERY(1)
-0.01	60	19.9609	15	0.01	1	3	0	0	0	0	0	0	0	#_SizeSel_P_2_FISHERY(1)
-  19	70	36.7904	30	0.01	1	2	0	0	0	0	0	0	0	#_SizeSel_P_1_SURVEY1(2)
-0.01	60	8.71597	10	0.01	1	3	0	0	0	0	0	0	0	#_SizeSel_P_2_SURVEY1(2)
+  19	80	53.6629	50	0.01	1	2	0	0	0	0	0	0	0	#_SizeSel_P_1_FISHERY(1)
+0.01	60	18.9332	15	0.01	1	3	0	0	0	0	0	0	0	#_SizeSel_P_2_FISHERY(1)
+  19	70	36.6585	30	0.01	1	2	0	0	0	0	0	0	0	#_SizeSel_P_1_SURVEY1(2)
+0.01	60	6.59966	10	0.01	1	3	0	0	0	0	0	0	0	#_SizeSel_P_2_SURVEY1(2)
 #_AgeSelex
 #_No age_selex_parm
 #_no timevary selex parameters

@@ -12,7 +12,7 @@
 # define paths
 	proj_dir = this.path::this.proj()
     from_dir = file.path(proj_dir,"stock-synthesis-models","base-model")
-    to_dir = file.path(proj_dir,"stock-synthesis-models","steepness-0.7")
+    to_dir = file.path(proj_dir,"stock-synthesis-models","growth_newrun")
     dir.create(to_dir,recursive=TRUE)
 
 # read control file
@@ -20,7 +20,7 @@
                          datlist = file.path(from_dir,"data.ss"))
 
 # modify
-    tmp_ctl$SR_parms["SR_BH_steep","INIT"] = 0.7
+    tmp_ctl$MG_parms["VonBert_K_Fem_GP_1","INIT"] = c(0.2)
 
 # write out file using r4ss functions
     SS_writectl(tmp_ctl,outfile=file.path(to_dir,"control.ss"),overwrite=TRUE)
@@ -31,9 +31,10 @@
 
 # copy over executable & other stock synthesis input files
     dir_exec = file.path(proj_dir,"executables","stock-synthesis","3.30.22.1")
-    ss3_exec = "ss3_linux"  
+    ss3_exec = "ss3_opt_linux"  
     file.copy(from=file.path(dir_exec,ss3_exec),to=to_dir,overwrite=TRUE)
     file.copy(from=file.path(from_dir,c("data.ss","forecast.ss","starter.ss")),to=to_dir,overwrite=TRUE)
 
 # run the model
     run(dir=to_dir,exe=ss3_exec,show_in_console=TRUE,skipfinished=FALSE)
+
