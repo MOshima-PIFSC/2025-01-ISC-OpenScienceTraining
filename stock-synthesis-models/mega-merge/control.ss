@@ -1,7 +1,7 @@
 #C growth parameters are estimated
 #C spawner-recruitment bias adjustment Not tuned For optimality
 #C file created using an r4ss function
-#C file write time: 2025-01-28  07:04:34
+#C file write time: 2025-01-28  07:42:44
 #
 0 # 0 means do not read wtatage.ss; 1 means read and usewtatage.ss and also read and use growth parameters
 1 #_N_Growth_Patterns
@@ -50,10 +50,10 @@
 #
 #_growth_parms
 #_LO	HI	INIT	PRIOR	PR_SD	PR_type	PHASE	env_var&link	dev_link	dev_minyr	dev_maxyr	dev_PH	Block	Block_Fxn
- 0.05	    0.15	     0.1	     0.1	0.8	0	 -3	0	0	0	0	0	0	0	#_NatM_p_1_Fem_GP_1  
+ 0.05	    0.15	    0.25	     0.1	0.8	0	 -3	0	0	0	0	0	0	0	#_NatM_p_1_Fem_GP_1  
   -10	      45	 20.9372	      36	 10	6	 -2	0	0	0	0	0	0	0	#_L_at_Amin_Fem_GP_1 
    40	      90	 71.5566	      70	 10	6	 -4	0	0	0	0	0	0	0	#_L_at_Amax_Fem_GP_1 
- 0.05	    0.25	0.163678	    0.15	0.8	6	 -4	0	0	0	0	0	0	0	#_VonBert_K_Fem_GP_1 
+ 0.05	    0.25	     0.2	    0.15	0.8	6	 -4	0	0	0	0	0	0	0	#_VonBert_K_Fem_GP_1 
  0.05	    0.25	     0.1	     0.1	0.8	0	 -3	0	0	0	0	0	0	0	#_CV_young_Fem_GP_1  
  0.05	    0.25	     0.1	     0.1	0.8	0	 -3	0	0	0	0	0	0	0	#_CV_old_Fem_GP_1    
    -3	       3	2.44e-06	2.44e-06	0.8	0	 -3	0	0	0	0	0	0	0	#_Wtlen_1_Fem_GP_1   
@@ -62,7 +62,7 @@
    -3	       3	   -0.25	   -0.25	0.8	0	 -3	0	0	0	0	0	0	0	#_Mat_slope_Fem_GP_1 
    -3	       3	       1	       1	0.8	0	 -3	0	0	0	0	0	0	0	#_Eggs_alpha_Fem_GP_1
    -3	       3	       0	       0	0.8	0	 -3	0	0	0	0	0	0	0	#_Eggs_beta_Fem_GP_1 
- 0.05	    0.15	     0.1	     0.1	0.8	0	 -3	0	0	0	0	0	0	0	#_NatM_p_1_Mal_GP_1  
+ 0.05	    0.15	    0.25	     0.1	0.8	0	 -3	0	0	0	0	0	0	0	#_NatM_p_1_Mal_GP_1  
     0	      45	       0	      36	 10	0	 -3	0	0	0	0	0	0	0	#_L_at_Amin_Mal_GP_1 
    40	      90	 69.7484	      70	 10	6	 -4	0	0	0	0	0	0	0	#_L_at_Amax_Mal_GP_1 
  0.05	    0.25	0.173516	    0.15	0.8	6	 -4	0	0	0	0	0	0	0	#_VonBert_K_Mal_GP_1 
