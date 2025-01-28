@@ -25,15 +25,14 @@
 # write out file using r4ss functions
     SS_writectl(tmp_ctl,outfile=file.path(to_dir,"control.ss"),overwrite=TRUE)
 
-
-# give permissions to executable
-    system(paste0("cd ",dir_exec,"; chmod 777 ", ss3_exec))
-
 # copy over executable & other stock synthesis input files
     dir_exec = file.path(proj_dir,"executables","stock-synthesis","3.30.22.1")
     ss3_exec = "ss3_linux"  
     file.copy(from=file.path(dir_exec,ss3_exec),to=to_dir,overwrite=TRUE)
     file.copy(from=file.path(from_dir,c("data.ss","forecast.ss","starter.ss")),to=to_dir,overwrite=TRUE)
+
+# give permissions to executable
+    system(paste0("cd ",to_dir,"; chmod 777 ", ss3_exec))
 
 # run the model
     run(dir=to_dir,exe=ss3_exec,show_in_console=TRUE,skipfinished=FALSE)
@@ -41,3 +40,18 @@
 # add the r4ss plots
     output = SS_output(to_dir)
     SS_plots(output,dir=to_dir)
+
+    # directories where models were run need to be defined
+    dir1 = from_dir
+    dir2 = to_dir
+
+    # read two models
+    mod1 = SS_output(dir = dir1)
+    mod2 = SS_output(dir = dir2)
+
+    # create list summarizing model results
+    mod.sum = SSsummarize(list(mod1, mod2))
+
+    # plot comparisons
+    plot_dir = file.path(to_dir,"plots","comp")
+
