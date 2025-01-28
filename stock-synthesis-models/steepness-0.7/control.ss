@@ -1,7 +1,8 @@
 #C growth parameters are estimated
 #C spawner-recruitment bias adjustment Not tuned For optimality
 #C file created using an r4ss function
-#C file write time: 2025-01-28  06:59:56
+
+#C file write time: 2025-01-28  07:02:43
 #
 0 # 0 means do not read wtatage.ss; 1 means read and usewtatage.ss and also read and use growth parameters
 1 #_N_Growth_Patterns
@@ -50,7 +51,7 @@
 #
 #_growth_parms
 #_LO	HI	INIT	PRIOR	PR_SD	PR_type	PHASE	env_var&link	dev_link	dev_minyr	dev_maxyr	dev_PH	Block	Block_Fxn
- 0.05	    0.15	     0.1	     0.1	0.8	0	 -3	0	0	0	0	0	0	0	#_NatM_p_1_Fem_GP_1  
+ 0.05	    0.15	    0.25	     0.1	0.8	0	 -3	0	0	0	0	0	0	0	#_NatM_p_1_Fem_GP_1  
   -10	      45	 20.9372	      36	 10	6	 -2	0	0	0	0	0	0	0	#_L_at_Amin_Fem_GP_1 
    40	      90	 71.5566	      70	 10	6	 -4	0	0	0	0	0	0	0	#_L_at_Amax_Fem_GP_1 
  0.05	    0.25	0.163678	    0.15	0.8	6	 -4	0	0	0	0	0	0	0	#_VonBert_K_Fem_GP_1 
@@ -83,11 +84,12 @@
 0 # 0/1 to use steepness in initial equ recruitment calculation
 0 # future feature: 0/1 to make realized sigmaR a function of SR curvature
 #_LO	HI	INIT	PRIOR	PR_SD	PR_type	PHASE	env-var	use_dev	dev_mnyr	dev_mxyr	dev_PH	Block	Blk_Fxn # parm_name
-  3	31	 10	10.3	  10	0	  1	0	0	0	0	0	0	0	#_SR_LN(R0)  
-0.2	 1	0.7	 0.7	0.05	1	 -4	0	0	0	0	0	0	0	#_SR_BH_steep
-  0	 2	0.6	 0.8	 0.8	0	 -4	0	0	0	0	0	0	0	#_SR_sigmaR  
- -5	 5	  0	   0	   1	0	 -4	0	0	0	0	0	0	0	#_SR_regime  
-  0	 0	  0	   0	   0	0	-99	0	0	0	0	0	0	0	#_SR_autocorr
+  3	31	      10	10.3	  10	0	  1	0	0	0	0	0	0	0	#_SR_LN(R0)  
+0.2	 1	0.573835	 0.7	0.05	1	 -4	0	0	0	0	0	0	0	#_SR_BH_steep
+  0	 2	     0.6	 0.8	 0.8	0	 -4	0	0	0	0	0	0	0	#_SR_sigmaR  
+ -5	 5	       0	   0	   1	0	 -4	0	0	0	0	0	0	0	#_SR_regime  
+  0	 0	       0	   0	   0	0	-99	0	0	0	0	0	0	0	#_SR_autocorr
+
 #_no timevary SR parameters
 2 #do_recdev:  0=none; 1=devvector (R=F(SSB)+dev); 2=deviations (R=F(SSB)+dev); 3=deviations (R=R0*dev; dev2=R-f(SSB)); 4=like 3 with sum(dev2) adding penalty
 1971 # first year of main recr_devs; early devs can preceed this era

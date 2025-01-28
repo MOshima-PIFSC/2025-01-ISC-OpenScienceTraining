@@ -12,15 +12,27 @@
 # define paths
 	proj_dir = this.path::this.proj()
     from_dir = file.path(proj_dir,"stock-synthesis-models","base-model")
-    to_dir = file.path(proj_dir,"stock-synthesis-models","growth_newrun")
+
+    to_dir = file.path(proj_dir,"stock-synthesis-models","natM025_both")
+#    to_growth_dir = file.path(proj_dir,"stock-synthesis-models","growth_newrun")
+
     dir.create(to_dir,recursive=TRUE)
+#    dir.create(to_growth_dir,recursive=TRUE)
 
 # read control file
     tmp_ctl = SS_readctl(file=file.path(from_dir,"control.ss"),
                          datlist = file.path(from_dir,"data.ss"))
 
+
+# modify ##here I can add my revisions
+    tmp_ctl$SR_parms["SR_BH_steep","INIT"] = 0.7
 # modify
     tmp_ctl$MG_parms["VonBert_K_Fem_GP_1","INIT"] = c(0.2)
+
+    tmp_ctl$natM_type
+
+tmp_ctl$MG_parms["NatM_p_1_Fem_GP_1","INIT"] <- 0.25
+tmp_ctl$MG_parms["NatM_p_1_Mal_GP_1","INIT"] <- 0.25
 
 # write out file using r4ss functions
     SS_writectl(tmp_ctl,outfile=file.path(to_dir,"control.ss"),overwrite=TRUE)
@@ -37,4 +49,3 @@
 
 # run the model
     run(dir=to_dir,exe=ss3_exec,show_in_console=TRUE,skipfinished=FALSE)
-
