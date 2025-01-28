@@ -12,7 +12,7 @@
 # define paths
 	proj_dir = this.path::this.proj()
     from_dir = file.path(proj_dir,"stock-synthesis-models","base-model")
-    to_dir = file.path(proj_dir,"stock-synthesis-models","steepness-0.7")
+    to_dir = file.path(proj_dir,"stock-synthesis-models","mega-merge")
     dir.create(to_dir,recursive=TRUE)
 
 # read control file
@@ -37,3 +37,7 @@
 
 # run the model
     run(dir=to_dir,exe=ss3_exec,show_in_console=TRUE,skipfinished=FALSE)
+
+# add the r4ss plots
+    output = SS_output(to_dir)
+    SS_plots(output,dir=to_dir)
