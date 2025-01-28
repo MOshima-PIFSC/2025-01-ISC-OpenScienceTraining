@@ -64,4 +64,10 @@ tmp_ctl$MG_parms["NatM_p_1_Mal_GP_1","INIT"] <- 0.25
 
     # plot comparisons
     plot_dir = file.path(to_dir,"plots","comp")
+    dir.create(plot_dir,recursive=TRUE)
+
+    # plot comparisons
+    SSplotComparisons(mod.sum, legendlabels = c("base", "mega-merge"),plotdir=plot_dir,plot=FALSE,print=TRUE)
+
+
 
