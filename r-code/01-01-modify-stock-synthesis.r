@@ -12,15 +12,20 @@
 # define paths
 	proj_dir = this.path::this.proj()
     from_dir = file.path(proj_dir,"stock-synthesis-models","base-model")
-    to_dir = file.path(proj_dir,"stock-synthesis-models","steepness-0.7")
+    to_dir = file.path(proj_dir,"stock-synthesis-models","natM025_both")
     dir.create(to_dir,recursive=TRUE)
 
 # read control file
     tmp_ctl = SS_readctl(file=file.path(from_dir,"control.ss"),
                          datlist = file.path(from_dir,"data.ss"))
 
-# modify
+# modify ##here I can add my revisions
     tmp_ctl$SR_parms["SR_BH_steep","INIT"] = 0.7
+
+    tmp_ctl$natM_type
+
+tmp_ctl$MG_parms["NatM_p_1_Fem_GP_1","INIT"] <- 0.25
+tmp_ctl$MG_parms["NatM_p_1_Mal_GP_1","INIT"] <- 0.25
 
 # write out file using r4ss functions
     SS_writectl(tmp_ctl,outfile=file.path(to_dir,"control.ss"),overwrite=TRUE)
@@ -37,3 +42,6 @@
 
 # run the model
     run(dir=to_dir,exe=ss3_exec,show_in_console=TRUE,skipfinished=FALSE)
+        run(dir=from_dir,exe=ss3_exec,show_in_console=TRUE,skipfinished=FALSE)
+
+
