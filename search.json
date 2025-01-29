@@ -1097,7 +1097,7 @@
     "href": "assets/resources.html#quarto",
     "title": "References and Helpful Links",
     "section": "Quarto",
-    "text": "Quarto",
+    "text": "Quarto\n\nrevealjs slidecraft: check out these examples by Emil Hvitfeldt\nQuarto guide\nGet started with Quarto",
     "crumbs": [
       "References",
       "Helpful Links"
