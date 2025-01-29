@@ -54,6 +54,8 @@ website:
           file: assets/YS in class.qmd
         - text: "Last assingments"
           file: assets/quarto2.qmd
+        - text: "Works_KN"
+          file: assets/in-class-trial.qmd
       - section: "References"  
         contents: 
       - section: "Example html pages"  
