@@ -14,231 +14,94 @@
     "text": "Back to top"
   },
   {
-    "objectID": "assets/day-4-pres-quarto-website.html#section",
-    "href": "assets/day-4-pres-quarto-website.html#section",
+    "objectID": "assets/in-class-trial.html",
+    "href": "assets/in-class-trial.html",
+    "title": "1 Abstract",
+    "section": "",
+    "text": "1 Abstract\nHere is our awesome document. We will add a figure.\n\n\n2 Introduction\nThe figure will be added in the results section (ISC (2017)).\n\n\n3 Results\n\n\n\n\n\n\n\n\nFigure 1: City and highway mileage for 38 popular models of cars.\n\n\n\n\n\nThe figure will go here (Figure 1).\n\n\n\n Back to topReferences\n\nISC, 2017. Stock assessment and future projections of blue shark in the North Pacific Ocean through 2015 (No. ISC 17 Plenary report and document)."
+  },
+  {
+    "objectID": "assets/day-1-welcome.html#section",
+    "href": "assets/day-1-welcome.html#section",
     "title": "Open Science Workflow Training for ISC",
     "section": "",
-    "text": "Quarto: Creating websites\nMegumi Oshima & Nicholas Ducharme-Barth\nJanuary 2025",
+    "text": "Welcome to ISC Open Science Workshop\nJanuary 2025",
     "crumbs": [
-      "Day 3",
-      "Quarto: Website"
+      "Day 1",
+      "Welcome"
     ]
   },
   {
-    "objectID": "assets/day-4-pres-quarto-website.html#building-a-website",
-    "href": "assets/day-4-pres-quarto-website.html#building-a-website",
+    "objectID": "assets/day-1-welcome.html#introductions",
+    "href": "assets/day-1-welcome.html#introductions",
     "title": "Open Science Workflow Training for ISC",
-    "section": "Building a website",
-    "text": "Building a website\n\nIn addition to being able to produce an array of document types, Quarto can also be used to organize multiple html or revealjs documents into a website.",
+    "section": "Introductions",
+    "text": "Introductions\n Nicholas  Ducharme-Barth\n Meg Oshima",
     "crumbs": [
-      "Day 3",
-      "Quarto: Website"
+      "Day 1",
+      "Welcome"
     ]
   },
   {
-    "objectID": "assets/day-4-pres-quarto-website.html#configuration",
-    "href": "assets/day-4-pres-quarto-website.html#configuration",
+    "objectID": "assets/day-1-welcome.html#workshop-materials",
+    "href": "assets/day-1-welcome.html#workshop-materials",
     "title": "Open Science Workflow Training for ISC",
-    "section": "Configuration",
-    "text": "Configuration\n\nWebsite configuration is controlled by the _quarto.yml file which defines:\n\n\nlayout\nnavigation bar\nsidebar\nsearchbar\ntheme",
+    "section": "Workshop Materials",
+    "text": "Workshop Materials\n\nAll presentations can be found on the workshop website.\n\nhttps://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining\n\nCode can be found in the workshop repository.\n\nhttps://github.com/MOshima-PIFSC/2025-01-ISC-OpenScienceTraining/r-code\n\n\n\n\n\n\n\n\nImportant\n\n\nMake sure you have created a GitHub account before we start.",
     "crumbs": [
-      "Day 3",
-      "Quarto: Website"
+      "Day 1",
+      "Welcome"
     ]
   },
   {
-    "objectID": "assets/day-4-pres-quarto-website.html#configuration-1",
-    "href": "assets/day-4-pres-quarto-website.html#configuration-1",
+    "objectID": "assets/day-1-welcome.html#why-open-science",
+    "href": "assets/day-1-welcome.html#why-open-science",
     "title": "Open Science Workflow Training for ISC",
-    "section": "Configuration",
-    "text": "Configuration\n\n\nproject:\n  type: website\n  resources:\n   - assets/*\n\nwebsite:\n  title: \"Open Science Workflow Training for ISC\"\n  reader-mode: true\n  site-url: \"https://moshima-pifsc.github.io/ISC_OSworkflow_training\" \n  repo-url: \"https://github.com/MOshima-PIFSC/ISC_OSworkflow_training\"\n  repo-actions: [source, issue]\n  search: true\n  back-to-top-navigation: true\n  bread-crumbs: false\n  sidebar:\n    collapse-level: 1\n    style: \"floating\"\n    search: true\n    tools:\n      - icon: github\n        href: https://github.com/MOshima-PIFSC/ISC_OSworkflow_training\n    contents: \n      - text: \"Home\"\n        file: index.qmd\n      - section: \"Day 1\"\n        href: assets/day-1.html\n        contents:\n          - text: \"Github for Collaborative Workflows\"\n            file: assets/day-1-pres-github_basics.qmd\n          - text: \"Codespaces\"\n            file: assets/day-1-pres-codespaces.qmd\n          - text: \"Reproducible environments\"\n            file: assets/day-1-pres-reproducible_environments.qmd\n          - text: \"Modifying Stock Synthesis files\"\n            file: assets/day-1-pres-modify-stock-synthesis.qmd\n          - text: \"Modifying Stock Synthesis files: Part 2\"\n            file: assets/day-1-pres-modify-stock-synthesis_BILLWG.qmd\n      - section: \"Day 2\"\n        href: assets/day-2.html\n        contents:\n          - text: \"Pull requests & code review\"\n            file: assets/day-2-pres-PR-code-review.qmd\n          - text: \"Building a Shiny app\"\n            file: assets/day-2-pres-build-shiny.qmd\n      - section: \"Day 3\"\n        href: assets/day-3.html\n        contents:\n          - text: \"Quarto: Reports and presentations\"\n            file: assets/day-3-pres-quarto.qmd\n      - section: \"Day 4\"\n        href: assets/day-4.html\n        contents:\n          - text: \"Quarto: Creating websites\"\n            file: assets/day-4-pres-quarto-website.qmd\n      - section: \"Group projects\"\n        contents:\n        - text: \"Report template\"\n          file: assets/day-3-report-template.qmd\n      - section: \"Contact us\"\n        contents:\n        - text: \"Nicholas Ducharme-Barth\"\n          file: assets/web-about-nd.qmd\n        - text: \"Megumi Oshima\"\n          file: assets/web-about-mo.qmd\n        - text: \"Michelle Sculley\"\n          file: assets/web-about-ms.qmd\n      - section: \"Support\"\n        contents:\n        - text: \"Submit an issue\"\n          href: https://github.com/MOshima-PIFSC/ISC_OSworkflow_training/issues/new/choose\n\nformat: \n  html:\n    toc: true\n    toc-expand: false\n    theme:\n      - default\n      - assets/customizations/website-custom.scss",
+    "section": "Why Open Science?",
+    "text": "Why Open Science?\n\n\nStandardized workflows and efficiency\n\n\n\n\n\nImprove and support collaboration\n\n\n\n\n\nEnsure our science is truly reproducible\n\n\n\n\n\nProvide tools for sharing and communicating our work",
     "crumbs": [
-      "Day 3",
-      "Quarto: Website"
+      "Day 1",
+      "Welcome"
     ]
   },
   {
-    "objectID": "assets/day-4-pres-quarto-website.html#embedding-an-iframe",
-    "href": "assets/day-4-pres-quarto-website.html#embedding-an-iframe",
+    "objectID": "assets/day-1-welcome.html#topics-we-will-cover",
+    "href": "assets/day-1-welcome.html#topics-we-will-cover",
     "title": "Open Science Workflow Training for ISC",
-    "section": "Embedding an iframe",
-    "text": "Embedding an iframe\n\nhtml or revealjs content can be embedded in an existing html document using an iframe.\n```{=html}\n&lt;iframe width=100% height=200 src=\"../index.html\" style=\"border: 1px solid #323C46; max-height: unset; max-width: unset; box-shadow: 0 0 2rem 0 rgba(0, 0, 0, .5); border-radius: 5px;\"&gt;&lt;/iframe&gt;\n```",
+    "section": "Topics we will cover",
+    "text": "Topics we will cover\n\n\nGitHub for collaboration\n\n\n\n\nCodespaces, VS Code, and reproducible R environments\n\n\n\n\nScript-based model development\n\n\n\n\nCreating Shiny apps\n\n\n\n\nCode review with GitHub\n\n\n\n\nCreating reproducible reports and presentations\n\n\n\n\nCreating websites to share results",
     "crumbs": [
-      "Day 3",
-      "Quarto: Website"
+      "Day 1",
+      "Welcome"
     ]
   },
   {
-    "objectID": "assets/day-4-pres-quarto-website.html#custom-theming",
-    "href": "assets/day-4-pres-quarto-website.html#custom-theming",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Custom theming",
-    "text": "Custom theming\n\n\n\nCustom website and html themes can be defined using Sass\n\nThis is a [custom rule]{.blue}\n\nThis is a custom rule\n\n/*-- scss:defaults --*/\n// Check contrast: https://colourcontrast.cc/\n// define colors\n$website-background: #fafafa;\n$theme-whale-gray: #323C46;\n$theme-midnight-sky: #001743;\n$theme-twilight-sky: #002364;\n$theme-noaa-sky: #003087;\n$theme-noaa-sea: #0085CA;\n$theme-pale-sea: #C6E6F0;\n$theme-dove-gray: #A5AAAF;\n\n// Get fonts: https://fonts.google.com/\n@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');\n\n// define theme colors\n$body-bg: $website-background;\n$body-color: $theme-whale-gray;\n$link-color: $theme-noaa-sea;\n$headings-color: $theme-midnight-sky;\n\n// define theme fonts\n$font-family-sans-serif: 'Montserrat', sans-serif;\n$headings-font-family: 'Roboto Serif', serif;\n$headings-font-weight: 400;\n\n/*-- scss:rules --*/\n\n// add a shortcut for emphasizing text\n.blue {\n  color: $theme-noaa-sky;\n  font-weight: bold;\n}\n\n.hide-text {\n    color: $theme-dove-gray;\n  }\n\n// add underline for hyperlinks\n.reveal .slide a {\n  text-decoration: underline;\n}",
-    "crumbs": [
-      "Day 3",
-      "Quarto: Website"
-    ]
-  },
-  {
-    "objectID": "assets/day-4-pres-quarto-website.html#publishing",
-    "href": "assets/day-4-pres-quarto-website.html#publishing",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Publishing",
-    "text": "Publishing\n\nWebsites can be published to a number of different locations including:\n\n\nGitHub pages\nQuarto pub\nPosit Connect & Posit Cloud",
-    "crumbs": [
-      "Day 3",
-      "Quarto: Website"
-    ]
-  },
-  {
-    "objectID": "assets/day-4-pres-quarto-website.html#setting-up-github-pages",
-    "href": "assets/day-4-pres-quarto-website.html#setting-up-github-pages",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Setting up GitHub Pages",
-    "text": "Setting up GitHub Pages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRemember, use git checkout -b gh-pages to create the branch",
-    "crumbs": [
-      "Day 3",
-      "Quarto: Website"
-    ]
-  },
-  {
-    "objectID": "assets/day-4-pres-quarto-website.html#publishing-to-github-pages",
-    "href": "assets/day-4-pres-quarto-website.html#publishing-to-github-pages",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Publishing to GitHub Pages",
-    "text": "Publishing to GitHub Pages\n\nOnce you have turned on the website and created the gh-pages branch in the repository, you can publish your site with the command (in your terminal)\n\nquarto publish gh-pages",
-    "crumbs": [
-      "Day 3",
-      "Quarto: Website"
-    ]
-  },
-  {
-    "objectID": "assets/day-4-pres-quarto-website.html#resources",
-    "href": "assets/day-4-pres-quarto-website.html#resources",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Resources",
-    "text": "Resources\n\n\nCreating a website\nGitHub Pages\nPublishing Quarto Sites",
-    "crumbs": [
-      "Day 3",
-      "Quarto: Website"
-    ]
-  },
-  {
-    "objectID": "assets/day-4-pres-quarto-website.html#last-group-activity",
-    "href": "assets/day-4-pres-quarto-website.html#last-group-activity",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Last group activity",
-    "text": "Last group activity\n\n\n\nSwitch to your own branch\nEdit the _quarto.yml file to add your Quarto document under the Group projects section\nCommit your changes and we will work together to merge them into the main branch",
-    "crumbs": [
-      "Day 3",
-      "Quarto: Website"
-    ]
-  },
-  {
-    "objectID": "assets/report-example.html",
-    "href": "assets/report-example.html",
-    "title": "Report template",
+    "objectID": "assets/example-basic-html.html",
+    "href": "assets/example-basic-html.html",
+    "title": "Basic document",
     "section": "",
-    "text": "Code-folding\nWe can visualize the mpg dataset for common cars…\n\n\nShow the code to plot the mpg dataset.\nlibrary(ggplot2)\n\nggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +\n  geom_point(alpha = 0.5, size = 2) +\n  scale_color_viridis_c() +\n  theme_minimal()\n\n\n\n\nPanel-tabset\n… and explore the relationship between highway fuel consumption and the number of cylinders.\n\nPlotData subset\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n# A tibble: 6 × 11\n  manufacturer model displ  year   cyl trans      drv     cty   hwy fl    class \n  &lt;chr&gt;        &lt;chr&gt; &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt;      &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt; \n1 audi         a4      1.8  1999     4 auto(l5)   f        18    29 p     compa…\n2 audi         a4      1.8  1999     4 manual(m5) f        21    29 p     compa…\n3 audi         a4      2    2008     4 manual(m6) f        20    31 p     compa…\n4 audi         a4      2    2008     4 auto(av)   f        21    30 p     compa…\n5 audi         a4      2.8  1999     6 auto(l5)   f        16    26 p     compa…\n6 audi         a4      2.8  1999     6 manual(m5) f        18    26 p     compa…\n\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "Make different documents by changing the format!"
   },
   {
-    "objectID": "assets/day-1-pres-codespaces.html#section",
-    "href": "assets/day-1-pres-codespaces.html#section",
-    "title": "Open Science Workflow Training for ISC",
+    "objectID": "assets/example-basic-html.html#quarto",
+    "href": "assets/example-basic-html.html#quarto",
+    "title": "Basic document",
     "section": "",
-    "text": "Codespaces and VS Code\nMegumi Oshima & Nicholas Ducharme-Barth\nJanuary 2025",
-    "crumbs": [
-      "Day 1",
-      "Codespaces and VS Code"
-    ]
+    "text": "Make different documents by changing the format!"
   },
   {
-    "objectID": "assets/day-1-pres-codespaces.html#what-is-codespaces",
-    "href": "assets/day-1-pres-codespaces.html#what-is-codespaces",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "What is Codespaces?",
-    "text": "What is Codespaces?\n\n\nDevelopment environment that is hosted in the cloud on GitHub.com\n\n\n\n\n\nYou control the specs of the machine!\n\n\n\n\n\nConnected to your repository",
-    "crumbs": [
-      "Day 1",
-      "Codespaces and VS Code"
-    ]
+    "objectID": "assets/example-basic-html.html#code",
+    "href": "assets/example-basic-html.html#code",
+    "title": "Basic document",
+    "section": "Code",
+    "text": "Code\nIncorporate code into your work …\n\nx = 1 + 1\n\n… and report the computations later \\(x =\\) 2."
   },
   {
-    "objectID": "assets/day-1-pres-codespaces.html#why-use-it",
-    "href": "assets/day-1-pres-codespaces.html#why-use-it",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Why use it?",
-    "text": "Why use it?\n\n\n\nContainerized environment\n\nAnyone using it is working in the same environment\n\nSame OS\n\nSame software\n\nSame package versions\n\n\n\n\n“It works on my computer!”",
-    "crumbs": [
-      "Day 1",
-      "Codespaces and VS Code"
-    ]
-  },
-  {
-    "objectID": "assets/day-1-pres-codespaces.html#when-should-i-use-codespaces",
-    "href": "assets/day-1-pres-codespaces.html#when-should-i-use-codespaces",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "When should I use codespaces?",
-    "text": "When should I use codespaces?\n\n\nWorkshops/Trainings\n\nReviews\n\nDeveloping packages or software\n\nTraveling\n\nCan’t install certain software onto your computer",
-    "crumbs": [
-      "Day 1",
-      "Codespaces and VS Code"
-    ]
-  },
-  {
-    "objectID": "assets/day-1-pres-codespaces.html#set-up",
-    "href": "assets/day-1-pres-codespaces.html#set-up",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Set Up",
-    "text": "Set Up\nTo set up a Codespace,\n\n\nCreate a .devcontainer folder inside your repository\n\n\n\n\n\nAdd a devcontainer.json file to that folder\n\n\n\n\n\nSet up devcontainer.json how you like (packages, software, extensions, etc.)\n\n\n\n\n\nAdd a setup.r file if needed\n\n\n\n\nSee the devcontainer.json we are using here",
-    "crumbs": [
-      "Day 1",
-      "Codespaces and VS Code"
-    ]
-  },
-  {
-    "objectID": "assets/day-1-pres-codespaces.html#spin-up-the-codespace",
-    "href": "assets/day-1-pres-codespaces.html#spin-up-the-codespace",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Spin up the Codespace",
-    "text": "Spin up the Codespace\nOn the main page of the repository, “Code” -&gt; “Create codespace on main”",
-    "crumbs": [
-      "Day 1",
-      "Codespaces and VS Code"
-    ]
-  },
-  {
-    "objectID": "assets/day-1-pres-codespaces.html#vs-code",
-    "href": "assets/day-1-pres-codespaces.html#vs-code",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "VS Code",
-    "text": "VS Code\nVS Code is a free IDE software used for writing and running code",
-    "crumbs": [
-      "Day 1",
-      "Codespaces and VS Code"
-    ]
-  },
-  {
-    "objectID": "assets/day-1-pres-codespaces.html#navigating-around",
-    "href": "assets/day-1-pres-codespaces.html#navigating-around",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Navigating around",
-    "text": "Navigating around\n\n\n\n\n\n\n\n\n File explorer\n\n\n\n\n\n\n\n\n\n\n\n Git Integration\n\n\n\n\n\n\n\n\n\n\n Extensions\n\n\n\n\n\n\n\n\n\n\n R environment\n\n\n\n\n\n\nCommand Palette\n\n\n\n\n\n\n\n\n\n\nTerminal",
-    "crumbs": [
-      "Day 1",
-      "Codespaces and VS Code"
-    ]
-  },
-  {
-    "objectID": "assets/day-1-pres-codespaces.html#activity",
-    "href": "assets/day-1-pres-codespaces.html#activity",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Activity",
-    "text": "Activity\n\nCreate a new branch from the main branch\ngit checkout -b new-branch-name\nAdd your name to the list of participants in the README.md file.\nSave your change, commit, and push to your branch.\n\n\n    git add README.md  \n    git commit -m \"add descriptive message here\"  \n    git push origin new-branch-name",
-    "crumbs": [
-      "Day 1",
-      "Codespaces and VS Code"
-    ]
+    "objectID": "assets/example-basic-html.html#make-plots",
+    "href": "assets/example-basic-html.html#make-plots",
+    "title": "Basic document",
+    "section": "Make plots",
+    "text": "Make plots\nEven insert figures:\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +\n  geom_point(alpha = 0.5, size = 2) +\n  scale_color_viridis_c() +\n  theme_minimal()\n\n\n\n\n\n\n\nFigure 1: City and highway mileage for 38 popular models of cars."
   },
   {
     "objectID": "assets/day-1-modify-stock-synthesis.html",
@@ -398,6 +261,349 @@
     ]
   },
   {
+    "objectID": "assets/day-2-pres-PR-code-review.html#section",
+    "href": "assets/day-2-pres-PR-code-review.html#section",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Pull Requests and Code Review\nMegumi Oshima & Nicholas Ducharme-Barth\nJanuary 2025"
+  },
+  {
+    "objectID": "assets/day-2-pres-PR-code-review.html#section-1",
+    "href": "assets/day-2-pres-PR-code-review.html#section-1",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "So far we have:\n\n\n\nCreated branches for each group to work separately\n\n\n\n\n\n\n\nEach group has modified the Stock Synthesis models\n\n\n\n\n\n\nNext we want to:\n\n\n\nAggregate all of the model runs into the main branch\n\n\n\n\n\nProduce some visualizations of the results"
+  },
+  {
+    "objectID": "assets/day-2-pres-PR-code-review.html#pull-requests",
+    "href": "assets/day-2-pres-PR-code-review.html#pull-requests",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Pull Requests",
+    "text": "Pull Requests\n\n\n\n\n\n\n\n\nmainbuild_modelgrowth_curveAdd initial filesDevelop base modelFinalize base modelChange growth curveCheck new growth curveFinal model report"
+  },
+  {
+    "objectID": "assets/day-2-pres-PR-code-review.html#pull-requests-1",
+    "href": "assets/day-2-pres-PR-code-review.html#pull-requests-1",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Pull Requests",
+    "text": "Pull Requests\n\n\n\nIn the repository go to “Pull requests” and select which branches you want to merge"
+  },
+  {
+    "objectID": "assets/day-2-pres-PR-code-review.html#pull-requests-2",
+    "href": "assets/day-2-pres-PR-code-review.html#pull-requests-2",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Pull Requests",
+    "text": "Pull Requests\n\n\n\n\n\n\n\n\n\n\n\nCan see the dif view of changes in the file, if the code passes checks and tests set up, what commits are associated with this PR, add comments to the PR\n\n\n\n\n\n\n\n\n\n\n\n\n\nRed lines show deleted code\nGreen lines show added code\n\n\n\n\n\n\n\n\n\n\nCan add a review of the changes"
+  },
+  {
+    "objectID": "assets/day-2-pres-PR-code-review.html#more-complicated-situation-merge-conflicts",
+    "href": "assets/day-2-pres-PR-code-review.html#more-complicated-situation-merge-conflicts",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "More complicated situation: Merge Conflicts",
+    "text": "More complicated situation: Merge Conflicts\nMerge conflicts happen when you merge 2 branches that have competing commits"
+  },
+  {
+    "objectID": "assets/day-2-pres-PR-code-review.html#merge-conflicts",
+    "href": "assets/day-2-pres-PR-code-review.html#merge-conflicts",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Merge Conflicts",
+    "text": "Merge Conflicts\n\n\n2 ways to resolve them\n\n\n\n\n\nGitHub\n\n\n\n\n\n\nLocally"
+  },
+  {
+    "objectID": "assets/day-3.html",
+    "href": "assets/day-3.html",
+    "title": "Day 3",
+    "section": "",
+    "text": "Presentation slides for Quarto: Reports and presentations.\n    View slides in full screen\n       \n      \n    \n  \n\n    View slides in full screen\n       \n      \n    \n  \n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n Back to top",
+    "crumbs": [
+      "Day 3"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-gh-pages.html#setting-up-github-pages",
+    "href": "assets/day-4-gh-pages.html#setting-up-github-pages",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Setting up GitHub Pages",
+    "text": "Setting up GitHub Pages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRemember, use git checkout -b gh-pages to create the branch",
+    "crumbs": [
+      "Day 3",
+      "GitHub pages"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-gh-pages.html#publishing-to-github-pages",
+    "href": "assets/day-4-gh-pages.html#publishing-to-github-pages",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Publishing to GitHub Pages",
+    "text": "Publishing to GitHub Pages\n\nOnce you have turned on the website and created the gh-pages branch in the repository, you can publish your site with the command (in your terminal)\n\nquarto publish gh-pages",
+    "crumbs": [
+      "Day 3",
+      "GitHub pages"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-gh-pages.html#resources",
+    "href": "assets/day-4-gh-pages.html#resources",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Resources",
+    "text": "Resources\nGitHub Pages\nPublishing Quarto Sites",
+    "crumbs": [
+      "Day 3",
+      "GitHub pages"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This repository contains materials for the ISC Open Science Workflows workshops held in Yokohama, Japan in January 2025.\nView slides in full screen",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#workshop-schedule",
+    "href": "index.html#workshop-schedule",
+    "title": "Home",
+    "section": "Workshop Schedule",
+    "text": "Workshop Schedule\nThe schedule for the 3-day workshop is: (note this is flexible and will be updated at the end of each day)\n\nDay 1\n\n\n\nTime\nModule\n\n\n\n\n14:00-14:15\nWelcome and introductions\n\n\n14:15-15:45\nGitHub for Collaborative Workflows\n\n\n15:45-16:15\nCodespaces and VSCode\n\n\n16:15-16:30\nBreak\n\n\n16:30-16:45\nReproducible Environments\n\n\n16:45-17:00\nWrap up\n\n\n\n\n\nDay 2\n\n\n\nTime\nModule\n\n\n\n\n14:00-14:30\nScript-based analysis\n\n\n14:30-15:15\nGroup work\n\n\n15:15-15:30\nBreak\n\n\n15:30-15:45\nPull Requests and Code Review\n\n\n15:45-16:30\nShiny App\n\n\n16:30-17:00\nGroup work, wrap up\n\n\n\n\n\nDay 3\n\n\n\nTime\nModule\n\n\n\n\n14:00-15:00\nQuarto Reports and Presentations\n\n\n15:00-15:15\nBreak\n\n\n15:15-15:45\nQuarto Website\n\n\n15:45-17:00\nGroup work, wrap up",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "r-code/MO_Info_file.html",
+    "href": "r-code/MO_Info_file.html",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Meg Oshima"
+  },
+  {
+    "objectID": "r-code/MO_Info_file.html#name",
+    "href": "r-code/MO_Info_file.html#name",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Meg Oshima"
+  },
+  {
+    "objectID": "r-code/MO_Info_file.html#species-of-interest",
+    "href": "r-code/MO_Info_file.html#species-of-interest",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Species of interest",
+    "text": "Species of interest"
+  },
+  {
+    "objectID": "r-code/MO_Info_file.html#most-used-function",
+    "href": "r-code/MO_Info_file.html#most-used-function",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Most used function",
+    "text": "Most used function\nhead(dataframe)"
+  },
+  {
+    "objectID": "r-code/MO_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
+    "href": "r-code/MO_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Three things we want to learn from this workshop",
+    "text": "Three things we want to learn from this workshop\n\nnumbered\n\n\nbullets\n\nto do"
+  },
+  {
+    "objectID": "r-code/MK_info_file.html",
+    "href": "r-code/MK_info_file.html",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Mikihiko Kai"
+  },
+  {
+    "objectID": "r-code/MK_info_file.html#name",
+    "href": "r-code/MK_info_file.html#name",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Mikihiko Kai"
+  },
+  {
+    "objectID": "r-code/MK_info_file.html#species-of-interest",
+    "href": "r-code/MK_info_file.html#species-of-interest",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Species of interest",
+    "text": "Species of interest\n\n\n\nBlue shark"
+  },
+  {
+    "objectID": "r-code/MK_info_file.html#most-used-function",
+    "href": "r-code/MK_info_file.html#most-used-function",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Most used function",
+    "text": "Most used function\nview()"
+  },
+  {
+    "objectID": "r-code/MK_info_file.html#three-things-we-want-to-learn-from-this-workshop",
+    "href": "r-code/MK_info_file.html#three-things-we-want-to-learn-from-this-workshop",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Three things we want to learn from this workshop",
+    "text": "Three things we want to learn from this workshop\n\ngit clone\ngit init\ngit add\ngit push\ngit pull etc."
+  },
+  {
+    "objectID": "r-code/Group_info_template.html",
+    "href": "r-code/Group_info_template.html",
+    "title": "Group",
+    "section": "",
+    "text": "(add list of members and their affiliations)\n\n\n\n(insert figure here)\n\n\n\n(insert a code chunk here)\n\n\n\n(insert task list (with check boxes) of at least 3 things)"
+  },
+  {
+    "objectID": "r-code/Group_info_template.html#members",
+    "href": "r-code/Group_info_template.html#members",
+    "title": "Group",
+    "section": "",
+    "text": "(add list of members and their affiliations)"
+  },
+  {
+    "objectID": "r-code/Group_info_template.html#species-of-interest",
+    "href": "r-code/Group_info_template.html#species-of-interest",
+    "title": "Group",
+    "section": "",
+    "text": "(insert figure here)"
+  },
+  {
+    "objectID": "r-code/Group_info_template.html#most-used-function",
+    "href": "r-code/Group_info_template.html#most-used-function",
+    "title": "Group",
+    "section": "",
+    "text": "(insert a code chunk here)"
+  },
+  {
+    "objectID": "r-code/Group_info_template.html#three-things-we-want-to-learn-from-this-workshop",
+    "href": "r-code/Group_info_template.html#three-things-we-want-to-learn-from-this-workshop",
+    "title": "Group",
+    "section": "",
+    "text": "(insert task list (with check boxes) of at least 3 things)"
+  },
+  {
+    "objectID": "r-code/KN_Info_file.html",
+    "href": "r-code/KN_Info_file.html",
+    "title": "Group",
+    "section": "",
+    "text": "Kirara Nishikawa\n\n\n\n\n\n\nPacific Bluefin Tuna\n\n\n\n\n\njoin_full(dataframe)\n\n\n\n\nchanging the models smoothly\nhandling the dataset nicely\nsharing the project with no stress"
+  },
+  {
+    "objectID": "r-code/KN_Info_file.html#members",
+    "href": "r-code/KN_Info_file.html#members",
+    "title": "Group",
+    "section": "",
+    "text": "Kirara Nishikawa"
+  },
+  {
+    "objectID": "r-code/KN_Info_file.html#species-of-interest",
+    "href": "r-code/KN_Info_file.html#species-of-interest",
+    "title": "Group",
+    "section": "",
+    "text": "Pacific Bluefin Tuna"
+  },
+  {
+    "objectID": "r-code/KN_Info_file.html#most-used-function",
+    "href": "r-code/KN_Info_file.html#most-used-function",
+    "title": "Group",
+    "section": "",
+    "text": "join_full(dataframe)"
+  },
+  {
+    "objectID": "r-code/KN_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
+    "href": "r-code/KN_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
+    "title": "Group",
+    "section": "",
+    "text": "changing the models smoothly\nhandling the dataset nicely\nsharing the project with no stress"
+  },
+  {
+    "objectID": "r-code/YS_Info_file.html",
+    "href": "r-code/YS_Info_file.html",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Yasuko Semba"
+  },
+  {
+    "objectID": "r-code/YS_Info_file.html#names",
+    "href": "r-code/YS_Info_file.html#names",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Yasuko Semba"
+  },
+  {
+    "objectID": "r-code/YS_Info_file.html#species-of-interest",
+    "href": "r-code/YS_Info_file.html#species-of-interest",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Species of interest",
+    "text": "Species of interest\n\n\n\nIsurus oxyrinchus"
+  },
+  {
+    "objectID": "r-code/YS_Info_file.html#most-used-functions",
+    "href": "r-code/YS_Info_file.html#most-used-functions",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Most used functions",
+    "text": "Most used functions\nstr(dataset)"
+  },
+  {
+    "objectID": "r-code/YS_Info_file.html#three-thins-we-want-to-learn-from-this-ws",
+    "href": "r-code/YS_Info_file.html#three-thins-we-want-to-learn-from-this-ws",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Three thins we want to learn from this WS",
+    "text": "Three thins we want to learn from this WS\n\nnumbered\n\nbullets\n\n\n\n\nto do"
+  },
+  {
+    "objectID": "MO_Info_file.html",
+    "href": "MO_Info_file.html",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Yasuko Semba"
+  },
+  {
+    "objectID": "MO_Info_file.html#name",
+    "href": "MO_Info_file.html#name",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Yasuko Semba"
+  },
+  {
+    "objectID": "MO_Info_file.html#species",
+    "href": "MO_Info_file.html#species",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Species",
+    "text": "Species\n\n\n\nShortfin mako\n\n\n#Most used function str(dataset)\n##Three things we want to learn from this WS 1. numbered *bullets - [x] to do"
+  },
+  {
+    "objectID": "assets/references.html",
+    "href": "assets/references.html",
+    "title": "References and Helpful Links",
+    "section": "",
+    "text": "Here we are providing the links the we included in our presentations and some additional ones that may be useful for understanding the topics covered in this training.\nWe have also put together this cheatsheet with some highlights of code you will use over the course of the training."
+  },
+  {
+    "objectID": "assets/references.html#git-and-github",
+    "href": "assets/references.html#git-and-github",
+    "title": "References and Helpful Links",
+    "section": "Git and GitHub",
+    "text": "Git and GitHub\n\nGitHub Documentation - official documentation for everything GitHub related\n\nGitHub Skills - interactive modules to learn how to use GitHub\n\nOfficial GitHub Training Manual - provides guidance for how to use GitHub for code development (English and Japanese versions available)"
+  },
+  {
+    "objectID": "assets/references.html#codespaces",
+    "href": "assets/references.html#codespaces",
+    "title": "References and Helpful Links",
+    "section": "Codespaces",
+    "text": "Codespaces\n\nCodespaces Overview - a high-level overview of what codespaces is\n\nQuickstart for GitHub Codespaces - how to get started quickly with Codespaces\n\nCodespace Templates - pre-made Codespace templates you can use/build off"
+  },
+  {
+    "objectID": "assets/references.html#vs-code",
+    "href": "assets/references.html#vs-code",
+    "title": "References and Helpful Links",
+    "section": "VS Code",
+    "text": "VS Code"
+  },
+  {
+    "objectID": "assets/references.html#reproducible-environments",
+    "href": "assets/references.html#reproducible-environments",
+    "title": "References and Helpful Links",
+    "section": "Reproducible Environments",
+    "text": "Reproducible Environments\n\nrenv - website for the R package\nIntroduction to renv - introduces the basics of a renv workflow\n\nUsing renv in GitHub Actions - how to use renv in automatic workflows like GitHub Actions"
+  },
+  {
     "objectID": "assets/day-1-pres-reproducible_environments.html#section",
     "href": "assets/day-1-pres-reproducible_environments.html#section",
     "title": "Open Science Workflow Training for ISC",
@@ -541,347 +747,11 @@
     ]
   },
   {
-    "objectID": "assets/references.html",
-    "href": "assets/references.html",
-    "title": "References and Helpful Links",
+    "objectID": "assets/YS in class.html",
+    "href": "assets/YS in class.html",
+    "title": "Abstract",
     "section": "",
-    "text": "Here we are providing the links the we included in our presentations and some additional ones that may be useful for understanding the topics covered in this training.\nWe have also put together this cheatsheet with some highlights of code you will use over the course of the training."
-  },
-  {
-    "objectID": "assets/references.html#git-and-github",
-    "href": "assets/references.html#git-and-github",
-    "title": "References and Helpful Links",
-    "section": "Git and GitHub",
-    "text": "Git and GitHub\n\nGitHub Documentation - official documentation for everything GitHub related\n\nGitHub Skills - interactive modules to learn how to use GitHub\n\nOfficial GitHub Training Manual - provides guidance for how to use GitHub for code development (English and Japanese versions available)"
-  },
-  {
-    "objectID": "assets/references.html#codespaces",
-    "href": "assets/references.html#codespaces",
-    "title": "References and Helpful Links",
-    "section": "Codespaces",
-    "text": "Codespaces\n\nCodespaces Overview - a high-level overview of what codespaces is\n\nQuickstart for GitHub Codespaces - how to get started quickly with Codespaces\n\nCodespace Templates - pre-made Codespace templates you can use/build off"
-  },
-  {
-    "objectID": "assets/references.html#vs-code",
-    "href": "assets/references.html#vs-code",
-    "title": "References and Helpful Links",
-    "section": "VS Code",
-    "text": "VS Code"
-  },
-  {
-    "objectID": "assets/references.html#reproducible-environments",
-    "href": "assets/references.html#reproducible-environments",
-    "title": "References and Helpful Links",
-    "section": "Reproducible Environments",
-    "text": "Reproducible Environments\n\nrenv - website for the R package\nIntroduction to renv - introduces the basics of a renv workflow\n\nUsing renv in GitHub Actions - how to use renv in automatic workflows like GitHub Actions"
-  },
-  {
-    "objectID": "MO_Info_file.html",
-    "href": "MO_Info_file.html",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Yasuko Semba"
-  },
-  {
-    "objectID": "MO_Info_file.html#name",
-    "href": "MO_Info_file.html#name",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Yasuko Semba"
-  },
-  {
-    "objectID": "MO_Info_file.html#species",
-    "href": "MO_Info_file.html#species",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Species",
-    "text": "Species\n\n\n\nShortfin mako\n\n\n#Most used function str(dataset)\n##Three things we want to learn from this WS 1. numbered *bullets - [x] to do"
-  },
-  {
-    "objectID": "r-code/YS_Info_file.html",
-    "href": "r-code/YS_Info_file.html",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Yasuko Semba"
-  },
-  {
-    "objectID": "r-code/YS_Info_file.html#names",
-    "href": "r-code/YS_Info_file.html#names",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Yasuko Semba"
-  },
-  {
-    "objectID": "r-code/YS_Info_file.html#species-of-interest",
-    "href": "r-code/YS_Info_file.html#species-of-interest",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Species of interest",
-    "text": "Species of interest\n\n\n\nIsurus oxyrinchus"
-  },
-  {
-    "objectID": "r-code/YS_Info_file.html#most-used-functions",
-    "href": "r-code/YS_Info_file.html#most-used-functions",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Most used functions",
-    "text": "Most used functions\nstr(dataset)"
-  },
-  {
-    "objectID": "r-code/YS_Info_file.html#three-thins-we-want-to-learn-from-this-ws",
-    "href": "r-code/YS_Info_file.html#three-thins-we-want-to-learn-from-this-ws",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Three thins we want to learn from this WS",
-    "text": "Three thins we want to learn from this WS\n\nnumbered\n\nbullets\n\n\n\n\nto do"
-  },
-  {
-    "objectID": "r-code/KN_Info_file.html",
-    "href": "r-code/KN_Info_file.html",
-    "title": "Group",
-    "section": "",
-    "text": "Kirara Nishikawa\n\n\n\n\n\n\nPacific Bluefin Tuna\n\n\n\n\n\njoin_full(dataframe)\n\n\n\n\nchanging the models smoothly\nhandling the dataset nicely\nsharing the project with no stress"
-  },
-  {
-    "objectID": "r-code/KN_Info_file.html#members",
-    "href": "r-code/KN_Info_file.html#members",
-    "title": "Group",
-    "section": "",
-    "text": "Kirara Nishikawa"
-  },
-  {
-    "objectID": "r-code/KN_Info_file.html#species-of-interest",
-    "href": "r-code/KN_Info_file.html#species-of-interest",
-    "title": "Group",
-    "section": "",
-    "text": "Pacific Bluefin Tuna"
-  },
-  {
-    "objectID": "r-code/KN_Info_file.html#most-used-function",
-    "href": "r-code/KN_Info_file.html#most-used-function",
-    "title": "Group",
-    "section": "",
-    "text": "join_full(dataframe)"
-  },
-  {
-    "objectID": "r-code/KN_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
-    "href": "r-code/KN_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
-    "title": "Group",
-    "section": "",
-    "text": "changing the models smoothly\nhandling the dataset nicely\nsharing the project with no stress"
-  },
-  {
-    "objectID": "r-code/Group_info_template.html",
-    "href": "r-code/Group_info_template.html",
-    "title": "Group",
-    "section": "",
-    "text": "(add list of members and their affiliations)\n\n\n\n(insert figure here)\n\n\n\n(insert a code chunk here)\n\n\n\n(insert task list (with check boxes) of at least 3 things)"
-  },
-  {
-    "objectID": "r-code/Group_info_template.html#members",
-    "href": "r-code/Group_info_template.html#members",
-    "title": "Group",
-    "section": "",
-    "text": "(add list of members and their affiliations)"
-  },
-  {
-    "objectID": "r-code/Group_info_template.html#species-of-interest",
-    "href": "r-code/Group_info_template.html#species-of-interest",
-    "title": "Group",
-    "section": "",
-    "text": "(insert figure here)"
-  },
-  {
-    "objectID": "r-code/Group_info_template.html#most-used-function",
-    "href": "r-code/Group_info_template.html#most-used-function",
-    "title": "Group",
-    "section": "",
-    "text": "(insert a code chunk here)"
-  },
-  {
-    "objectID": "r-code/Group_info_template.html#three-things-we-want-to-learn-from-this-workshop",
-    "href": "r-code/Group_info_template.html#three-things-we-want-to-learn-from-this-workshop",
-    "title": "Group",
-    "section": "",
-    "text": "(insert task list (with check boxes) of at least 3 things)"
-  },
-  {
-    "objectID": "r-code/MK_info_file.html",
-    "href": "r-code/MK_info_file.html",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Mikihiko Kai"
-  },
-  {
-    "objectID": "r-code/MK_info_file.html#name",
-    "href": "r-code/MK_info_file.html#name",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Mikihiko Kai"
-  },
-  {
-    "objectID": "r-code/MK_info_file.html#species-of-interest",
-    "href": "r-code/MK_info_file.html#species-of-interest",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Species of interest",
-    "text": "Species of interest\n\n\n\nBlue shark"
-  },
-  {
-    "objectID": "r-code/MK_info_file.html#most-used-function",
-    "href": "r-code/MK_info_file.html#most-used-function",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Most used function",
-    "text": "Most used function\nview()"
-  },
-  {
-    "objectID": "r-code/MK_info_file.html#three-things-we-want-to-learn-from-this-workshop",
-    "href": "r-code/MK_info_file.html#three-things-we-want-to-learn-from-this-workshop",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Three things we want to learn from this workshop",
-    "text": "Three things we want to learn from this workshop\n\ngit clone\ngit init\ngit add\ngit push\ngit pull etc."
-  },
-  {
-    "objectID": "r-code/MO_Info_file.html",
-    "href": "r-code/MO_Info_file.html",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Meg Oshima"
-  },
-  {
-    "objectID": "r-code/MO_Info_file.html#name",
-    "href": "r-code/MO_Info_file.html#name",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Meg Oshima"
-  },
-  {
-    "objectID": "r-code/MO_Info_file.html#species-of-interest",
-    "href": "r-code/MO_Info_file.html#species-of-interest",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Species of interest",
-    "text": "Species of interest"
-  },
-  {
-    "objectID": "r-code/MO_Info_file.html#most-used-function",
-    "href": "r-code/MO_Info_file.html#most-used-function",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Most used function",
-    "text": "Most used function\nhead(dataframe)"
-  },
-  {
-    "objectID": "r-code/MO_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
-    "href": "r-code/MO_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Three things we want to learn from this workshop",
-    "text": "Three things we want to learn from this workshop\n\nnumbered\n\n\nbullets\n\nto do"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "This repository contains materials for the ISC Open Science Workflows workshops held in Yokohama, Japan in January 2025.\nView slides in full screen",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#workshop-schedule",
-    "href": "index.html#workshop-schedule",
-    "title": "Home",
-    "section": "Workshop Schedule",
-    "text": "Workshop Schedule\nThe schedule for the 3-day workshop is: (note this is flexible and will be updated at the end of each day)\n\nDay 1\n\n\n\nTime\nModule\n\n\n\n\n14:00-14:15\nWelcome and introductions\n\n\n14:15-15:45\nGitHub for Collaborative Workflows\n\n\n15:45-16:15\nCodespaces and VSCode\n\n\n16:15-16:30\nBreak\n\n\n16:30-16:45\nReproducible Environments\n\n\n16:45-17:00\nWrap up\n\n\n\n\n\nDay 2\n\n\n\nTime\nModule\n\n\n\n\n14:00-14:30\nScript-based analysis\n\n\n14:30-15:15\nGroup work\n\n\n15:15-15:30\nBreak\n\n\n15:30-15:45\nPull Requests and Code Review\n\n\n15:45-16:30\nShiny App\n\n\n16:30-17:00\nGroup work, wrap up\n\n\n\n\n\nDay 3\n\n\n\nTime\nModule\n\n\n\n\n14:00-15:00\nQuarto Reports and Presentations\n\n\n15:00-15:15\nBreak\n\n\n15:15-15:45\nQuarto Website\n\n\n15:45-17:00\nGroup work, wrap up",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "assets/day-4-gh-pages.html#setting-up-github-pages",
-    "href": "assets/day-4-gh-pages.html#setting-up-github-pages",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Setting up GitHub Pages",
-    "text": "Setting up GitHub Pages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRemember, use git checkout -b gh-pages to create the branch",
-    "crumbs": [
-      "Day 3",
-      "GitHub pages"
-    ]
-  },
-  {
-    "objectID": "assets/day-4-gh-pages.html#publishing-to-github-pages",
-    "href": "assets/day-4-gh-pages.html#publishing-to-github-pages",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Publishing to GitHub Pages",
-    "text": "Publishing to GitHub Pages\n\nOnce you have turned on the website and created the gh-pages branch in the repository, you can publish your site with the command (in your terminal)\n\nquarto publish gh-pages",
-    "crumbs": [
-      "Day 3",
-      "GitHub pages"
-    ]
-  },
-  {
-    "objectID": "assets/day-4-gh-pages.html#resources",
-    "href": "assets/day-4-gh-pages.html#resources",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Resources",
-    "text": "Resources\nGitHub Pages\nPublishing Quarto Sites",
-    "crumbs": [
-      "Day 3",
-      "GitHub pages"
-    ]
-  },
-  {
-    "objectID": "assets/day-3.html",
-    "href": "assets/day-3.html",
-    "title": "Day 3",
-    "section": "",
-    "text": "Presentation slides for Quarto: Reports and presentations.\n    View slides in full screen\n       \n      \n    \n  \n\n    View slides in full screen\n       \n      \n    \n  \n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n Back to top",
-    "crumbs": [
-      "Day 3"
-    ]
-  },
-  {
-    "objectID": "assets/day-2-pres-PR-code-review.html#section",
-    "href": "assets/day-2-pres-PR-code-review.html#section",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Pull Requests and Code Review\nMegumi Oshima & Nicholas Ducharme-Barth\nJanuary 2025"
-  },
-  {
-    "objectID": "assets/day-2-pres-PR-code-review.html#section-1",
-    "href": "assets/day-2-pres-PR-code-review.html#section-1",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "So far we have:\n\n\n\nCreated branches for each group to work separately\n\n\n\n\n\n\n\nEach group has modified the Stock Synthesis models\n\n\n\n\n\n\nNext we want to:\n\n\n\nAggregate all of the model runs into the main branch\n\n\n\n\n\nProduce some visualizations of the results"
-  },
-  {
-    "objectID": "assets/day-2-pres-PR-code-review.html#pull-requests",
-    "href": "assets/day-2-pres-PR-code-review.html#pull-requests",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Pull Requests",
-    "text": "Pull Requests\n\n\n\n\n\n\n\n\nmainbuild_modelgrowth_curveAdd initial filesDevelop base modelFinalize base modelChange growth curveCheck new growth curveFinal model report"
-  },
-  {
-    "objectID": "assets/day-2-pres-PR-code-review.html#pull-requests-1",
-    "href": "assets/day-2-pres-PR-code-review.html#pull-requests-1",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Pull Requests",
-    "text": "Pull Requests\n\n\n\nIn the repository go to “Pull requests” and select which branches you want to merge"
-  },
-  {
-    "objectID": "assets/day-2-pres-PR-code-review.html#pull-requests-2",
-    "href": "assets/day-2-pres-PR-code-review.html#pull-requests-2",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Pull Requests",
-    "text": "Pull Requests\n\n\n\n\n\n\n\n\n\n\n\nCan see the dif view of changes in the file, if the code passes checks and tests set up, what commits are associated with this PR, add comments to the PR\n\n\n\n\n\n\n\n\n\n\n\n\n\nRed lines show deleted code\nGreen lines show added code\n\n\n\n\n\n\n\n\n\n\nCan add a review of the changes"
-  },
-  {
-    "objectID": "assets/day-2-pres-PR-code-review.html#more-complicated-situation-merge-conflicts",
-    "href": "assets/day-2-pres-PR-code-review.html#more-complicated-situation-merge-conflicts",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "More complicated situation: Merge Conflicts",
-    "text": "More complicated situation: Merge Conflicts\nMerge conflicts happen when you merge 2 branches that have competing commits"
-  },
-  {
-    "objectID": "assets/day-2-pres-PR-code-review.html#merge-conflicts",
-    "href": "assets/day-2-pres-PR-code-review.html#merge-conflicts",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Merge Conflicts",
-    "text": "Merge Conflicts\n\n\n2 ways to resolve them\n\n\n\n\n\nGitHub\n\n\n\n\n\n\nLocally"
+    "text": "Abstract\nHere is our awesome document. We will add a figure.\n\n\nIntroduction\nThe figure will be added in the results section (ISC (2017)).\n\n\nMaterials and Methods\n　北太平洋のアオザメのconceptual modelを構築するために、気仙沼近海船が水揚げした個体のサイズデータを分析した。\n\nData filtering\nPCL estimation\nStatistical modelling\n\n\n\nResults\n\n\n\n\n\n\n\n\nFigure 1: City and highway mileage for 38 popular models of cars.\n\n\n\n\n\nThe figure will go here (Figure 1).\n\n\n\n Back to topReferences\n\nISC. 2017. “Stock Assessment and Future Projections of Blue Shark in the North Pacific Ocean Through 2015.” ISC 17 Plenary report and document."
   },
   {
     "objectID": "assets/day-1-pres-modify-stock-synthesis.html#section",
@@ -1324,86 +1194,237 @@
     ]
   },
   {
-    "objectID": "assets/example-basic-html.html",
-    "href": "assets/example-basic-html.html",
-    "title": "Basic document",
+    "objectID": "assets/quarto2.html",
+    "href": "assets/quarto2.html",
+    "title": "1 Abstract",
     "section": "",
-    "text": "Make different documents by changing the format!"
+    "text": "1 Abstract\nHere is our awesome document. We will add a figure.\n\n\n2 Introduction\nThe figure will be added in the results section (ISC (2017)).\n\n\n3 Results\n\n\n\n\n\n\n\n\nFigure 1: City and highway mileage for 38 popular models of cars.\n\n\n\n\n\nThe figure will go here (Figure 1).\n\n\n\n Back to topReferences\n\nISC, 2017. Stock assessment and future projections of blue shark in the North Pacific Ocean through 2015 (No. ISC 17 Plenary report and document)."
   },
   {
-    "objectID": "assets/example-basic-html.html#quarto",
-    "href": "assets/example-basic-html.html#quarto",
-    "title": "Basic document",
-    "section": "",
-    "text": "Make different documents by changing the format!"
-  },
-  {
-    "objectID": "assets/example-basic-html.html#code",
-    "href": "assets/example-basic-html.html#code",
-    "title": "Basic document",
-    "section": "Code",
-    "text": "Code\nIncorporate code into your work …\n\nx = 1 + 1\n\n… and report the computations later \\(x =\\) 2."
-  },
-  {
-    "objectID": "assets/example-basic-html.html#make-plots",
-    "href": "assets/example-basic-html.html#make-plots",
-    "title": "Basic document",
-    "section": "Make plots",
-    "text": "Make plots\nEven insert figures:\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +\n  geom_point(alpha = 0.5, size = 2) +\n  scale_color_viridis_c() +\n  theme_minimal()\n\n\n\n\n\n\n\nFigure 1: City and highway mileage for 38 popular models of cars."
-  },
-  {
-    "objectID": "assets/day-1-welcome.html#section",
-    "href": "assets/day-1-welcome.html#section",
+    "objectID": "assets/day-1-pres-codespaces.html#section",
+    "href": "assets/day-1-pres-codespaces.html#section",
     "title": "Open Science Workflow Training for ISC",
     "section": "",
-    "text": "Welcome to ISC Open Science Workshop\nJanuary 2025",
+    "text": "Codespaces and VS Code\nMegumi Oshima & Nicholas Ducharme-Barth\nJanuary 2025",
     "crumbs": [
       "Day 1",
-      "Welcome"
+      "Codespaces and VS Code"
     ]
   },
   {
-    "objectID": "assets/day-1-welcome.html#introductions",
-    "href": "assets/day-1-welcome.html#introductions",
+    "objectID": "assets/day-1-pres-codespaces.html#what-is-codespaces",
+    "href": "assets/day-1-pres-codespaces.html#what-is-codespaces",
     "title": "Open Science Workflow Training for ISC",
-    "section": "Introductions",
-    "text": "Introductions\n Nicholas  Ducharme-Barth\n Meg Oshima",
+    "section": "What is Codespaces?",
+    "text": "What is Codespaces?\n\n\nDevelopment environment that is hosted in the cloud on GitHub.com\n\n\n\n\n\nYou control the specs of the machine!\n\n\n\n\n\nConnected to your repository",
     "crumbs": [
       "Day 1",
-      "Welcome"
+      "Codespaces and VS Code"
     ]
   },
   {
-    "objectID": "assets/day-1-welcome.html#workshop-materials",
-    "href": "assets/day-1-welcome.html#workshop-materials",
+    "objectID": "assets/day-1-pres-codespaces.html#why-use-it",
+    "href": "assets/day-1-pres-codespaces.html#why-use-it",
     "title": "Open Science Workflow Training for ISC",
-    "section": "Workshop Materials",
-    "text": "Workshop Materials\n\nAll presentations can be found on the workshop website.\n\nhttps://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining\n\nCode can be found in the workshop repository.\n\nhttps://github.com/MOshima-PIFSC/2025-01-ISC-OpenScienceTraining/r-code\n\n\n\n\n\n\n\n\nImportant\n\n\nMake sure you have created a GitHub account before we start.",
+    "section": "Why use it?",
+    "text": "Why use it?\n\n\n\nContainerized environment\n\nAnyone using it is working in the same environment\n\nSame OS\n\nSame software\n\nSame package versions\n\n\n\n\n“It works on my computer!”",
     "crumbs": [
       "Day 1",
-      "Welcome"
+      "Codespaces and VS Code"
     ]
   },
   {
-    "objectID": "assets/day-1-welcome.html#why-open-science",
-    "href": "assets/day-1-welcome.html#why-open-science",
+    "objectID": "assets/day-1-pres-codespaces.html#when-should-i-use-codespaces",
+    "href": "assets/day-1-pres-codespaces.html#when-should-i-use-codespaces",
     "title": "Open Science Workflow Training for ISC",
-    "section": "Why Open Science?",
-    "text": "Why Open Science?\n\n\nStandardized workflows and efficiency\n\n\n\n\n\nImprove and support collaboration\n\n\n\n\n\nEnsure our science is truly reproducible\n\n\n\n\n\nProvide tools for sharing and communicating our work",
+    "section": "When should I use codespaces?",
+    "text": "When should I use codespaces?\n\n\nWorkshops/Trainings\n\nReviews\n\nDeveloping packages or software\n\nTraveling\n\nCan’t install certain software onto your computer",
     "crumbs": [
       "Day 1",
-      "Welcome"
+      "Codespaces and VS Code"
     ]
   },
   {
-    "objectID": "assets/day-1-welcome.html#topics-we-will-cover",
-    "href": "assets/day-1-welcome.html#topics-we-will-cover",
+    "objectID": "assets/day-1-pres-codespaces.html#set-up",
+    "href": "assets/day-1-pres-codespaces.html#set-up",
     "title": "Open Science Workflow Training for ISC",
-    "section": "Topics we will cover",
-    "text": "Topics we will cover\n\n\nGitHub for collaboration\n\n\n\n\nCodespaces, VS Code, and reproducible R environments\n\n\n\n\nScript-based model development\n\n\n\n\nCreating Shiny apps\n\n\n\n\nCode review with GitHub\n\n\n\n\nCreating reproducible reports and presentations\n\n\n\n\nCreating websites to share results",
+    "section": "Set Up",
+    "text": "Set Up\nTo set up a Codespace,\n\n\nCreate a .devcontainer folder inside your repository\n\n\n\n\n\nAdd a devcontainer.json file to that folder\n\n\n\n\n\nSet up devcontainer.json how you like (packages, software, extensions, etc.)\n\n\n\n\n\nAdd a setup.r file if needed\n\n\n\n\nSee the devcontainer.json we are using here",
     "crumbs": [
       "Day 1",
-      "Welcome"
+      "Codespaces and VS Code"
+    ]
+  },
+  {
+    "objectID": "assets/day-1-pres-codespaces.html#spin-up-the-codespace",
+    "href": "assets/day-1-pres-codespaces.html#spin-up-the-codespace",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Spin up the Codespace",
+    "text": "Spin up the Codespace\nOn the main page of the repository, “Code” -&gt; “Create codespace on main”",
+    "crumbs": [
+      "Day 1",
+      "Codespaces and VS Code"
+    ]
+  },
+  {
+    "objectID": "assets/day-1-pres-codespaces.html#vs-code",
+    "href": "assets/day-1-pres-codespaces.html#vs-code",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "VS Code",
+    "text": "VS Code\nVS Code is a free IDE software used for writing and running code",
+    "crumbs": [
+      "Day 1",
+      "Codespaces and VS Code"
+    ]
+  },
+  {
+    "objectID": "assets/day-1-pres-codespaces.html#navigating-around",
+    "href": "assets/day-1-pres-codespaces.html#navigating-around",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Navigating around",
+    "text": "Navigating around\n\n\n\n\n\n\n\n\n File explorer\n\n\n\n\n\n\n\n\n\n\n\n Git Integration\n\n\n\n\n\n\n\n\n\n\n Extensions\n\n\n\n\n\n\n\n\n\n\n R environment\n\n\n\n\n\n\nCommand Palette\n\n\n\n\n\n\n\n\n\n\nTerminal",
+    "crumbs": [
+      "Day 1",
+      "Codespaces and VS Code"
+    ]
+  },
+  {
+    "objectID": "assets/day-1-pres-codespaces.html#activity",
+    "href": "assets/day-1-pres-codespaces.html#activity",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Activity",
+    "text": "Activity\n\nCreate a new branch from the main branch\ngit checkout -b new-branch-name\nAdd your name to the list of participants in the README.md file.\nSave your change, commit, and push to your branch.\n\n\n    git add README.md  \n    git commit -m \"add descriptive message here\"  \n    git push origin new-branch-name",
+    "crumbs": [
+      "Day 1",
+      "Codespaces and VS Code"
+    ]
+  },
+  {
+    "objectID": "assets/report-example.html",
+    "href": "assets/report-example.html",
+    "title": "Report template",
+    "section": "",
+    "text": "Code-folding\nWe can visualize the mpg dataset for common cars…\n\n\nShow the code to plot the mpg dataset.\nlibrary(ggplot2)\n\nggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +\n  geom_point(alpha = 0.5, size = 2) +\n  scale_color_viridis_c() +\n  theme_minimal()\n\n\n\n\nPanel-tabset\n… and explore the relationship between highway fuel consumption and the number of cylinders.\n\nPlotData subset\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n# A tibble: 6 × 11\n  manufacturer model displ  year   cyl trans      drv     cty   hwy fl    class \n  &lt;chr&gt;        &lt;chr&gt; &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt;      &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt; \n1 audi         a4      1.8  1999     4 auto(l5)   f        18    29 p     compa…\n2 audi         a4      1.8  1999     4 manual(m5) f        21    29 p     compa…\n3 audi         a4      2    2008     4 manual(m6) f        20    31 p     compa…\n4 audi         a4      2    2008     4 auto(av)   f        21    30 p     compa…\n5 audi         a4      2.8  1999     6 auto(l5)   f        16    26 p     compa…\n6 audi         a4      2.8  1999     6 manual(m5) f        18    26 p     compa…\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "assets/day-4-pres-quarto-website.html#section",
+    "href": "assets/day-4-pres-quarto-website.html#section",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Quarto: Creating websites\nMegumi Oshima & Nicholas Ducharme-Barth\nJanuary 2025",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Website"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-pres-quarto-website.html#building-a-website",
+    "href": "assets/day-4-pres-quarto-website.html#building-a-website",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Building a website",
+    "text": "Building a website\n\nIn addition to being able to produce an array of document types, Quarto can also be used to organize multiple html or revealjs documents into a website.",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Website"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-pres-quarto-website.html#configuration",
+    "href": "assets/day-4-pres-quarto-website.html#configuration",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Configuration",
+    "text": "Configuration\n\nWebsite configuration is controlled by the _quarto.yml file which defines:\n\n\nlayout\nnavigation bar\nsidebar\nsearchbar\ntheme",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Website"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-pres-quarto-website.html#configuration-1",
+    "href": "assets/day-4-pres-quarto-website.html#configuration-1",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Configuration",
+    "text": "Configuration\n\n\nproject:\n  type: website\n  resources:\n   - assets/*\n\nwebsite:\n  title: \"Open Science Workflow Training for ISC\"\n  reader-mode: true\n  site-url: \"https://moshima-pifsc.github.io/ISC_OSworkflow_training\" \n  repo-url: \"https://github.com/MOshima-PIFSC/ISC_OSworkflow_training\"\n  repo-actions: [source, issue]\n  search: true\n  back-to-top-navigation: true\n  bread-crumbs: false\n  sidebar:\n    collapse-level: 1\n    style: \"floating\"\n    search: true\n    tools:\n      - icon: github\n        href: https://github.com/MOshima-PIFSC/ISC_OSworkflow_training\n    contents: \n      - text: \"Home\"\n        file: index.qmd\n      - section: \"Day 1\"\n        href: assets/day-1.html\n        contents:\n          - text: \"Github for Collaborative Workflows\"\n            file: assets/day-1-pres-github_basics.qmd\n          - text: \"Codespaces\"\n            file: assets/day-1-pres-codespaces.qmd\n          - text: \"Reproducible environments\"\n            file: assets/day-1-pres-reproducible_environments.qmd\n          - text: \"Modifying Stock Synthesis files\"\n            file: assets/day-1-pres-modify-stock-synthesis.qmd\n          - text: \"Modifying Stock Synthesis files: Part 2\"\n            file: assets/day-1-pres-modify-stock-synthesis_BILLWG.qmd\n      - section: \"Day 2\"\n        href: assets/day-2.html\n        contents:\n          - text: \"Pull requests & code review\"\n            file: assets/day-2-pres-PR-code-review.qmd\n          - text: \"Building a Shiny app\"\n            file: assets/day-2-pres-build-shiny.qmd\n      - section: \"Day 3\"\n        href: assets/day-3.html\n        contents:\n          - text: \"Quarto: Reports and presentations\"\n            file: assets/day-3-pres-quarto.qmd\n      - section: \"Day 4\"\n        href: assets/day-4.html\n        contents:\n          - text: \"Quarto: Creating websites\"\n            file: assets/day-4-pres-quarto-website.qmd\n      - section: \"Group projects\"\n        contents:\n        - text: \"Report template\"\n          file: assets/day-3-report-template.qmd\n      - section: \"Contact us\"\n        contents:\n        - text: \"Nicholas Ducharme-Barth\"\n          file: assets/web-about-nd.qmd\n        - text: \"Megumi Oshima\"\n          file: assets/web-about-mo.qmd\n        - text: \"Michelle Sculley\"\n          file: assets/web-about-ms.qmd\n      - section: \"Support\"\n        contents:\n        - text: \"Submit an issue\"\n          href: https://github.com/MOshima-PIFSC/ISC_OSworkflow_training/issues/new/choose\n\nformat: \n  html:\n    toc: true\n    toc-expand: false\n    theme:\n      - default\n      - assets/customizations/website-custom.scss",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Website"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-pres-quarto-website.html#embedding-an-iframe",
+    "href": "assets/day-4-pres-quarto-website.html#embedding-an-iframe",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Embedding an iframe",
+    "text": "Embedding an iframe\n\nhtml or revealjs content can be embedded in an existing html document using an iframe.\n```{=html}\n&lt;iframe width=100% height=200 src=\"../index.html\" style=\"border: 1px solid #323C46; max-height: unset; max-width: unset; box-shadow: 0 0 2rem 0 rgba(0, 0, 0, .5); border-radius: 5px;\"&gt;&lt;/iframe&gt;\n```",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Website"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-pres-quarto-website.html#custom-theming",
+    "href": "assets/day-4-pres-quarto-website.html#custom-theming",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Custom theming",
+    "text": "Custom theming\n\n\n\nCustom website and html themes can be defined using Sass\n\nThis is a [custom rule]{.blue}\n\nThis is a custom rule\n\n/*-- scss:defaults --*/\n// Check contrast: https://colourcontrast.cc/\n// define colors\n$website-background: #fafafa;\n$theme-whale-gray: #323C46;\n$theme-midnight-sky: #001743;\n$theme-twilight-sky: #002364;\n$theme-noaa-sky: #003087;\n$theme-noaa-sea: #0085CA;\n$theme-pale-sea: #C6E6F0;\n$theme-dove-gray: #A5AAAF;\n\n// Get fonts: https://fonts.google.com/\n@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');\n\n// define theme colors\n$body-bg: $website-background;\n$body-color: $theme-whale-gray;\n$link-color: $theme-noaa-sea;\n$headings-color: $theme-midnight-sky;\n\n// define theme fonts\n$font-family-sans-serif: 'Montserrat', sans-serif;\n$headings-font-family: 'Roboto Serif', serif;\n$headings-font-weight: 400;\n\n/*-- scss:rules --*/\n\n// add a shortcut for emphasizing text\n.blue {\n  color: $theme-noaa-sky;\n  font-weight: bold;\n}\n\n.hide-text {\n    color: $theme-dove-gray;\n  }\n\n// add underline for hyperlinks\n.reveal .slide a {\n  text-decoration: underline;\n}",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Website"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-pres-quarto-website.html#publishing",
+    "href": "assets/day-4-pres-quarto-website.html#publishing",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Publishing",
+    "text": "Publishing\n\nWebsites can be published to a number of different locations including:\n\n\nGitHub pages\nQuarto pub\nPosit Connect & Posit Cloud",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Website"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-pres-quarto-website.html#setting-up-github-pages",
+    "href": "assets/day-4-pres-quarto-website.html#setting-up-github-pages",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Setting up GitHub Pages",
+    "text": "Setting up GitHub Pages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRemember, use git checkout -b gh-pages to create the branch",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Website"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-pres-quarto-website.html#publishing-to-github-pages",
+    "href": "assets/day-4-pres-quarto-website.html#publishing-to-github-pages",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Publishing to GitHub Pages",
+    "text": "Publishing to GitHub Pages\n\nOnce you have turned on the website and created the gh-pages branch in the repository, you can publish your site with the command (in your terminal)\n\nquarto publish gh-pages",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Website"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-pres-quarto-website.html#resources",
+    "href": "assets/day-4-pres-quarto-website.html#resources",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Resources",
+    "text": "Resources\n\n\nCreating a website\nGitHub Pages\nPublishing Quarto Sites",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Website"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-pres-quarto-website.html#last-group-activity",
+    "href": "assets/day-4-pres-quarto-website.html#last-group-activity",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Last group activity",
+    "text": "Last group activity\n\n\n\nSwitch to your own branch\nEdit the _quarto.yml file to add your Quarto document under the Group projects section\nCommit your changes and we will work together to merge them into the main branch",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Website"
     ]
   },
   {

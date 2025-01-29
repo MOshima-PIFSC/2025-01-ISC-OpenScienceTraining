@@ -23,6 +23,12 @@ Here is our awesome document. We will add a figure.
 
 The figure will be added in the results section (@isc_stock_2017). 
 
+# Materials and Methods
+　北太平洋のアオザメのconceptual modelを構築するために、気仙沼近海船が水揚げした個体のサイズデータを分析した。
+  1) Data filtering
+  2) PCL estimation
+  3) Statistical modelling
+  
 # Results
 
 ```{r}
