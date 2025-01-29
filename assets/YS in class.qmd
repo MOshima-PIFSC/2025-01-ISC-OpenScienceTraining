@@ -1,15 +1,9 @@
 ---
 bibliography: references.bib
-csl: fisheries-research.csl
+#csl: fisheries-research.csl
 format:
-  pdf:
+  html:
     toc: true
-    number-sections: true
-    colorlinks: true
-    template-partials:
-      - doc-class.tex
-      - before-title.tex
-      - before-body.tex
     
 ---
 
