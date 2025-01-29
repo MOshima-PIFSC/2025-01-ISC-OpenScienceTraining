@@ -49,6 +49,9 @@ website:
           file: assets/day-4-pres-quarto-website.qmd
         - text: "GitHub pages"
           file: assets/day-4-gh-pages.qmd
+      - section: "Example html pages"
+        - text: "Last assingments"
+          file: assets/quarto2.qmd
       - section: "References"  
         contents: 
         - text: "Cheatsheet"
