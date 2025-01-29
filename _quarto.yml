@@ -52,6 +52,8 @@ website:
       - section: "Example html pages"
         - text: "Works_YS"
           file: assets/YS in class.qmd
+        - text: "Last assingments"
+          file: assets/quarto2.qmd
       - section: "References"  
         contents: 
         - text: "Cheatsheet"
