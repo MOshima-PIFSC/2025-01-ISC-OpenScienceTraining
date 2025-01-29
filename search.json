@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "shiny/introduction_index.html",
+    "href": "shiny/introduction_index.html",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Shiny app to compare Stock Synthesis model runs.\nAvailable panels: - [x] Summary table - [x] Stock-recruit relationship (SRR) - [ ] other options yet to be developed…\n\n\n\n Back to top"
+  },
+  {
     "objectID": "assets/day-1-reproducible_environments.html",
     "href": "assets/day-1-reproducible_environments.html",
     "title": "Reproducible environments",
@@ -7,96 +14,460 @@
     "text": "Back to top"
   },
   {
-    "objectID": "assets/day-1-welcome.html#section",
-    "href": "assets/day-1-welcome.html#section",
+    "objectID": "assets/day-4-pres-quarto-website.html#section",
+    "href": "assets/day-4-pres-quarto-website.html#section",
     "title": "Open Science Workflow Training for ISC",
     "section": "",
-    "text": "Welcome to ISC Open Science Workshop\nJanuary 2025",
+    "text": "Quarto: Creating websites\nMegumi Oshima & Nicholas Ducharme-Barth\nJanuary 2025",
     "crumbs": [
-      "Day 1",
-      "Welcome"
+      "Day 3",
+      "Quarto: Website"
     ]
   },
   {
-    "objectID": "assets/day-1-welcome.html#introductions",
-    "href": "assets/day-1-welcome.html#introductions",
+    "objectID": "assets/day-4-pres-quarto-website.html#building-a-website",
+    "href": "assets/day-4-pres-quarto-website.html#building-a-website",
     "title": "Open Science Workflow Training for ISC",
-    "section": "Introductions",
-    "text": "Introductions\n Nicholas  Ducharme-Barth\n Meg Oshima",
+    "section": "Building a website",
+    "text": "Building a website\n\nIn addition to being able to produce an array of document types, Quarto can also be used to organize multiple html or revealjs documents into a website.",
     "crumbs": [
-      "Day 1",
-      "Welcome"
+      "Day 3",
+      "Quarto: Website"
     ]
   },
   {
-    "objectID": "assets/day-1-welcome.html#workshop-materials",
-    "href": "assets/day-1-welcome.html#workshop-materials",
+    "objectID": "assets/day-4-pres-quarto-website.html#configuration",
+    "href": "assets/day-4-pres-quarto-website.html#configuration",
     "title": "Open Science Workflow Training for ISC",
-    "section": "Workshop Materials",
-    "text": "Workshop Materials\n\nAll presentations can be found on the workshop website.\n\nhttps://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining\n\nCode can be found in the workshop repository.\n\nhttps://github.com/MOshima-PIFSC/2025-01-ISC-OpenScienceTraining/r-code\n\n\n\n\n\n\n\n\nImportant\n\n\nMake sure you have created a GitHub account before we start.",
+    "section": "Configuration",
+    "text": "Configuration\n\nWebsite configuration is controlled by the _quarto.yml file which defines:\n\n\nlayout\nnavigation bar\nsidebar\nsearchbar\ntheme",
     "crumbs": [
-      "Day 1",
-      "Welcome"
+      "Day 3",
+      "Quarto: Website"
     ]
   },
   {
-    "objectID": "assets/day-1-welcome.html#why-open-science",
-    "href": "assets/day-1-welcome.html#why-open-science",
+    "objectID": "assets/day-4-pres-quarto-website.html#configuration-1",
+    "href": "assets/day-4-pres-quarto-website.html#configuration-1",
     "title": "Open Science Workflow Training for ISC",
-    "section": "Why Open Science?",
-    "text": "Why Open Science?\n\n\nStandardized workflows and efficiency\n\n\n\n\n\nImprove and support collaboration\n\n\n\n\n\nEnsure our science is truly reproducible\n\n\n\n\n\nProvide tools for sharing and communicating our work",
+    "section": "Configuration",
+    "text": "Configuration\n\n\nproject:\n  type: website\n  resources:\n   - assets/*\n\nwebsite:\n  title: \"Open Science Workflow Training for ISC\"\n  reader-mode: true\n  site-url: \"https://moshima-pifsc.github.io/ISC_OSworkflow_training\" \n  repo-url: \"https://github.com/MOshima-PIFSC/ISC_OSworkflow_training\"\n  repo-actions: [source, issue]\n  search: true\n  back-to-top-navigation: true\n  bread-crumbs: false\n  sidebar:\n    collapse-level: 1\n    style: \"floating\"\n    search: true\n    tools:\n      - icon: github\n        href: https://github.com/MOshima-PIFSC/ISC_OSworkflow_training\n    contents: \n      - text: \"Home\"\n        file: index.qmd\n      - section: \"Day 1\"\n        href: assets/day-1.html\n        contents:\n          - text: \"Github for Collaborative Workflows\"\n            file: assets/day-1-pres-github_basics.qmd\n          - text: \"Codespaces\"\n            file: assets/day-1-pres-codespaces.qmd\n          - text: \"Reproducible environments\"\n            file: assets/day-1-pres-reproducible_environments.qmd\n          - text: \"Modifying Stock Synthesis files\"\n            file: assets/day-1-pres-modify-stock-synthesis.qmd\n          - text: \"Modifying Stock Synthesis files: Part 2\"\n            file: assets/day-1-pres-modify-stock-synthesis_BILLWG.qmd\n      - section: \"Day 2\"\n        href: assets/day-2.html\n        contents:\n          - text: \"Pull requests & code review\"\n            file: assets/day-2-pres-PR-code-review.qmd\n          - text: \"Building a Shiny app\"\n            file: assets/day-2-pres-build-shiny.qmd\n      - section: \"Day 3\"\n        href: assets/day-3.html\n        contents:\n          - text: \"Quarto: Reports and presentations\"\n            file: assets/day-3-pres-quarto.qmd\n      - section: \"Day 4\"\n        href: assets/day-4.html\n        contents:\n          - text: \"Quarto: Creating websites\"\n            file: assets/day-4-pres-quarto-website.qmd\n      - section: \"Group projects\"\n        contents:\n        - text: \"Report template\"\n          file: assets/day-3-report-template.qmd\n      - section: \"Contact us\"\n        contents:\n        - text: \"Nicholas Ducharme-Barth\"\n          file: assets/web-about-nd.qmd\n        - text: \"Megumi Oshima\"\n          file: assets/web-about-mo.qmd\n        - text: \"Michelle Sculley\"\n          file: assets/web-about-ms.qmd\n      - section: \"Support\"\n        contents:\n        - text: \"Submit an issue\"\n          href: https://github.com/MOshima-PIFSC/ISC_OSworkflow_training/issues/new/choose\n\nformat: \n  html:\n    toc: true\n    toc-expand: false\n    theme:\n      - default\n      - assets/customizations/website-custom.scss",
     "crumbs": [
-      "Day 1",
-      "Welcome"
+      "Day 3",
+      "Quarto: Website"
     ]
   },
   {
-    "objectID": "assets/day-1-welcome.html#topics-we-will-cover",
-    "href": "assets/day-1-welcome.html#topics-we-will-cover",
+    "objectID": "assets/day-4-pres-quarto-website.html#embedding-an-iframe",
+    "href": "assets/day-4-pres-quarto-website.html#embedding-an-iframe",
     "title": "Open Science Workflow Training for ISC",
-    "section": "Topics we will cover",
-    "text": "Topics we will cover\n\n\nGitHub for collaboration\n\n\n\n\nCodespaces, VS Code, and reproducible R environments\n\n\n\n\nScript-based model development\n\n\n\n\nCreating Shiny apps\n\n\n\n\nCode review with GitHub\n\n\n\n\nCreating reproducible reports and presentations\n\n\n\n\nCreating websites to share results",
+    "section": "Embedding an iframe",
+    "text": "Embedding an iframe\n\nhtml or revealjs content can be embedded in an existing html document using an iframe.\n```{=html}\n&lt;iframe width=100% height=200 src=\"../index.html\" style=\"border: 1px solid #323C46; max-height: unset; max-width: unset; box-shadow: 0 0 2rem 0 rgba(0, 0, 0, .5); border-radius: 5px;\"&gt;&lt;/iframe&gt;\n```",
     "crumbs": [
-      "Day 1",
-      "Welcome"
+      "Day 3",
+      "Quarto: Website"
     ]
   },
   {
-    "objectID": "assets/day-1-modify-stock-synthesis.html",
-    "href": "assets/day-1-modify-stock-synthesis.html",
-    "title": "Modifying and running stock synthesis models",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "assets/day-1.html",
-    "href": "assets/day-1.html",
-    "title": "Day 1",
-    "section": "",
-    "text": "Presentation slides for the GitHub for Collaborative Workflows presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Codespaces presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Reproducible R Environments presentation.\n    View slides in full screen",
+    "objectID": "assets/day-4-pres-quarto-website.html#custom-theming",
+    "href": "assets/day-4-pres-quarto-website.html#custom-theming",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Custom theming",
+    "text": "Custom theming\n\n\n\nCustom website and html themes can be defined using Sass\n\nThis is a [custom rule]{.blue}\n\nThis is a custom rule\n\n/*-- scss:defaults --*/\n// Check contrast: https://colourcontrast.cc/\n// define colors\n$website-background: #fafafa;\n$theme-whale-gray: #323C46;\n$theme-midnight-sky: #001743;\n$theme-twilight-sky: #002364;\n$theme-noaa-sky: #003087;\n$theme-noaa-sea: #0085CA;\n$theme-pale-sea: #C6E6F0;\n$theme-dove-gray: #A5AAAF;\n\n// Get fonts: https://fonts.google.com/\n@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');\n\n// define theme colors\n$body-bg: $website-background;\n$body-color: $theme-whale-gray;\n$link-color: $theme-noaa-sea;\n$headings-color: $theme-midnight-sky;\n\n// define theme fonts\n$font-family-sans-serif: 'Montserrat', sans-serif;\n$headings-font-family: 'Roboto Serif', serif;\n$headings-font-weight: 400;\n\n/*-- scss:rules --*/\n\n// add a shortcut for emphasizing text\n.blue {\n  color: $theme-noaa-sky;\n  font-weight: bold;\n}\n\n.hide-text {\n    color: $theme-dove-gray;\n  }\n\n// add underline for hyperlinks\n.reveal .slide a {\n  text-decoration: underline;\n}",
     "crumbs": [
-      "Day 1"
+      "Day 3",
+      "Quarto: Website"
     ]
   },
   {
-    "objectID": "assets/day-1.html#presentation-files",
-    "href": "assets/day-1.html#presentation-files",
-    "title": "Day 1",
-    "section": "",
-    "text": "Presentation slides for the GitHub for Collaborative Workflows presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Codespaces presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Reproducible R Environments presentation.\n    View slides in full screen",
+    "objectID": "assets/day-4-pres-quarto-website.html#publishing",
+    "href": "assets/day-4-pres-quarto-website.html#publishing",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Publishing",
+    "text": "Publishing\n\nWebsites can be published to a number of different locations including:\n\n\nGitHub pages\nQuarto pub\nPosit Connect & Posit Cloud",
     "crumbs": [
-      "Day 1"
+      "Day 3",
+      "Quarto: Website"
     ]
   },
   {
-    "objectID": "assets/web-about-nd.html",
-    "href": "assets/web-about-nd.html",
-    "title": "Nicholas Ducharme-Barth",
-    "section": "",
-    "text": "Nicholas Ducharme-Barth joined the Pacific Islands Fisheries Science Center in 2021. Previously, Nicholas worked at the Pacific Community (SPC) conducting pelagic stock assessments for the Western and Central Pacific Fisheries Commission (WCPFC). He received his B.S. in Mathematics from the College of William & Mary and his Ph. D. in Fisheries and Aquatic Sciences from the University of Florida.\n\n\n Back to top",
+    "objectID": "assets/day-4-pres-quarto-website.html#setting-up-github-pages",
+    "href": "assets/day-4-pres-quarto-website.html#setting-up-github-pages",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Setting up GitHub Pages",
+    "text": "Setting up GitHub Pages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRemember, use git checkout -b gh-pages to create the branch",
     "crumbs": [
-      "Contact us",
-      "Nicholas Ducharme-Barth"
+      "Day 3",
+      "Quarto: Website"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-pres-quarto-website.html#publishing-to-github-pages",
+    "href": "assets/day-4-pres-quarto-website.html#publishing-to-github-pages",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Publishing to GitHub Pages",
+    "text": "Publishing to GitHub Pages\n\nOnce you have turned on the website and created the gh-pages branch in the repository, you can publish your site with the command (in your terminal)\n\nquarto publish gh-pages",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Website"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-pres-quarto-website.html#resources",
+    "href": "assets/day-4-pres-quarto-website.html#resources",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Resources",
+    "text": "Resources\n\n\nCreating a website\nGitHub Pages\nPublishing Quarto Sites",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Website"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-pres-quarto-website.html#last-group-activity",
+    "href": "assets/day-4-pres-quarto-website.html#last-group-activity",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Last group activity",
+    "text": "Last group activity\n\n\n\nSwitch to your own branch\nEdit the _quarto.yml file to add your Quarto document under the Group projects section\nCommit your changes and we will work together to merge them into the main branch",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Website"
+    ]
+  },
+  {
+    "objectID": "assets/example-basic-html.html",
+    "href": "assets/example-basic-html.html",
+    "title": "Basic document",
+    "section": "",
+    "text": "Make different documents by changing the format!"
+  },
+  {
+    "objectID": "assets/example-basic-html.html#quarto",
+    "href": "assets/example-basic-html.html#quarto",
+    "title": "Basic document",
+    "section": "",
+    "text": "Make different documents by changing the format!"
+  },
+  {
+    "objectID": "assets/example-basic-html.html#code",
+    "href": "assets/example-basic-html.html#code",
+    "title": "Basic document",
+    "section": "Code",
+    "text": "Code\nIncorporate code into your work …\n\nx = 1 + 1\n\n… and report the computations later \\(x =\\) 2."
+  },
+  {
+    "objectID": "assets/example-basic-html.html#make-plots",
+    "href": "assets/example-basic-html.html#make-plots",
+    "title": "Basic document",
+    "section": "Make plots",
+    "text": "Make plots\nEven insert figures:\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +\n  geom_point(alpha = 0.5, size = 2) +\n  scale_color_viridis_c() +\n  theme_minimal()\n\n\n\n\n\n\n\nFigure 1: City and highway mileage for 38 popular models of cars."
+  },
+  {
+    "objectID": "assets/day-2-pres-build-shiny.html#section",
+    "href": "assets/day-2-pres-build-shiny.html#section",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Building a Shiny app\nMegumi Oshima & Nicholas Ducharme-Barth\nJanuary 2025",
+    "crumbs": [
+      "Day 2",
+      "Building a Shiny App"
+    ]
+  },
+  {
+    "objectID": "assets/day-2-pres-build-shiny.html#what-is-shiny",
+    "href": "assets/day-2-pres-build-shiny.html#what-is-shiny",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "What is Shiny?",
+    "text": "What is Shiny?\n\nShiny is a package that can be used to build interactive web apps in either R or Python.",
+    "crumbs": [
+      "Day 2",
+      "Building a Shiny App"
+    ]
+  },
+  {
+    "objectID": "assets/day-2-pres-build-shiny.html#why",
+    "href": "assets/day-2-pres-build-shiny.html#why",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Why?",
+    "text": "Why?\n\n\n\nInteractive dashboards can help with communicating science, and making it more accessible\nUseful for analysts to visualize data or model outputs\nFacilitates multi-model comparisons which can assist in model development and building intuition about the model.",
+    "crumbs": [
+      "Day 2",
+      "Building a Shiny App"
+    ]
+  },
+  {
+    "objectID": "assets/day-2-pres-build-shiny.html#how-to-build",
+    "href": "assets/day-2-pres-build-shiny.html#how-to-build",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "How to build?",
+    "text": "How to build?\n\nAll Shiny apps need three components:\n\n\na user interface (ui.R): this is the interactive part\na server (server.R): this is the computation/plotting engine\na call to shiny::shinyApp() (app.R): this ties everything together and launches the app\n\n\n\n\nLet’s look closer at an example.",
+    "crumbs": [
+      "Day 2",
+      "Building a Shiny App"
+    ]
+  },
+  {
+    "objectID": "assets/day-2-pres-build-shiny.html#running-an-app",
+    "href": "assets/day-2-pres-build-shiny.html#running-an-app",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Running an app",
+    "text": "Running an app\n\nIf the ui.R and server.R are defined as separate scripts running the app is straightforward.\n\nPackage all code and data in the same directory, this will make publishing the app easier.\n\n\n# load packages\n  library(shiny)\n\n# source ui/server\n  source(\"./ui.R\")\n  source(\"./server.R\")\n\n# Run the app\n  app = shinyApp(ui=ui,server=server)\n  runApp(app)",
+    "crumbs": [
+      "Day 2",
+      "Building a Shiny App"
+    ]
+  },
+  {
+    "objectID": "assets/day-2-pres-build-shiny.html#publishing",
+    "href": "assets/day-2-pres-build-shiny.html#publishing",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Publishing",
+    "text": "Publishing\n\n\nOnce your app is built it can hosted online via shinyapps.io (individuals) or Posit Connect (enterprise users).\n\nIn both cases, publishing can be done in a couple steps using the rsconnect R package.\n\n\n\n\n\n\nConnect your account and add your server of choice (shinyapps.io/Posit Connect)\n\n\n\n\nDeploy your app rsconnect::deployApp(appDir = '&lt;project-dir&gt;')!",
+    "crumbs": [
+      "Day 2",
+      "Building a Shiny App"
+    ]
+  },
+  {
+    "objectID": "assets/day-2-pres-build-shiny.html#group-activity",
+    "href": "assets/day-2-pres-build-shiny.html#group-activity",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Group activity!",
+    "text": "Group activity!\n\nPlay with the AI assistant for Shiny and Shiny live to add some new features to the existing app 02-shiny-example-vb-curve.r.\n\n\nchange the user interface options: add a slider?\nadd a second sex?\nadd a download data button?",
+    "crumbs": [
+      "Day 2",
+      "Building a Shiny App"
+    ]
+  },
+  {
+    "objectID": "assets/day-2-pres-build-shiny.html#resources",
+    "href": "assets/day-2-pres-build-shiny.html#resources",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Resources",
+    "text": "Resources\n\n\nShiny widgets\nAI assistant for Shiny\nShiny live!: An interactive development environment for Shiny apps",
+    "crumbs": [
+      "Day 2",
+      "Building a Shiny App"
+    ]
+  },
+  {
+    "objectID": "assets/day-3-pres-quarto.html#section",
+    "href": "assets/day-3-pres-quarto.html#section",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Quarto: Reports and presentations\nMegumi Oshima & Nicholas Ducharme-Barth\nJanuary 2025",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Reports and presentations"
+    ]
+  },
+  {
+    "objectID": "assets/day-3-pres-quarto.html#what-is-quarto",
+    "href": "assets/day-3-pres-quarto.html#what-is-quarto",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "What is Quarto?",
+    "text": "What is Quarto?\n\n\n\n“An open source technical publishing system for creating beautiful articles, websites, blogs, books, slides, and more.”\n\n— In their own words…\n\n\n\nBut really it is fancy LaTeX or expanded R Markdown that can do so much more!",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Reports and presentations"
+    ]
+  },
+  {
+    "objectID": "assets/day-3-pres-quarto.html#what-can-it-do",
+    "href": "assets/day-3-pres-quarto.html#what-can-it-do",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "What can it do?",
+    "text": "What can it do?\n\n\n\nIncorporate executable code blocks,\nwrite in math notation: \\(\\hat{y} = \\text{exp}(\\mu - \\frac{\\sigma^2}{2})\\),\ninsert figures,\nand output to multiple formats!",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Reports and presentations"
+    ]
+  },
+  {
+    "objectID": "assets/day-3-pres-quarto.html#format-html",
+    "href": "assets/day-3-pres-quarto.html#format-html",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Format: html",
+    "text": "Format: html\n\n\n\nbasic.qmd\n---\ntitle: \"Basic document\"\nformat: html\n---\n\n## Quarto\n\nMake different documents by changing the format! \n\n## Code\n\nIncorporate `code` into your work ...\n\n```{r}\n#| echo: true\nx = 1 + 1\n```\n... and report the computations later $x =$ `r x`.\n\n## Make plots\n\nEven insert figures:\n\n```{r}\n#| label: fig-scatterplot\n#| fig-cap: \"City and highway mileage for 38 popular models of cars.\"\n#| echo: true\nlibrary(ggplot2)\n\nggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +\n  geom_point(alpha = 0.5, size = 2) +\n  scale_color_viridis_c() +\n  theme_minimal()\n```",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Reports and presentations"
+    ]
+  },
+  {
+    "objectID": "assets/day-3-pres-quarto.html#format-pdf",
+    "href": "assets/day-3-pres-quarto.html#format-pdf",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Format: pdf",
+    "text": "Format: pdf\n\n\n\nbasic.qmd\n---\ntitle: \"Basic document\"\nformat: pdf\n---\n\n## Quarto\n\nMake different documents by changing the format! \n\n## Code\n\nIncorporate `code` into your work ...\n\n```{r}\n#| echo: true\nx = 1 + 1\n```\n... and report the computations later $x =$ `r x`.\n\n## Make plots\n\nEven insert figures:\n\n```{r}\n#| label: fig-scatterplot\n#| fig-cap: \"City and highway mileage for 38 popular models of cars.\"\n#| echo: true\nlibrary(ggplot2)\n\nggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +\n  geom_point(alpha = 0.5, size = 2) +\n  scale_color_viridis_c() +\n  theme_minimal()\n```\n\n\n   \n    Unable to display PDF file. Download instead.",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Reports and presentations"
+    ]
+  },
+  {
+    "objectID": "assets/day-3-pres-quarto.html#format-revealjs",
+    "href": "assets/day-3-pres-quarto.html#format-revealjs",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Format: revealjs",
+    "text": "Format: revealjs\n\n\n\nbasic.qmd\n---\ntitle: \"Basic document\"\nformat: revealjs\n---\n\n## Quarto\n\nMake different documents by changing the format! \n\n## Code\n\nIncorporate `code` into your work ...\n\n```{r}\n#| echo: true\nx = 1 + 1\n```\n... and report the computations later $x =$ `r x`.\n\n## Make plots\n\nEven insert figures:\n\n```{r}\n#| label: fig-scatterplot\n#| fig-cap: \"City and highway mileage for 38 popular models of cars.\"\n#| echo: true\nlibrary(ggplot2)\n\nggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +\n  geom_point(alpha = 0.5, size = 2) +\n  scale_color_viridis_c() +\n  theme_minimal()\n```",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Reports and presentations"
+    ]
+  },
+  {
+    "objectID": "assets/day-3-pres-quarto.html#quarto-basics-header",
+    "href": "assets/day-3-pres-quarto.html#quarto-basics-header",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Quarto basics: Header",
+    "text": "Quarto basics: Header\n\n---\ntitle: \"Basic document\"\nformat: revealjs\n---\nUse the header to set options for the document, including the format.",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Reports and presentations"
+    ]
+  },
+  {
+    "objectID": "assets/day-3-pres-quarto.html#quarto-basics-header-1",
+    "href": "assets/day-3-pres-quarto.html#quarto-basics-header-1",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Quarto basics: Header",
+    "text": "Quarto basics: Header\nThe header can also be used to define re-usable parameters, and these can be used in the body of the report.\n\n\n\nheader-param.qmd\n---\ntitle: \"Report template\"\nauthor: Meg Oshima and Nicholas Ducharme-Barth\nformat:\n  html:\n    embed-resources: true\nengine: knitr\nparams:\n  parameter: \"steepness\"\n  value: 0.7\n---\n\n# Report text\n\nAs an example we changed the `r params$parameter` in the model to `r params$value`.",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Reports and presentations"
+    ]
+  },
+  {
+    "objectID": "assets/day-3-pres-quarto.html#revealjs-features",
+    "href": "assets/day-3-pres-quarto.html#revealjs-features",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "revealjs features",
+    "text": "revealjs features\n\n\n---\nformat:\n revealjs:\n  slide-number: true\n  mermaid-format: svg\nembed-resources: true\n---\n\n# Intro\n\nWe can specify the format as `revealjs` to make a presentation.\n\n# Fragments {.smaller}\n\n[Fragments](https://quarto.org/docs/presentations/revealjs/advanced.html#fragments){preview-link=\"true\"} can be used to animate elements on a slide.\nFragment order can be defined using [`fragment-index`](https://quarto.org/docs/presentations/revealjs/advanced.html#fragment-order){preview-link=\"true\"}.\n\n::: {.fragment}\n- Fade in\n:::\n\n::: {.fragment .fade-out}\n- Fade out\n:::\n\n::: {.fragment .fade-in-then-out}\n- Fade in, then out\n:::\n\n::: {.fragment .fade-up}\n- Slide up while fading in\n:::\n\n# Code-highlighting {.smaller}\n\nIf displaying a code block, lines can be highlighted in a sequential fashion using [`code-line-numbers`](https://quarto.org/docs/presentations/revealjs/#line-highlighting){preview-link=\"true\"}.\n\n```{.r code-line-numbers=\"|1|3|5|4|4-6|\"}\nlibrary(ggplot2)\n\nggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +\n  geom_point(alpha = 0.5, size = 2) +\n  scale_color_viridis_c() +\n  theme_minimal()\n```\n\n# Mermaid charts\n\n[Diagrams](https://quarto.org/docs/authoring/diagrams.html){preview-link=\"true\"} can be embedded \nusing [Mermaid](https://mermaid.js.org/){preview-link=\"true\"} which has \na great [live editor](https://mermaid.live/){preview-link=\"true\"}!\n\n```{mermaid}\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n```",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Reports and presentations"
+    ]
+  },
+  {
+    "objectID": "assets/day-3-pres-quarto.html#html-features",
+    "href": "assets/day-3-pres-quarto.html#html-features",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "html features",
+    "text": "html features\n\n\n---\ntitle: \"Report template\"\nauthor: Meg Oshima and Nicholas Ducharme-Barth\nformat:\n  html:\n    embed-resources: true\n---\n\n# Code-folding\n\nWe can visualize the `mpg` dataset for common cars...\n\n```{r}\n#| code-fold: true\n#| code-summary: \"Show the code to plot the `mpg` dataset.\"\n#| echo: true\n#| eval: false\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +\n  geom_point(alpha = 0.5, size = 2) +\n  scale_color_viridis_c() +\n  theme_minimal()\n\n```\n\n# Panel-tabset\n\n... and explore the relationship between highway fuel consumption and the number of cylinders.\n\n::: {.panel-tabset}\n\n## Plot\n\n```{r}\n#| echo: false\nlibrary(ggplot2)\n\nggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +\n  geom_point(alpha = 0.5, size = 2) +\n  scale_color_viridis_c() +\n  theme_minimal()\n```\n\n## Data subset\n\n```{r}\n#| echo: false\nhead(mpg)\n```",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Reports and presentations"
+    ]
+  },
+  {
+    "objectID": "assets/day-3-pres-quarto.html#report-formatting",
+    "href": "assets/day-3-pres-quarto.html#report-formatting",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Report formatting",
+    "text": "Report formatting\nTechnical formatting of pdf’s can be done by modifying the LaTeX template-partials and including them in the header.\n\n\n\nformat:\n  pdf:\n    toc: true\n    number-sections: true\n    colorlinks: true\n    template-partials:\n      - assets/doc-class.tex\n      - assets/before-title.tex\n      - assets/before-body.tex\n\n\n\n\n% begin title page\n\\thispagestyle{empty}\n\\begin{flushright}\n    % UPDATE: add document number\n    \\textbf{ISC/25/SHARKWG-1/XX}\n\\end{flushright}\n\\vspace{1in}\n\n\\begin{center}\n    % UPDATE: title\n    \\textbf{Updated blue shark CPUE from US Hawai'i longline fisheries; 2002-2023}\n    % UPDATE: footnote with meeting information\n    \\textbf{\\footnote{Working document submitted to the ISC Shark Working Group Workshop, 27 January - 3 February 2025\n    (JST), Yokohama Japan. Document not to be cited without author’s permission.}}\n    \n    \\vspace{0.25in}\n    % UPDATE: authors\n    Nicholas D. Ducharme-Barth\\begin{math}^2\\end{math} % define superscript for affiliation\n\n    \\vspace{0.25in}\n    % UPDATE: affiliations\n    \\begin{math}^2\\end{math}NOAA Fisheries, Pacific Islands Fisheries Science Center, Honolulu, Hawaii USA\n\n    \\vspace{0.25in}\n    % UPDATE: contact information\n    Email: nicholas.ducharme-barth@noaa.gov\n\\end{center}\n\n% include the species image in the 'static' sub-directory\n\\begin{figure}[!hb]\n    \\begin{center}\n        % UPDATE: path to figure, figure name, and alternative text.\n        \\pdftooltip{\\includegraphics[scale=0.8]{static/bsh.jpg}}{A blue shark, \\textit{Prionace glauca}.}\n    \\end{center}\n\\end{figure}\n\n% end of title page\n\\clearpage",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Reports and presentations"
+    ]
+  },
+  {
+    "objectID": "assets/day-3-pres-quarto.html#resources",
+    "href": "assets/day-3-pres-quarto.html#resources",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Resources",
+    "text": "Resources\n\nrevealjs slidecraft: check out these examples by Emil Hvitfeldt\nQuarto guide\nGet started with Quarto\n\n\nHow to render?\n\nquarto render &lt;filename&gt;",
+    "crumbs": [
+      "Day 3",
+      "Quarto: Reports and presentations"
+    ]
+  },
+  {
+    "objectID": "assets/resources.html",
+    "href": "assets/resources.html",
+    "title": "References and Helpful Links",
+    "section": "",
+    "text": "Here we are providing the links the we included in our presentations and some additional ones that may be useful for understanding the topics covered in this training.\nWe have also put together this cheatsheet with some highlights of code you will use over the course of the training.",
+    "crumbs": [
+      "References",
+      "Helpful Links"
+    ]
+  },
+  {
+    "objectID": "assets/resources.html#git-and-github",
+    "href": "assets/resources.html#git-and-github",
+    "title": "References and Helpful Links",
+    "section": "Git and GitHub",
+    "text": "Git and GitHub\n\nGitHub Documentation - official documentation for everything GitHub related\n\nGitHub Skills - interactive modules to learn how to use GitHub\n\nOfficial GitHub Training Manual - provides guidance for how to use GitHub for code development (English and Japanese versions available)\n\nConnecting to GitHub - how to connect GitHub with your local computer",
+    "crumbs": [
+      "References",
+      "Helpful Links"
+    ]
+  },
+  {
+    "objectID": "assets/resources.html#codespaces",
+    "href": "assets/resources.html#codespaces",
+    "title": "References and Helpful Links",
+    "section": "Codespaces",
+    "text": "Codespaces\n\nCodespaces Overview - a high-level overview of what codespaces is\n\nQuickstart for GitHub Codespaces - how to get started quickly with Codespaces\n\nCodespace Templates - pre-made Codespace templates you can use/build off",
+    "crumbs": [
+      "References",
+      "Helpful Links"
+    ]
+  },
+  {
+    "objectID": "assets/resources.html#vs-code",
+    "href": "assets/resources.html#vs-code",
+    "title": "References and Helpful Links",
+    "section": "VS Code",
+    "text": "VS Code\n\nDownload VS Code\n\nGetting Started with VS Code\n\nUsing Git Source Control in VS Code\n\nR in VS Code\n\nBetter Graphics Viewer for R\n\nradian R Console",
+    "crumbs": [
+      "References",
+      "Helpful Links"
+    ]
+  },
+  {
+    "objectID": "assets/resources.html#reproducible-environments",
+    "href": "assets/resources.html#reproducible-environments",
+    "title": "References and Helpful Links",
+    "section": "Reproducible Environments",
+    "text": "Reproducible Environments\n\nrenv - website for the R package\nIntroduction to renv - introduces the basics of a renv workflow\n\nUsing renv in GitHub Actions - how to use renv in automatic workflows like GitHub Actions",
+    "crumbs": [
+      "References",
+      "Helpful Links"
+    ]
+  },
+  {
+    "objectID": "assets/resources.html#script-based-analyses",
+    "href": "assets/resources.html#script-based-analyses",
+    "title": "References and Helpful Links",
+    "section": "Script-Based Analyses",
+    "text": "Script-Based Analyses",
+    "crumbs": [
+      "References",
+      "Helpful Links"
+    ]
+  },
+  {
+    "objectID": "assets/resources.html#shiny",
+    "href": "assets/resources.html#shiny",
+    "title": "References and Helpful Links",
+    "section": "Shiny",
+    "text": "Shiny",
+    "crumbs": [
+      "References",
+      "Helpful Links"
+    ]
+  },
+  {
+    "objectID": "assets/resources.html#quarto",
+    "href": "assets/resources.html#quarto",
+    "title": "References and Helpful Links",
+    "section": "Quarto",
+    "text": "Quarto",
+    "crumbs": [
+      "References",
+      "Helpful Links"
     ]
   },
   {
@@ -232,81 +603,347 @@
     ]
   },
   {
-    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html",
-    "href": "assets/ref-Open_Science_Cheat_Sheet.html",
-    "title": "Open Science Workflow Cheatsheet",
+    "objectID": "assets/day-2-pres-PR-code-review.html#section",
+    "href": "assets/day-2-pres-PR-code-review.html#section",
+    "title": "Open Science Workflow Training for ISC",
     "section": "",
-    "text": "Repository: A place to store code, files, and each file’s revision history.\n\nLocal Computer: Your physical computer.\n\nRemote: Computer that is located elsewhere and accessed over a network (e.g. the internet).\n\nRender: Generate documents, presentations and more. Produce HTML, PDF, MS Word, reveal.js, MS Powerpoint, Beamer, websites, blogs, books…",
+    "text": "Pull Requests and Code Review\nMegumi Oshima & Nicholas Ducharme-Barth\nJanuary 2025"
+  },
+  {
+    "objectID": "assets/day-2-pres-PR-code-review.html#section-1",
+    "href": "assets/day-2-pres-PR-code-review.html#section-1",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "So far we have:\n\n\n\nCreated branches for each group to work separately\n\n\n\n\n\n\n\nEach group has modified the Stock Synthesis models\n\n\n\n\n\n\nNext we want to:\n\n\n\nAggregate all of the model runs into the main branch\n\n\n\n\n\nProduce some visualizations of the results"
+  },
+  {
+    "objectID": "assets/day-2-pres-PR-code-review.html#pull-requests",
+    "href": "assets/day-2-pres-PR-code-review.html#pull-requests",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Pull Requests",
+    "text": "Pull Requests\n\n\n\n\n\n\n\n\nmainbuild_modelgrowth_curveAdd initial filesDevelop base modelFinalize base modelChange growth curveCheck new growth curveFinal model report"
+  },
+  {
+    "objectID": "assets/day-2-pres-PR-code-review.html#pull-requests-1",
+    "href": "assets/day-2-pres-PR-code-review.html#pull-requests-1",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Pull Requests",
+    "text": "Pull Requests\n\n\n\nIn the repository go to “Pull requests” and select which branches you want to merge"
+  },
+  {
+    "objectID": "assets/day-2-pres-PR-code-review.html#pull-requests-2",
+    "href": "assets/day-2-pres-PR-code-review.html#pull-requests-2",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Pull Requests",
+    "text": "Pull Requests\n\n\n\n\n\n\n\n\n\n\n\nCan see the dif view of changes in the file, if the code passes checks and tests set up, what commits are associated with this PR, add comments to the PR\n\n\n\n\n\n\n\n\n\n\n\n\n\nRed lines show deleted code\nGreen lines show added code\n\n\n\n\n\n\n\n\n\n\nCan add a review of the changes"
+  },
+  {
+    "objectID": "assets/day-2-pres-PR-code-review.html#more-complicated-situation-merge-conflicts",
+    "href": "assets/day-2-pres-PR-code-review.html#more-complicated-situation-merge-conflicts",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "More complicated situation: Merge Conflicts",
+    "text": "More complicated situation: Merge Conflicts\nMerge conflicts happen when you merge 2 branches that have competing commits"
+  },
+  {
+    "objectID": "assets/day-2-pres-PR-code-review.html#merge-conflicts",
+    "href": "assets/day-2-pres-PR-code-review.html#merge-conflicts",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Merge Conflicts",
+    "text": "Merge Conflicts\n\n\n2 ways to resolve them\n\n\n\n\n\nGitHub\n\n\n\n\n\n\nLocally"
+  },
+  {
+    "objectID": "assets/day-3.html",
+    "href": "assets/day-3.html",
+    "title": "Day 3",
+    "section": "",
+    "text": "Presentation slides for Quarto: Reports and presentations.\n    View slides in full screen\n       \n      \n    \n  \n\n    View slides in full screen\n       \n      \n    \n  \n\n    View slides in full screen\n       \n      \n    \n  \n\n\n\n\n Back to top",
     "crumbs": [
-      "References",
-      "Cheatsheet"
+      "Day 3"
     ]
   },
   {
-    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#key-terms",
-    "href": "assets/ref-Open_Science_Cheat_Sheet.html#key-terms",
-    "title": "Open Science Workflow Cheatsheet",
-    "section": "",
-    "text": "Repository: A place to store code, files, and each file’s revision history.\n\nLocal Computer: Your physical computer.\n\nRemote: Computer that is located elsewhere and accessed over a network (e.g. the internet).\n\nRender: Generate documents, presentations and more. Produce HTML, PDF, MS Word, reveal.js, MS Powerpoint, Beamer, websites, blogs, books…",
+    "objectID": "assets/day-4-gh-pages.html#setting-up-github-pages",
+    "href": "assets/day-4-gh-pages.html#setting-up-github-pages",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Setting up GitHub Pages",
+    "text": "Setting up GitHub Pages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRemember, use git checkout -b gh-pages to create the branch",
     "crumbs": [
-      "References",
-      "Cheatsheet"
+      "Day 3",
+      "GitHub pages"
     ]
   },
   {
-    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#git-and-github",
-    "href": "assets/ref-Open_Science_Cheat_Sheet.html#git-and-github",
-    "title": "Open Science Workflow Cheatsheet",
+    "objectID": "assets/day-4-gh-pages.html#publishing-to-github-pages",
+    "href": "assets/day-4-gh-pages.html#publishing-to-github-pages",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Publishing to GitHub Pages",
+    "text": "Publishing to GitHub Pages\n\nOnce you have turned on the website and created the gh-pages branch in the repository, you can publish your site with the command (in your terminal)\n\nquarto publish gh-pages",
+    "crumbs": [
+      "Day 3",
+      "GitHub pages"
+    ]
+  },
+  {
+    "objectID": "assets/day-4-gh-pages.html#resources",
+    "href": "assets/day-4-gh-pages.html#resources",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Resources",
+    "text": "Resources\nGitHub Pages\nPublishing Quarto Sites",
+    "crumbs": [
+      "Day 3",
+      "GitHub pages"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This repository contains materials for the ISC Open Science Workflows workshops held in Yokohama, Japan in January 2025.\nView slides in full screen",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#workshop-schedule",
+    "href": "index.html#workshop-schedule",
+    "title": "Home",
+    "section": "Workshop Schedule",
+    "text": "Workshop Schedule\nThe schedule for the 3-day workshop is: (note this is flexible and will be updated at the end of each day)\n\nDay 1\n\n\n\nTime\nModule\n\n\n\n\n14:00-14:15\nWelcome and introductions\n\n\n14:15-15:45\nGitHub for Collaborative Workflows\n\n\n15:45-16:15\nCodespaces and VSCode\n\n\n16:15-16:30\nBreak\n\n\n16:30-16:45\nReproducible Environments\n\n\n16:45-17:00\nWrap up\n\n\n\n\n\nDay 2\n\n\n\nTime\nModule\n\n\n\n\n14:00-14:30\nScript-based analysis\n\n\n14:30-15:15\nGroup work\n\n\n15:15-15:30\nBreak\n\n\n15:30-15:45\nPull Requests and Code Review\n\n\n15:45-16:30\nShiny App\n\n\n16:30-17:00\nGroup work, wrap up\n\n\n\n\n\nDay 3\n\n\n\nTime\nModule\n\n\n\n\n14:00-15:00\nQuarto Reports and Presentations\n\n\n15:00-15:15\nBreak\n\n\n15:15-15:45\nQuarto Website\n\n\n15:45-17:00\nGroup work, wrap up",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "r-code/MO_Info_file.html",
+    "href": "r-code/MO_Info_file.html",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Meg Oshima"
+  },
+  {
+    "objectID": "r-code/MO_Info_file.html#name",
+    "href": "r-code/MO_Info_file.html#name",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Meg Oshima"
+  },
+  {
+    "objectID": "r-code/MO_Info_file.html#species-of-interest",
+    "href": "r-code/MO_Info_file.html#species-of-interest",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Species of interest",
+    "text": "Species of interest"
+  },
+  {
+    "objectID": "r-code/MO_Info_file.html#most-used-function",
+    "href": "r-code/MO_Info_file.html#most-used-function",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Most used function",
+    "text": "Most used function\nhead(dataframe)"
+  },
+  {
+    "objectID": "r-code/MO_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
+    "href": "r-code/MO_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Three things we want to learn from this workshop",
+    "text": "Three things we want to learn from this workshop\n\nnumbered\n\n\nbullets\n\nto do"
+  },
+  {
+    "objectID": "r-code/MK_info_file.html",
+    "href": "r-code/MK_info_file.html",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Mikihiko Kai"
+  },
+  {
+    "objectID": "r-code/MK_info_file.html#name",
+    "href": "r-code/MK_info_file.html#name",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Mikihiko Kai"
+  },
+  {
+    "objectID": "r-code/MK_info_file.html#species-of-interest",
+    "href": "r-code/MK_info_file.html#species-of-interest",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Species of interest",
+    "text": "Species of interest\n\n\n\nBlue shark"
+  },
+  {
+    "objectID": "r-code/MK_info_file.html#most-used-function",
+    "href": "r-code/MK_info_file.html#most-used-function",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Most used function",
+    "text": "Most used function\nview()"
+  },
+  {
+    "objectID": "r-code/MK_info_file.html#three-things-we-want-to-learn-from-this-workshop",
+    "href": "r-code/MK_info_file.html#three-things-we-want-to-learn-from-this-workshop",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Three things we want to learn from this workshop",
+    "text": "Three things we want to learn from this workshop\n\ngit clone\ngit init\ngit add\ngit push\ngit pull etc."
+  },
+  {
+    "objectID": "r-code/Group_info_template.html",
+    "href": "r-code/Group_info_template.html",
+    "title": "Group",
+    "section": "",
+    "text": "(add list of members and their affiliations)\n\n\n\n(insert figure here)\n\n\n\n(insert a code chunk here)\n\n\n\n(insert task list (with check boxes) of at least 3 things)"
+  },
+  {
+    "objectID": "r-code/Group_info_template.html#members",
+    "href": "r-code/Group_info_template.html#members",
+    "title": "Group",
+    "section": "",
+    "text": "(add list of members and their affiliations)"
+  },
+  {
+    "objectID": "r-code/Group_info_template.html#species-of-interest",
+    "href": "r-code/Group_info_template.html#species-of-interest",
+    "title": "Group",
+    "section": "",
+    "text": "(insert figure here)"
+  },
+  {
+    "objectID": "r-code/Group_info_template.html#most-used-function",
+    "href": "r-code/Group_info_template.html#most-used-function",
+    "title": "Group",
+    "section": "",
+    "text": "(insert a code chunk here)"
+  },
+  {
+    "objectID": "r-code/Group_info_template.html#three-things-we-want-to-learn-from-this-workshop",
+    "href": "r-code/Group_info_template.html#three-things-we-want-to-learn-from-this-workshop",
+    "title": "Group",
+    "section": "",
+    "text": "(insert task list (with check boxes) of at least 3 things)"
+  },
+  {
+    "objectID": "r-code/KN_Info_file.html",
+    "href": "r-code/KN_Info_file.html",
+    "title": "Group",
+    "section": "",
+    "text": "Kirara Nishikawa\n\n\n\n\n\n\nPacific Bluefin Tuna\n\n\n\n\n\njoin_full(dataframe)\n\n\n\n\nchanging the models smoothly\nhandling the dataset nicely\nsharing the project with no stress"
+  },
+  {
+    "objectID": "r-code/KN_Info_file.html#members",
+    "href": "r-code/KN_Info_file.html#members",
+    "title": "Group",
+    "section": "",
+    "text": "Kirara Nishikawa"
+  },
+  {
+    "objectID": "r-code/KN_Info_file.html#species-of-interest",
+    "href": "r-code/KN_Info_file.html#species-of-interest",
+    "title": "Group",
+    "section": "",
+    "text": "Pacific Bluefin Tuna"
+  },
+  {
+    "objectID": "r-code/KN_Info_file.html#most-used-function",
+    "href": "r-code/KN_Info_file.html#most-used-function",
+    "title": "Group",
+    "section": "",
+    "text": "join_full(dataframe)"
+  },
+  {
+    "objectID": "r-code/KN_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
+    "href": "r-code/KN_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
+    "title": "Group",
+    "section": "",
+    "text": "changing the models smoothly\nhandling the dataset nicely\nsharing the project with no stress"
+  },
+  {
+    "objectID": "r-code/YS_Info_file.html",
+    "href": "r-code/YS_Info_file.html",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Yasuko Semba"
+  },
+  {
+    "objectID": "r-code/YS_Info_file.html#names",
+    "href": "r-code/YS_Info_file.html#names",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Yasuko Semba"
+  },
+  {
+    "objectID": "r-code/YS_Info_file.html#species-of-interest",
+    "href": "r-code/YS_Info_file.html#species-of-interest",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Species of interest",
+    "text": "Species of interest\n\n\n\nIsurus oxyrinchus"
+  },
+  {
+    "objectID": "r-code/YS_Info_file.html#most-used-functions",
+    "href": "r-code/YS_Info_file.html#most-used-functions",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Most used functions",
+    "text": "Most used functions\nstr(dataset)"
+  },
+  {
+    "objectID": "r-code/YS_Info_file.html#three-thins-we-want-to-learn-from-this-ws",
+    "href": "r-code/YS_Info_file.html#three-thins-we-want-to-learn-from-this-ws",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Three thins we want to learn from this WS",
+    "text": "Three thins we want to learn from this WS\n\nnumbered\n\nbullets\n\n\n\n\nto do"
+  },
+  {
+    "objectID": "MO_Info_file.html",
+    "href": "MO_Info_file.html",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Yasuko Semba"
+  },
+  {
+    "objectID": "MO_Info_file.html#name",
+    "href": "MO_Info_file.html#name",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Yasuko Semba"
+  },
+  {
+    "objectID": "MO_Info_file.html#species",
+    "href": "MO_Info_file.html#species",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Species",
+    "text": "Species\n\n\n\nShortfin mako\n\n\n#Most used function str(dataset)\n##Three things we want to learn from this WS 1. numbered *bullets - [x] to do"
+  },
+  {
+    "objectID": "assets/references.html",
+    "href": "assets/references.html",
+    "title": "References and Helpful Links",
+    "section": "",
+    "text": "Here we are providing the links the we included in our presentations and some additional ones that may be useful for understanding the topics covered in this training.\nWe have also put together this cheatsheet with some highlights of code you will use over the course of the training."
+  },
+  {
+    "objectID": "assets/references.html#git-and-github",
+    "href": "assets/references.html#git-and-github",
+    "title": "References and Helpful Links",
     "section": "Git and GitHub",
-    "text": "Git and GitHub\n\nStarting a repository\n\n\n\n\n\nflowchart TD\n    A(Do you have a directory already started on your local computer?  ) --Yes--&gt; B(git init)\n    A --No  --&gt; C(git clone repository_url)\n\n\n\n\n\n\n\ngit init: Initialize a Git repository on a local computer.\ngit clone repository_url: Copying an entire repository onto a local computer.\n\n\nMaking changes to repository\ngit status: Check what files have changed.\ngit restore filename: Undo changes to a file.\n\n\n\n\n\nflowchart LR\n    A(Local computer) --&gt; B(Stage changes: git add)\n    B --&gt; C(Commit changes: git commit -m)\n    C --&gt; D(Push changes to remote repository: git push)\n    D --&gt; E(Remote repository)\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR \n    A(Remote repository) --&gt; B(Pull changes from remote: git pull)\n    B --&gt; C(Local computer)\n\n\n\n\n\n\n\nFrom your local computer\ngit add: Stage changes for a local commit.\ngit commit -m \"short, descriptive message\": Commit changes to be tracked.\ngit push: Push changes from local computer up to the remote repository.\n\n\nFrom remote repository\ngit pull: Pull changes from the remote repository to your local computer.\ngit pull origin main: Pull changes from the remote repository main branch to the branch you are on.\n\n\n\nBranches\ngit checkout -b branch_name: Create a new branch.\ngit checkout branch_name: Switch to a different branch.\ngit switch: Switch to a different branch.\n\n\nExample workflow\nWhen working within a git enabled project it is generally good practice to not work directly on the main branch but to work in an alternative branch that can be pulled into the main branch.\n\nIf needed clone the repository to your local machine using git clone &lt;url-to-repo.git&gt; where &lt;url-to-repo.git&gt; can be found on the repository website under the green code tab.\nCreate a new branch using git checkout -b &lt;branch_name&gt; where &lt;branch_name&gt; is the branch you would like to work in.\nSet the upstream location so git knows where to push changes to using git push --set-upstream origin &lt;branch_name&gt;.\nAdd/modify content within the repository and stage it for a commit using git add. You can stage all files at once using git add . or stage individual files using git add &lt;filename&gt;.\nMake the commit using git commit and add a label for the commit using the -m flag, git commit -m 'Sample commit'. Steps 4 & 5 can be combined to commit all new files using the -am flag, git commit -am 'Sample commit'.\nYou can push the commit to the remote repository using git push.\nIf you are getting ready to merge your changes into a different branch, it is useful to pull that branch into the branch you are working in using git pull origin &lt;other_branch&gt;. Now you can push your updated branch_name branch using git pull.\nYou can now initiate a pull request from the Github reposository website to bring in the changes from branch_name into other_branch. This is also possible from the command line by switching to the other_branch using git checkout other_branch and then pulling in branch_name using git pull origin branch_name.",
-    "crumbs": [
-      "References",
-      "Cheatsheet"
-    ]
+    "text": "Git and GitHub\n\nGitHub Documentation - official documentation for everything GitHub related\n\nGitHub Skills - interactive modules to learn how to use GitHub\n\nOfficial GitHub Training Manual - provides guidance for how to use GitHub for code development (English and Japanese versions available)"
   },
   {
-    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#vscode",
-    "href": "assets/ref-Open_Science_Cheat_Sheet.html#vscode",
-    "title": "Open Science Workflow Cheatsheet",
-    "section": "VSCode",
-    "text": "VSCode\nAn IDE (integrated development environment) that works well with many languages.\n\nSide Bar Options\n\nFile Explorer\nTo browse the files in a project\n\n\n\nGit GUI (Source Control)\nTo interact with your GitHub repository\n\n\n\nExtensions\nVS Code’s version of the app store\n\n\n\nR\nSimilar to the options available in RStudio for viewing variables in your environment, function documentation, and installing packages.\n\n\n\n\nCommand Palette\nUse the shortcut ctl + shift + P to access.\n\n\n\nTerminal\nCan have multiple terminals of different languages running at a time.",
-    "crumbs": [
-      "References",
-      "Cheatsheet"
-    ]
+    "objectID": "assets/references.html#codespaces",
+    "href": "assets/references.html#codespaces",
+    "title": "References and Helpful Links",
+    "section": "Codespaces",
+    "text": "Codespaces\n\nCodespaces Overview - a high-level overview of what codespaces is\n\nQuickstart for GitHub Codespaces - how to get started quickly with Codespaces\n\nCodespace Templates - pre-made Codespace templates you can use/build off"
   },
   {
-    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#renv",
-    "href": "assets/ref-Open_Science_Cheat_Sheet.html#renv",
-    "title": "Open Science Workflow Cheatsheet",
-    "section": "renv",
-    "text": "renv\n\nInitialize renv for a project\nrenv::init(): Set up a project library for a new or existing project.\n\n\nInstall new packages\nrenv::install(): Install packages from CRAN, GitHub, etc..\n\n\nLockfile\nrenv::snapshot(): Update the lockfile (renv.lock) with packages being used.\nrenv::restore(): Reinstall the packages specified in the lockfile.\n\n\nExample workflow\nIf working within a project where renv is already used and enabled, an initial call to renv::restore() will install all packages named in the renv.lock file.\nIf renv has not been enabled, an initial call to renv::init() will enable renv. renv will then crawl through all directories in your project searching for .r or .R files and identify packages that are explicitly referenced in active code using library(), require(), or ::. These packages (as well as their versions and sources) will then be captured in the renv.lock file.\nAs you add code to the repository it is good practice to periodically run renv::status() to see if there are any discrepancies between the packages that are used and those that are recorded in the renv.lock file. If there are discrepancies, you can use renv::install() to install the missing packages. Then renv::snapshot() can be used to update the renv.lock file to add/remove any packages.\nPackages can be updated to the newest version using the renv::update() though do so at your own risk as updates could result in code that no longer works.\nCalls to renv::install() or renv::update() without specifying an argument will install or update all needed packages. However, if you only want to install or update a particular package you can do so by specifying it as an argument (e.g., renv::install(\"data.table\")). By default packages will be installed from CRAN however you can specify installation from a specific Github repository by specifying the repository owner and name (e.g., renv::install(\"PIFSCstockassessments/ss3diags\")).",
-    "crumbs": [
-      "References",
-      "Cheatsheet"
-    ]
+    "objectID": "assets/references.html#vs-code",
+    "href": "assets/references.html#vs-code",
+    "title": "References and Helpful Links",
+    "section": "VS Code",
+    "text": "VS Code"
   },
   {
-    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#shiny",
-    "href": "assets/ref-Open_Science_Cheat_Sheet.html#shiny",
-    "title": "Open Science Workflow Cheatsheet",
-    "section": "Shiny",
-    "text": "Shiny\nui.R: the interactive user interface code (to show stuff)\nserver.R: the code for computations and plotting (to do stuff)\nshiny::shinyApp(): launches the app\n\nUseful resources\n\nShiny widgets: a gallery of user interface widgets to include in an app\nAI assistant for Shiny\nShiny live!: An interactive development environment for Shiny apps",
-    "crumbs": [
-      "References",
-      "Cheatsheet"
-    ]
-  },
-  {
-    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#quarto",
-    "href": "assets/ref-Open_Science_Cheat_Sheet.html#quarto",
-    "title": "Open Science Workflow Cheatsheet",
-    "section": "Quarto",
-    "text": "Quarto\n\nDocument format\nIn the header yaml, specify what format(s) you want to create.\n---\ntitle: \"Open Science Workflow Cheatsheet\"\nformat: html\n---\nformat options include:\n\nhtml\n\npdf\n\nrevealjs\n\ndocx\n\nand more!\n\n\n\nIncluding code\nInclude code blocks in a document\n```{r}\n#| echo: true\n\nx &lt;- 2+2\n```\nCalculated values can be reported in text later: \\(x =\\) 4.\nAnd control the output rendered in the document with execution options.\n\n\n\nOption\nEffects\n\n\n\n\necho\nshow/hide code in output\n\n\neval\ndo/don’t run code\n\n\ninclude\ninclude/exclude code or results\n\n\noutput\ninclude/exclude results\n\n\nwarning\nshow/hide warnings in output\n\n\nerror\nshow/hide error in output and continue with render\n\n\n\n\n\nInclude diagrams\nYou can elso embed Mermaid diagrams directly into a Quarto document using code chunks. The following code…\nflowchart LR \n    A(Remote repository) --&gt; B(Pull changes from remote: git pull)\n    B --&gt; C(Local computer)\n… produces the following diagram.\n\n\n\n\n\nflowchart LR \n    A(Remote repository) --&gt; B(Pull changes from remote: git pull)\n    B --&gt; C(Local computer)\n\n\n\n\n\n\n\n\nTo render document\nTo render a quarto file to the proper format, in your terminal (not R), run:\nquarto render path/to/file/name.qmd\n\n\nUseful resources\n\nrevealjs slidecraft: check out these examples by Emil Hvitfeldt\nQuarto guide\nGet started with Quarto\nMermaid live!: An interactive development environment for Mermaid diagrams\nCreating a website\nPublishing Quarto Sites",
-    "crumbs": [
-      "References",
-      "Cheatsheet"
-    ]
+    "objectID": "assets/references.html#reproducible-environments",
+    "href": "assets/references.html#reproducible-environments",
+    "title": "References and Helpful Links",
+    "section": "Reproducible Environments",
+    "text": "Reproducible Environments\n\nrenv - website for the R package\nIntroduction to renv - introduces the basics of a renv workflow\n\nUsing renv in GitHub Actions - how to use renv in automatic workflows like GitHub Actions"
   },
   {
     "objectID": "assets/day-1-pres-reproducible_environments.html#section",
@@ -452,304 +1089,81 @@
     ]
   },
   {
-    "objectID": "MO_Info_file.html",
-    "href": "MO_Info_file.html",
-    "title": "Open Science Workflow Training for ISC",
+    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html",
+    "href": "assets/ref-Open_Science_Cheat_Sheet.html",
+    "title": "Open Science Workflow Cheatsheet",
     "section": "",
-    "text": "Yasuko Semba"
-  },
-  {
-    "objectID": "MO_Info_file.html#name",
-    "href": "MO_Info_file.html#name",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Yasuko Semba"
-  },
-  {
-    "objectID": "MO_Info_file.html#species",
-    "href": "MO_Info_file.html#species",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Species",
-    "text": "Species\n\n\n\nShortfin mako\n\n\n#Most used function str(dataset)\n##Three things we want to learn from this WS 1. numbered *bullets - [x] to do"
-  },
-  {
-    "objectID": "r-code/YS_Info_file.html",
-    "href": "r-code/YS_Info_file.html",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Yasuko Semba"
-  },
-  {
-    "objectID": "r-code/YS_Info_file.html#names",
-    "href": "r-code/YS_Info_file.html#names",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Yasuko Semba"
-  },
-  {
-    "objectID": "r-code/YS_Info_file.html#species-of-interest",
-    "href": "r-code/YS_Info_file.html#species-of-interest",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Species of interest",
-    "text": "Species of interest\n\n\n\nIsurus oxyrinchus"
-  },
-  {
-    "objectID": "r-code/YS_Info_file.html#most-used-functions",
-    "href": "r-code/YS_Info_file.html#most-used-functions",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Most used functions",
-    "text": "Most used functions\nstr(dataset)"
-  },
-  {
-    "objectID": "r-code/YS_Info_file.html#three-thins-we-want-to-learn-from-this-ws",
-    "href": "r-code/YS_Info_file.html#three-thins-we-want-to-learn-from-this-ws",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Three thins we want to learn from this WS",
-    "text": "Three thins we want to learn from this WS\n\nnumbered\n\nbullets\n\n\n\n\nto do"
-  },
-  {
-    "objectID": "r-code/KN_Info_file.html",
-    "href": "r-code/KN_Info_file.html",
-    "title": "Group",
-    "section": "",
-    "text": "Kirara Nishikawa\n\n\n\n\n\n\nPacific Bluefin Tuna\n\n\n\n\n\njoin_full(dataframe)\n\n\n\n\nchanging the models smoothly\nhandling the dataset nicely\nsharing the project with no stress"
-  },
-  {
-    "objectID": "r-code/KN_Info_file.html#members",
-    "href": "r-code/KN_Info_file.html#members",
-    "title": "Group",
-    "section": "",
-    "text": "Kirara Nishikawa"
-  },
-  {
-    "objectID": "r-code/KN_Info_file.html#species-of-interest",
-    "href": "r-code/KN_Info_file.html#species-of-interest",
-    "title": "Group",
-    "section": "",
-    "text": "Pacific Bluefin Tuna"
-  },
-  {
-    "objectID": "r-code/KN_Info_file.html#most-used-function",
-    "href": "r-code/KN_Info_file.html#most-used-function",
-    "title": "Group",
-    "section": "",
-    "text": "join_full(dataframe)"
-  },
-  {
-    "objectID": "r-code/KN_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
-    "href": "r-code/KN_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
-    "title": "Group",
-    "section": "",
-    "text": "changing the models smoothly\nhandling the dataset nicely\nsharing the project with no stress"
-  },
-  {
-    "objectID": "r-code/Group_info_template.html",
-    "href": "r-code/Group_info_template.html",
-    "title": "Group",
-    "section": "",
-    "text": "(add list of members and their affiliations)\n\n\n\n(insert figure here)\n\n\n\n(insert a code chunk here)\n\n\n\n(insert task list (with check boxes) of at least 3 things)"
-  },
-  {
-    "objectID": "r-code/Group_info_template.html#members",
-    "href": "r-code/Group_info_template.html#members",
-    "title": "Group",
-    "section": "",
-    "text": "(add list of members and their affiliations)"
-  },
-  {
-    "objectID": "r-code/Group_info_template.html#species-of-interest",
-    "href": "r-code/Group_info_template.html#species-of-interest",
-    "title": "Group",
-    "section": "",
-    "text": "(insert figure here)"
-  },
-  {
-    "objectID": "r-code/Group_info_template.html#most-used-function",
-    "href": "r-code/Group_info_template.html#most-used-function",
-    "title": "Group",
-    "section": "",
-    "text": "(insert a code chunk here)"
-  },
-  {
-    "objectID": "r-code/Group_info_template.html#three-things-we-want-to-learn-from-this-workshop",
-    "href": "r-code/Group_info_template.html#three-things-we-want-to-learn-from-this-workshop",
-    "title": "Group",
-    "section": "",
-    "text": "(insert task list (with check boxes) of at least 3 things)"
-  },
-  {
-    "objectID": "r-code/MK_info_file.html",
-    "href": "r-code/MK_info_file.html",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Mikihiko Kai"
-  },
-  {
-    "objectID": "r-code/MK_info_file.html#name",
-    "href": "r-code/MK_info_file.html#name",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Mikihiko Kai"
-  },
-  {
-    "objectID": "r-code/MK_info_file.html#species-of-interest",
-    "href": "r-code/MK_info_file.html#species-of-interest",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Species of interest",
-    "text": "Species of interest\n\n\n\nBlue shark"
-  },
-  {
-    "objectID": "r-code/MK_info_file.html#most-used-function",
-    "href": "r-code/MK_info_file.html#most-used-function",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Most used function",
-    "text": "Most used function\nview()"
-  },
-  {
-    "objectID": "r-code/MK_info_file.html#three-things-we-want-to-learn-from-this-workshop",
-    "href": "r-code/MK_info_file.html#three-things-we-want-to-learn-from-this-workshop",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Three things we want to learn from this workshop",
-    "text": "Three things we want to learn from this workshop\n\ngit clone\ngit init\ngit add\ngit push\ngit pull etc."
-  },
-  {
-    "objectID": "r-code/MO_Info_file.html",
-    "href": "r-code/MO_Info_file.html",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Meg Oshima"
-  },
-  {
-    "objectID": "r-code/MO_Info_file.html#name",
-    "href": "r-code/MO_Info_file.html#name",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Meg Oshima"
-  },
-  {
-    "objectID": "r-code/MO_Info_file.html#species-of-interest",
-    "href": "r-code/MO_Info_file.html#species-of-interest",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Species of interest",
-    "text": "Species of interest"
-  },
-  {
-    "objectID": "r-code/MO_Info_file.html#most-used-function",
-    "href": "r-code/MO_Info_file.html#most-used-function",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Most used function",
-    "text": "Most used function\nhead(dataframe)"
-  },
-  {
-    "objectID": "r-code/MO_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
-    "href": "r-code/MO_Info_file.html#three-things-we-want-to-learn-from-this-workshop",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Three things we want to learn from this workshop",
-    "text": "Three things we want to learn from this workshop\n\nnumbered\n\n\nbullets\n\nto do"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "This repository contains materials for the ISC Open Science Workflows workshops held in Yokohama, Japan in January 2025.\nView slides in full screen",
+    "text": "Repository: A place to store code, files, and each file’s revision history.\n\nLocal Computer: Your physical computer.\n\nRemote: Computer that is located elsewhere and accessed over a network (e.g. the internet).\n\nRender: Generate documents, presentations and more. Produce HTML, PDF, MS Word, reveal.js, MS Powerpoint, Beamer, websites, blogs, books…",
     "crumbs": [
-      "Home"
+      "References",
+      "Cheatsheet"
     ]
   },
   {
-    "objectID": "index.html#workshop-schedule",
-    "href": "index.html#workshop-schedule",
-    "title": "Home",
-    "section": "Workshop Schedule",
-    "text": "Workshop Schedule\nThe schedule for the 3-day workshop is: (note this is flexible and will be updated at the end of each day)\n\nDay 1\n\n\n\nTime\nModule\n\n\n\n\n14:00-14:15\nWelcome and introductions\n\n\n14:15-15:45\nGitHub for Collaborative Workflows\n\n\n15:45-16:15\nCodespaces and VSCode\n\n\n16:15-16:30\nBreak\n\n\n16:30-16:45\nReproducible Environments\n\n\n16:45-17:00\nWrap up\n\n\n\n\n\nDay 2\n\n\n\nTime\nModule\n\n\n\n\n14:00-14:30\nScript-based analysis\n\n\n14:30-15:15\nGroup work\n\n\n15:15-15:30\nBreak\n\n\n15:30-15:45\nPull Requests and Code Review\n\n\n15:45-16:30\nShiny App\n\n\n16:30-17:00\nGroup work, wrap up\n\n\n\n\n\nDay 3\n\n\n\nTime\nModule\n\n\n\n\n14:00-15:00\nQuarto Reports and Presentations\n\n\n15:00-15:15\nBreak\n\n\n15:15-15:45\nQuarto Website\n\n\n15:45-17:00\nGroup work, wrap up",
+    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#key-terms",
+    "href": "assets/ref-Open_Science_Cheat_Sheet.html#key-terms",
+    "title": "Open Science Workflow Cheatsheet",
+    "section": "",
+    "text": "Repository: A place to store code, files, and each file’s revision history.\n\nLocal Computer: Your physical computer.\n\nRemote: Computer that is located elsewhere and accessed over a network (e.g. the internet).\n\nRender: Generate documents, presentations and more. Produce HTML, PDF, MS Word, reveal.js, MS Powerpoint, Beamer, websites, blogs, books…",
     "crumbs": [
-      "Home"
+      "References",
+      "Cheatsheet"
     ]
   },
   {
-    "objectID": "assets/references.html",
-    "href": "assets/references.html",
-    "title": "References and Helpful Links",
-    "section": "",
-    "text": "Here we are providing the links the we included in our presentations and some additional ones that may be useful for understanding the topics covered in this training.\nWe have also put together this cheatsheet with some highlights of code you will use over the course of the training."
-  },
-  {
-    "objectID": "assets/references.html#git-and-github",
-    "href": "assets/references.html#git-and-github",
-    "title": "References and Helpful Links",
+    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#git-and-github",
+    "href": "assets/ref-Open_Science_Cheat_Sheet.html#git-and-github",
+    "title": "Open Science Workflow Cheatsheet",
     "section": "Git and GitHub",
-    "text": "Git and GitHub\n\nGitHub Documentation - official documentation for everything GitHub related\n\nGitHub Skills - interactive modules to learn how to use GitHub\n\nOfficial GitHub Training Manual - provides guidance for how to use GitHub for code development (English and Japanese versions available)"
+    "text": "Git and GitHub\n\nStarting a repository\n\n\n\n\n\nflowchart TD\n    A(Do you have a directory already started on your local computer?  ) --Yes--&gt; B(git init)\n    A --No  --&gt; C(git clone repository_url)\n\n\n\n\n\n\n\ngit init: Initialize a Git repository on a local computer.\ngit clone repository_url: Copying an entire repository onto a local computer.\n\n\nMaking changes to repository\ngit status: Check what files have changed.\ngit restore filename: Undo changes to a file.\n\n\n\n\n\nflowchart LR\n    A(Local computer) --&gt; B(Stage changes: git add)\n    B --&gt; C(Commit changes: git commit -m)\n    C --&gt; D(Push changes to remote repository: git push)\n    D --&gt; E(Remote repository)\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR \n    A(Remote repository) --&gt; B(Pull changes from remote: git pull)\n    B --&gt; C(Local computer)\n\n\n\n\n\n\n\nFrom your local computer\ngit add: Stage changes for a local commit.\ngit commit -m \"short, descriptive message\": Commit changes to be tracked.\ngit push: Push changes from local computer up to the remote repository.\n\n\nFrom remote repository\ngit pull: Pull changes from the remote repository to your local computer.\ngit pull origin main: Pull changes from the remote repository main branch to the branch you are on.\n\n\n\nBranches\ngit checkout -b branch_name: Create a new branch.\ngit checkout branch_name: Switch to a different branch.\ngit switch: Switch to a different branch.\n\n\nExample workflow\nWhen working within a git enabled project it is generally good practice to not work directly on the main branch but to work in an alternative branch that can be pulled into the main branch.\n\nIf needed clone the repository to your local machine using git clone &lt;url-to-repo.git&gt; where &lt;url-to-repo.git&gt; can be found on the repository website under the green code tab.\nCreate a new branch using git checkout -b &lt;branch_name&gt; where &lt;branch_name&gt; is the branch you would like to work in.\nSet the upstream location so git knows where to push changes to using git push --set-upstream origin &lt;branch_name&gt;.\nAdd/modify content within the repository and stage it for a commit using git add. You can stage all files at once using git add . or stage individual files using git add &lt;filename&gt;.\nMake the commit using git commit and add a label for the commit using the -m flag, git commit -m 'Sample commit'. Steps 4 & 5 can be combined to commit all new files using the -am flag, git commit -am 'Sample commit'.\nYou can push the commit to the remote repository using git push.\nIf you are getting ready to merge your changes into a different branch, it is useful to pull that branch into the branch you are working in using git pull origin &lt;other_branch&gt;. Now you can push your updated branch_name branch using git pull.\nYou can now initiate a pull request from the Github reposository website to bring in the changes from branch_name into other_branch. This is also possible from the command line by switching to the other_branch using git checkout other_branch and then pulling in branch_name using git pull origin branch_name.",
+    "crumbs": [
+      "References",
+      "Cheatsheet"
+    ]
   },
   {
-    "objectID": "assets/references.html#codespaces",
-    "href": "assets/references.html#codespaces",
-    "title": "References and Helpful Links",
-    "section": "Codespaces",
-    "text": "Codespaces\n\nCodespaces Overview - a high-level overview of what codespaces is\n\nQuickstart for GitHub Codespaces - how to get started quickly with Codespaces\n\nCodespace Templates - pre-made Codespace templates you can use/build off"
+    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#vscode",
+    "href": "assets/ref-Open_Science_Cheat_Sheet.html#vscode",
+    "title": "Open Science Workflow Cheatsheet",
+    "section": "VSCode",
+    "text": "VSCode\nAn IDE (integrated development environment) that works well with many languages.\n\nSide Bar Options\n\nFile Explorer\nTo browse the files in a project\n\n\n\nGit GUI (Source Control)\nTo interact with your GitHub repository\n\n\n\nExtensions\nVS Code’s version of the app store\n\n\n\nR\nSimilar to the options available in RStudio for viewing variables in your environment, function documentation, and installing packages.\n\n\n\n\nCommand Palette\nUse the shortcut ctl + shift + P to access.\n\n\n\nTerminal\nCan have multiple terminals of different languages running at a time.",
+    "crumbs": [
+      "References",
+      "Cheatsheet"
+    ]
   },
   {
-    "objectID": "assets/references.html#vs-code",
-    "href": "assets/references.html#vs-code",
-    "title": "References and Helpful Links",
-    "section": "VS Code",
-    "text": "VS Code"
+    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#renv",
+    "href": "assets/ref-Open_Science_Cheat_Sheet.html#renv",
+    "title": "Open Science Workflow Cheatsheet",
+    "section": "renv",
+    "text": "renv\n\nInitialize renv for a project\nrenv::init(): Set up a project library for a new or existing project.\n\n\nInstall new packages\nrenv::install(): Install packages from CRAN, GitHub, etc..\n\n\nLockfile\nrenv::snapshot(): Update the lockfile (renv.lock) with packages being used.\nrenv::restore(): Reinstall the packages specified in the lockfile.\n\n\nExample workflow\nIf working within a project where renv is already used and enabled, an initial call to renv::restore() will install all packages named in the renv.lock file.\nIf renv has not been enabled, an initial call to renv::init() will enable renv. renv will then crawl through all directories in your project searching for .r or .R files and identify packages that are explicitly referenced in active code using library(), require(), or ::. These packages (as well as their versions and sources) will then be captured in the renv.lock file.\nAs you add code to the repository it is good practice to periodically run renv::status() to see if there are any discrepancies between the packages that are used and those that are recorded in the renv.lock file. If there are discrepancies, you can use renv::install() to install the missing packages. Then renv::snapshot() can be used to update the renv.lock file to add/remove any packages.\nPackages can be updated to the newest version using the renv::update() though do so at your own risk as updates could result in code that no longer works.\nCalls to renv::install() or renv::update() without specifying an argument will install or update all needed packages. However, if you only want to install or update a particular package you can do so by specifying it as an argument (e.g., renv::install(\"data.table\")). By default packages will be installed from CRAN however you can specify installation from a specific Github repository by specifying the repository owner and name (e.g., renv::install(\"PIFSCstockassessments/ss3diags\")).",
+    "crumbs": [
+      "References",
+      "Cheatsheet"
+    ]
   },
   {
-    "objectID": "assets/references.html#reproducible-environments",
-    "href": "assets/references.html#reproducible-environments",
-    "title": "References and Helpful Links",
-    "section": "Reproducible Environments",
-    "text": "Reproducible Environments\n\nrenv - website for the R package\nIntroduction to renv - introduces the basics of a renv workflow\n\nUsing renv in GitHub Actions - how to use renv in automatic workflows like GitHub Actions"
+    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#shiny",
+    "href": "assets/ref-Open_Science_Cheat_Sheet.html#shiny",
+    "title": "Open Science Workflow Cheatsheet",
+    "section": "Shiny",
+    "text": "Shiny\nui.R: the interactive user interface code (to show stuff)\nserver.R: the code for computations and plotting (to do stuff)\nshiny::shinyApp(): launches the app\n\nUseful resources\n\nShiny widgets: a gallery of user interface widgets to include in an app\nAI assistant for Shiny\nShiny live!: An interactive development environment for Shiny apps",
+    "crumbs": [
+      "References",
+      "Cheatsheet"
+    ]
   },
   {
-    "objectID": "assets/day-2-pres-PR-code-review.html#section",
-    "href": "assets/day-2-pres-PR-code-review.html#section",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "Pull Requests and Code Review\nMegumi Oshima & Nicholas Ducharme-Barth\nJanuary 2025"
-  },
-  {
-    "objectID": "assets/day-2-pres-PR-code-review.html#section-1",
-    "href": "assets/day-2-pres-PR-code-review.html#section-1",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "",
-    "text": "So far we have:\n\n\n\nCreated branches for each group to work separately\n\n\n\n\n\n\n\nEach group has modified the Stock Synthesis models\n\n\n\n\n\n\nNext we want to:\n\n\n\nAggregate all of the model runs into the main branch\n\n\n\n\n\nProduce some visualizations of the results"
-  },
-  {
-    "objectID": "assets/day-2-pres-PR-code-review.html#pull-requests",
-    "href": "assets/day-2-pres-PR-code-review.html#pull-requests",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Pull Requests",
-    "text": "Pull Requests\n\n\n\n\n\n\n\n\nmainbuild_modelgrowth_curveAdd initial filesDevelop base modelFinalize base modelChange growth curveCheck new growth curveFinal model report"
-  },
-  {
-    "objectID": "assets/day-2-pres-PR-code-review.html#pull-requests-1",
-    "href": "assets/day-2-pres-PR-code-review.html#pull-requests-1",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Pull Requests",
-    "text": "Pull Requests\n\n\n\nIn the repository go to “Pull requests” and select which branches you want to merge"
-  },
-  {
-    "objectID": "assets/day-2-pres-PR-code-review.html#pull-requests-2",
-    "href": "assets/day-2-pres-PR-code-review.html#pull-requests-2",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Pull Requests",
-    "text": "Pull Requests\n\n\n\n\n\n\n\n\n\n\n\nCan see the dif view of changes in the file, if the code passes checks and tests set up, what commits are associated with this PR, add comments to the PR\n\n\n\n\n\n\n\n\n\n\n\n\n\nRed lines show deleted code\nGreen lines show added code\n\n\n\n\n\n\n\n\n\n\nCan add a review of the changes"
-  },
-  {
-    "objectID": "assets/day-2-pres-PR-code-review.html#more-complicated-situation-merge-conflicts",
-    "href": "assets/day-2-pres-PR-code-review.html#more-complicated-situation-merge-conflicts",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "More complicated situation: Merge Conflicts",
-    "text": "More complicated situation: Merge Conflicts\nMerge conflicts happen when you merge 2 branches that have competing commits"
-  },
-  {
-    "objectID": "assets/day-2-pres-PR-code-review.html#merge-conflicts",
-    "href": "assets/day-2-pres-PR-code-review.html#merge-conflicts",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Merge Conflicts",
-    "text": "Merge Conflicts\n\n\n2 ways to resolve them\n\n\n\n\n\nGitHub\n\n\n\n\n\n\nLocally"
+    "objectID": "assets/ref-Open_Science_Cheat_Sheet.html#quarto",
+    "href": "assets/ref-Open_Science_Cheat_Sheet.html#quarto",
+    "title": "Open Science Workflow Cheatsheet",
+    "section": "Quarto",
+    "text": "Quarto\n\nDocument format\nIn the header yaml, specify what format(s) you want to create.\n---\ntitle: \"Open Science Workflow Cheatsheet\"\nformat: html\n---\nformat options include:\n\nhtml\n\npdf\n\nrevealjs\n\ndocx\n\nand more!\n\n\n\nIncluding code\nInclude code blocks in a document\n```{r}\n#| echo: true\n\nx &lt;- 2+2\n```\nCalculated values can be reported in text later: \\(x =\\) 4.\nAnd control the output rendered in the document with execution options.\n\n\n\nOption\nEffects\n\n\n\n\necho\nshow/hide code in output\n\n\neval\ndo/don’t run code\n\n\ninclude\ninclude/exclude code or results\n\n\noutput\ninclude/exclude results\n\n\nwarning\nshow/hide warnings in output\n\n\nerror\nshow/hide error in output and continue with render\n\n\n\n\n\nInclude diagrams\nYou can elso embed Mermaid diagrams directly into a Quarto document using code chunks. The following code…\nflowchart LR \n    A(Remote repository) --&gt; B(Pull changes from remote: git pull)\n    B --&gt; C(Local computer)\n… produces the following diagram.\n\n\n\n\n\nflowchart LR \n    A(Remote repository) --&gt; B(Pull changes from remote: git pull)\n    B --&gt; C(Local computer)\n\n\n\n\n\n\n\n\nTo render document\nTo render a quarto file to the proper format, in your terminal (not R), run:\nquarto render path/to/file/name.qmd\n\n\nUseful resources\n\nrevealjs slidecraft: check out these examples by Emil Hvitfeldt\nQuarto guide\nGet started with Quarto\nMermaid live!: An interactive development environment for Mermaid diagrams\nCreating a website\nPublishing Quarto Sites",
+    "crumbs": [
+      "References",
+      "Cheatsheet"
+    ]
   },
   {
     "objectID": "assets/day-2.html",
@@ -762,91 +1176,35 @@
     ]
   },
   {
-    "objectID": "assets/resources.html",
-    "href": "assets/resources.html",
-    "title": "References and Helpful Links",
-    "section": "",
-    "text": "Here we are providing the links the we included in our presentations and some additional ones that may be useful for understanding the topics covered in this training.\nWe have also put together this cheatsheet with some highlights of code you will use over the course of the training.",
-    "crumbs": [
-      "References",
-      "Helpful Links"
-    ]
-  },
-  {
-    "objectID": "assets/resources.html#git-and-github",
-    "href": "assets/resources.html#git-and-github",
-    "title": "References and Helpful Links",
-    "section": "Git and GitHub",
-    "text": "Git and GitHub\n\nGitHub Documentation - official documentation for everything GitHub related\n\nGitHub Skills - interactive modules to learn how to use GitHub\n\nOfficial GitHub Training Manual - provides guidance for how to use GitHub for code development (English and Japanese versions available)\n\nConnecting to GitHub - how to connect GitHub with your local computer",
-    "crumbs": [
-      "References",
-      "Helpful Links"
-    ]
-  },
-  {
-    "objectID": "assets/resources.html#codespaces",
-    "href": "assets/resources.html#codespaces",
-    "title": "References and Helpful Links",
-    "section": "Codespaces",
-    "text": "Codespaces\n\nCodespaces Overview - a high-level overview of what codespaces is\n\nQuickstart for GitHub Codespaces - how to get started quickly with Codespaces\n\nCodespace Templates - pre-made Codespace templates you can use/build off",
-    "crumbs": [
-      "References",
-      "Helpful Links"
-    ]
-  },
-  {
-    "objectID": "assets/resources.html#vs-code",
-    "href": "assets/resources.html#vs-code",
-    "title": "References and Helpful Links",
-    "section": "VS Code",
-    "text": "VS Code\n\nDownload VS Code\n\nGetting Started with VS Code\n\nUsing Git Source Control in VS Code\n\nR in VS Code\n\nBetter Graphics Viewer for R\n\nradian R Console",
-    "crumbs": [
-      "References",
-      "Helpful Links"
-    ]
-  },
-  {
-    "objectID": "assets/resources.html#reproducible-environments",
-    "href": "assets/resources.html#reproducible-environments",
-    "title": "References and Helpful Links",
-    "section": "Reproducible Environments",
-    "text": "Reproducible Environments\n\nrenv - website for the R package\nIntroduction to renv - introduces the basics of a renv workflow\n\nUsing renv in GitHub Actions - how to use renv in automatic workflows like GitHub Actions",
-    "crumbs": [
-      "References",
-      "Helpful Links"
-    ]
-  },
-  {
-    "objectID": "assets/resources.html#script-based-analyses",
-    "href": "assets/resources.html#script-based-analyses",
-    "title": "References and Helpful Links",
-    "section": "Script-Based Analyses",
-    "text": "Script-Based Analyses",
-    "crumbs": [
-      "References",
-      "Helpful Links"
-    ]
-  },
-  {
-    "objectID": "assets/resources.html#shiny",
-    "href": "assets/resources.html#shiny",
-    "title": "References and Helpful Links",
-    "section": "Shiny",
-    "text": "Shiny",
-    "crumbs": [
-      "References",
-      "Helpful Links"
-    ]
-  },
-  {
-    "objectID": "assets/resources.html#quarto",
-    "href": "assets/resources.html#quarto",
-    "title": "References and Helpful Links",
+    "objectID": "assets/example-basic-revealjs.html#quarto",
+    "href": "assets/example-basic-revealjs.html#quarto",
+    "title": "Basic document",
     "section": "Quarto",
-    "text": "Quarto",
+    "text": "Quarto\nMake different documents by changing the format!"
+  },
+  {
+    "objectID": "assets/example-basic-revealjs.html#code",
+    "href": "assets/example-basic-revealjs.html#code",
+    "title": "Basic document",
+    "section": "Code",
+    "text": "Code\nIncorporate code into your work …\n\nx = 1 + 1\n\n… and report the computations later \\(x =\\) 2."
+  },
+  {
+    "objectID": "assets/example-basic-revealjs.html#make-plots",
+    "href": "assets/example-basic-revealjs.html#make-plots",
+    "title": "Basic document",
+    "section": "Make plots",
+    "text": "Make plots\nEven insert figures:\n\nlibrary(ggplot2)\n\nggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +\n  geom_point(alpha = 0.5, size = 2) +\n  scale_color_viridis_c() +\n  theme_minimal()\n\n\n\n\n\nFigure 1: City and highway mileage for 38 popular models of cars."
+  },
+  {
+    "objectID": "assets/web-about-nd.html",
+    "href": "assets/web-about-nd.html",
+    "title": "Nicholas Ducharme-Barth",
+    "section": "",
+    "text": "Nicholas Ducharme-Barth joined the Pacific Islands Fisheries Science Center in 2021. Previously, Nicholas worked at the Pacific Community (SPC) conducting pelagic stock assessments for the Western and Central Pacific Fisheries Commission (WCPFC). He received his B.S. in Mathematics from the College of William & Mary and his Ph. D. in Fisheries and Aquatic Sciences from the University of Florida.\n\n\n Back to top",
     "crumbs": [
-      "References",
-      "Helpful Links"
+      "Contact us",
+      "Nicholas Ducharme-Barth"
     ]
   },
   {
@@ -861,60 +1219,31 @@
     ]
   },
   {
-    "objectID": "assets/day-2-pres-build-shiny.html#section",
-    "href": "assets/day-2-pres-build-shiny.html#section",
-    "title": "Open Science Workflow Training for ISC",
+    "objectID": "assets/day-1.html",
+    "href": "assets/day-1.html",
+    "title": "Day 1",
     "section": "",
-    "text": "Building a Shiny app\nMegumi Oshima & Nicholas Ducharme-Barth\nJanuary 2025"
+    "text": "Presentation slides for the GitHub for Collaborative Workflows presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Codespaces presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Reproducible R Environments presentation.\n    View slides in full screen",
+    "crumbs": [
+      "Day 1"
+    ]
   },
   {
-    "objectID": "assets/day-2-pres-build-shiny.html#what-is-shiny",
-    "href": "assets/day-2-pres-build-shiny.html#what-is-shiny",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "What is Shiny?",
-    "text": "What is Shiny?\n\nShiny is a package that can be used to build interactive web apps in either R or Python."
+    "objectID": "assets/day-1.html#presentation-files",
+    "href": "assets/day-1.html#presentation-files",
+    "title": "Day 1",
+    "section": "",
+    "text": "Presentation slides for the GitHub for Collaborative Workflows presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Codespaces presentation.\n    View slides in full screen\n       \n      \n    \n  \nPresentation slides for the Reproducible R Environments presentation.\n    View slides in full screen",
+    "crumbs": [
+      "Day 1"
+    ]
   },
   {
-    "objectID": "assets/day-2-pres-build-shiny.html#why",
-    "href": "assets/day-2-pres-build-shiny.html#why",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Why?",
-    "text": "Why?\n\n\n\nInteractive dashboards can help with communicating science, and making it more accessible\nUseful for analysts to visualize data or model outputs\nFacilitates multi-model comparisons which can assist in model development and building intuition about the model."
-  },
-  {
-    "objectID": "assets/day-2-pres-build-shiny.html#how-to-build",
-    "href": "assets/day-2-pres-build-shiny.html#how-to-build",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "How to build?",
-    "text": "How to build?\n\nAll Shiny apps need three components:\n\n\na user interface (ui.R): this is the interactive part\na server (server.R): this is the computation/plotting engine\na call to shiny::shinyApp() (app.R): this ties everything together and launches the app\n\n\n\n\nLet’s look closer at an example."
-  },
-  {
-    "objectID": "assets/day-2-pres-build-shiny.html#running-an-app",
-    "href": "assets/day-2-pres-build-shiny.html#running-an-app",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Running an app",
-    "text": "Running an app\n\nIf the ui.R and server.R are defined as separate scripts running the app is straightforward.\n\nPackage all code and data in the same directory, this will make publishing the app easier.\n\n\n# load packages\n  library(shiny)\n\n# source ui/server\n  source(\"./ui.R\")\n  source(\"./server.R\")\n\n# Run the app\n  app = shinyApp(ui=ui,server=server)\n  runApp(app)"
-  },
-  {
-    "objectID": "assets/day-2-pres-build-shiny.html#publishing",
-    "href": "assets/day-2-pres-build-shiny.html#publishing",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Publishing",
-    "text": "Publishing\n\n\nOnce your app is built it can hosted online via shinyapps.io (individuals) or Posit Connect (enterprise users).\n\nIn both cases, publishing can be done in a couple steps using the rsconnect R package.\n\n\n\n\n\n\nConnect your account and add your server of choice (shinyapps.io/Posit Connect)\n\n\n\n\nDeploy your app rsconnect::deployApp(appDir = '&lt;project-dir&gt;')!"
-  },
-  {
-    "objectID": "assets/day-2-pres-build-shiny.html#group-activity",
-    "href": "assets/day-2-pres-build-shiny.html#group-activity",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Group activity!",
-    "text": "Group activity!\n\nPlay with the AI assistant for Shiny and Shiny live to add some new features to the existing app 02-shiny-example-vb-curve.r.\n\n\nchange the user interface options: add a slider?\nadd a second sex?\nadd a download data button?"
-  },
-  {
-    "objectID": "assets/day-2-pres-build-shiny.html#resources",
-    "href": "assets/day-2-pres-build-shiny.html#resources",
-    "title": "Open Science Workflow Training for ISC",
-    "section": "Resources",
-    "text": "Resources\n\n\nShiny widgets\nAI assistant for Shiny\nShiny live!: An interactive development environment for Shiny apps"
+    "objectID": "assets/day-1-modify-stock-synthesis.html",
+    "href": "assets/day-1-modify-stock-synthesis.html",
+    "title": "Modifying and running stock synthesis models",
+    "section": "",
+    "text": "Back to top"
   },
   {
     "objectID": "assets/day-1-pres-codespaces.html#section",
@@ -1013,6 +1342,61 @@
     "crumbs": [
       "Day 1",
       "Codespaces and VS Code"
+    ]
+  },
+  {
+    "objectID": "assets/day-1-welcome.html#section",
+    "href": "assets/day-1-welcome.html#section",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "",
+    "text": "Welcome to ISC Open Science Workshop\nJanuary 2025",
+    "crumbs": [
+      "Day 1",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "assets/day-1-welcome.html#introductions",
+    "href": "assets/day-1-welcome.html#introductions",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Introductions",
+    "text": "Introductions\n Nicholas  Ducharme-Barth\n Meg Oshima",
+    "crumbs": [
+      "Day 1",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "assets/day-1-welcome.html#workshop-materials",
+    "href": "assets/day-1-welcome.html#workshop-materials",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Workshop Materials",
+    "text": "Workshop Materials\n\nAll presentations can be found on the workshop website.\n\nhttps://moshima-pifsc.github.io/2025-01-ISC-OpenScienceTraining\n\nCode can be found in the workshop repository.\n\nhttps://github.com/MOshima-PIFSC/2025-01-ISC-OpenScienceTraining/r-code\n\n\n\n\n\n\n\n\nImportant\n\n\nMake sure you have created a GitHub account before we start.",
+    "crumbs": [
+      "Day 1",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "assets/day-1-welcome.html#why-open-science",
+    "href": "assets/day-1-welcome.html#why-open-science",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Why Open Science?",
+    "text": "Why Open Science?\n\n\nStandardized workflows and efficiency\n\n\n\n\n\nImprove and support collaboration\n\n\n\n\n\nEnsure our science is truly reproducible\n\n\n\n\n\nProvide tools for sharing and communicating our work",
+    "crumbs": [
+      "Day 1",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "assets/day-1-welcome.html#topics-we-will-cover",
+    "href": "assets/day-1-welcome.html#topics-we-will-cover",
+    "title": "Open Science Workflow Training for ISC",
+    "section": "Topics we will cover",
+    "text": "Topics we will cover\n\n\nGitHub for collaboration\n\n\n\n\nCodespaces, VS Code, and reproducible R environments\n\n\n\n\nScript-based model development\n\n\n\n\nCreating Shiny apps\n\n\n\n\nCode review with GitHub\n\n\n\n\nCreating reproducible reports and presentations\n\n\n\n\nCreating websites to share results",
+    "crumbs": [
+      "Day 1",
+      "Welcome"
     ]
   },
   {
@@ -1168,5 +1552,12 @@
       "Day 1",
       "GitHub for Collaborative Workflows"
     ]
+  },
+  {
+    "objectID": "assets/header-example.html",
+    "href": "assets/header-example.html",
+    "title": "Report template",
+    "section": "",
+    "text": "Report text\nAs an example we changed the steepness in the model to 0.7.\n\n\n\n\n Back to top"
   }
 ]
