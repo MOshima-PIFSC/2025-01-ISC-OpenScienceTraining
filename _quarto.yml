@@ -39,12 +39,12 @@ website:
         - text: "Script Based Workflows"
           file: assets/day-1-pres-modify-stock-synthesis.qmd
         - text: "Building a Shiny App"
-          file: assets/day-1-pres-build-shiny.qmd
+          file: assets/day-2-pres-build-shiny.qmd
       - section: "Day 3"
         href: assets/day-3.html
         contents:
         - text: "Quarto: Reports and presentations"
-          file: assets/day-3-quarto.qmd
+          file: assets/day-3-pres-quarto.qmd
         - text: "Quarto: Website"
           file: assets/day-4-pres-quarto-website.qmd
         - text: "GitHub pages"
