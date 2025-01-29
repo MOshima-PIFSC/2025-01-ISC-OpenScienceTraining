@@ -50,6 +50,8 @@ website:
         - text: "GitHub pages"
           file: assets/day-4-gh-pages.qmd
       - section: "Example html pages"
+        - text: "Works_YS"
+          file: assets/YS in class.qmd
       - section: "References"  
         contents: 
         - text: "Cheatsheet"
