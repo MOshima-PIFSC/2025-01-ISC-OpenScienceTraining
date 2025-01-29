@@ -51,6 +51,9 @@ website:
           file: assets/day-4-gh-pages.qmd
       - section: "References"  
         contents: 
+      - section: "Example html pages"  
+        - text: "what we did"
+          file: assets/in-class-trial.qmd
         - text: "Cheatsheet"
           file: assets/ref-Open_Science_Cheat_Sheet.qmd
         - text: "Helpful Links"  
