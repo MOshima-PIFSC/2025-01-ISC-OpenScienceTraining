@@ -35,7 +35,10 @@ flowchart TD
 ### Making changes to repository  
 
 **`git status`**: Check what files have changed.  
-**`git restore filename`**: Undo changes to a file.  
+**`git restore filename`**: Undo changes to a file. 
+**`git reset --soft`**: Moves changes from a commit back to the staging area.  
+**`git revert <commit ID>`**: Creates a new commit that reverts the repo to a previous commit. 
+**`git commit --amend`**: Make changes to the last commit/commit message.  
 
 ```{mermaid}
 flowchart LR
